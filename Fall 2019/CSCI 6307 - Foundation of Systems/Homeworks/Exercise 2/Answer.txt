@@ -1,0 +1,17 @@
+1) Given 4 Gigabyte RAM and 1024KB cache and block size of 256 bytes, calculate, tag, index and offset in a direct mapped cache structure.
+
+Having 4 Gigabyte RAM, we need log2(4*1024*1024*1024*8) = 32 bits for addressing memory address.
+
+If there are 256 bytes represented as a block size, we need log2(256) = 8 bits for offset;
+
+If there are 1024 KBytes represented as a block size, we have 1024*1024/256 = 4096 lines. It means that we need log2(4096) = 12 bits for index;
+
+Remaining bits (32-8-10 = 14 bits) are used for tags.
+
+2) Given a direct mapped cache of size 512 KB with block size 1 KB, and given there are 7 bits in the tag. Find the total memory.
+
+With a 512 KB with block size 1 KB, we have 512/1 = 512 lines, so there are log2(512) = 9 bits for index;
+
+Also, for representing 1 KB block size, log2(1024) = 10 bits used for offset;
+
+Total memory is equal to 2^(10+9+7) = 2^26 bits, which is equal to 8 MBytes.

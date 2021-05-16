@@ -1,0 +1,46 @@
+Name: Ulvi Bajarani, Student ID 20539914
+
+Answers to the questions:
+
+1) I will use 4 bits (one hexadecimal digit) for an operator and 12 bits (three hexadecimal digits) for an operand.
+
+2) I wrote the answers in this format: the name of operation – the machine code – the assembly code.
+
+Load – 0000 – LD
+Store – 0001 – ST
+Add – 0010 – A
+Add Immediate – 0011 – AI
+Subtract – 0100 – S
+Subtract Immediate – 0101 – SI
+Multiply – 0110 – M
+Divide – 0111 – D
+Branch Unconditional – 1000 – BR
+Branch on less than – 1001 – BL
+Branch on less than or equal to – 1010 – BLE
+Branch on equal – 1011 – BE
+Branch on greater than – 1100 – BG
+Branch on greater than or equal to – 1101 – BGE
+Display the contents of the memory on the output device – 1110 – DC
+Jump – 1111 – J
+
+3) The code for C = B - A in my imaginary assembly language might be like this:
+
+LD B
+S A
+ST C
+
+4) When Program Counter (PC) fetches the command in the memory, it is delivered to the Instruction Registry (IR) by the Memory Buffer Register (MBR). Instruction registry recognizes the operator and operand; after this, the operand is sent to Accumulator (AC). Once the instruction has been fetched, PC increments its value.
+
+In the above example, the AC, IR and PC should have these values (suppose that the location of B, A, C are 201h, 202h, and 203h, respectively. Addition to this,  PC contains 100h):
+
+1) PC = 100h, IR = 0201h, AC = the value of B.
+2) PC = 101h, IR = 4202h, AC = the value of B - A.
+3) PC = 102h, IR = 1203h, AC = the value of B - A; If there are no arithmetic and logic operations, the value of AC remains same.
+
+Textbook question answer:
+
+According to Amdahl's Law, overall speedup is equal to
+
+1 / [ (1 - fractionenhanced) + (fractionenhanced / speedupenhanced) ]
+
+In the example, fractionenhanced = 0.4, speedupenhanced = 10. Putting the digits, we calculate that we receive an overall speedup equal to 1.5625.

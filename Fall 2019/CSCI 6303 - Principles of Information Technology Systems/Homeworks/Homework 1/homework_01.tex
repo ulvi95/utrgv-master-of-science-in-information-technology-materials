@@ -1,0 +1,116 @@
+\documentclass{scrartcl}
+\usepackage{geometry}
+\usepackage{pdfpages}[total={8.5in,11in}]
+\usepackage{amssymb}
+\begin{document}
+\begin{Large}
+
+
+\begin{center}
+Ulvi Bajarani
+Student ID 20539914
+\end{center}
+
+\newpage
+Homework task 1:
+Describe what a computer is, from the viewpoints below:
+
+
+\begin{enumerate}
+
+\item As an electronic machine;
+
+\item As system architecture;
+
+\item As a machine for computing (Mathematically);
+
+\item As a machine with different level of abstraction;
+
+\end{enumerate}
+
+Concepts in practice: Computer Systems.
+
+
+
+---------------o----------o---------------
+
+Due date: to be determined (09/10/2019)
+
+Files to be used: NA
+
+Files to be delivered: homework\_01.pdf
+
+\newpage
+
+\begin{enumerate}
+
+\item As an electronic machine, a computer is a device using an electromagnetic force, which takes the data and instructions as an input, processes and stores data, and shares data as an output \cite{internetwebsite}.
+
+\item Computers consist of the hardware, which is the physical part of the computer system, and software, which is the set of programs to instruct the behavior of hardware \cite{warford}. Unlike hardware, a software part of the computer system might be easily changed, which makes the distinction between computers and other devices with computing units, such as projectors, microwaves, etc. The computer hardware can be divided to the four categories: \cite{internetwebsite2}
+
+\begin{enumerate}
+
+\item Input devices for raw data input, such as a mouse, a touchpad, a touchscreen, a webcam, a digital camera, etc;
+\item Processing devices, which process raw data instructions into information. The most important processing device is Central Processing Unit (CPU);
+\item Output devices, what disseminate data and information. For example, monitors, speakers, etc;
+\item Storage devices for data and information retention, such as Hard Disks as internal device, external disk drive as external device, etc.
+
+\end{enumerate}
+
+Additionally, computer software might be divided into two categories due to their purposes:
+
+\begin{enumerate}
+
+\item System Software
+\item Application Software.
+
+\end{enumerate}
+
+\item As a mathematic machine, computer is a finite state machine (also called an automata). Finite state machine is a mathematical abstraction with finite number of possible states, where machine might be only in one state \cite{internetwebsite3}. The states might be shown as either by state diagrams or tables. Like all state machines, the computer has:
+
+\begin{enumerate}
+
+\item Alphabet ($\Sigma$). For computers, $ \Sigma = \{0, 1\} $;
+
+\item Possible set of states ($Q$);
+
+\item Start state of the machine $ q_{0} $, which defines the initial state of machine;
+
+\item A transition function, ($\delta$), which defines possible transitions by treating current state and current input symbol as an ordered pair;
+
+\item Finite number of states ($F$), which defines the final states of machine.
+
+\end{enumerate}
+
+It should be noticed that $ q_{0} \subseteq Q $ and $ F \subseteq Q $.
+
+\item Most computer systems have the level of abstractions provided in Figure 1.\newline
+
+With an electric charge provided by input electrons, transistors send an output voltage to the logic gates with Boolean, which might have only two conditions: True (provided with a digit 1) or False (provided with a digit 0). The combination of gates alters the work of chips, which are the integrated circuits with billions of logic gates. After this, the work of several integrated circuits is managed by microprocessors with a set of instructions (also called ISA – Instruction Set Architecture). The latter is the part of Von Neumann’s Architecture; besides the Central Processing Unit (CPU) with Registers, Arithmetical/Logic Unit, and Control Unit it also contains Memory Unit, and Inputs/Outputs Unit. Then, Von Neumann’s Architecture controls an Operating system in the kernel level by both Assembly language and High-Level programming languages. Additionally, Assembly language might regulate the work of high-level language. The Operating System adjusts the operation of System and Application Software; In addition to this, System Software also directly controls Application Software.\newline
+
+The response from either Application or System Software passes the same abstraction levels in the reverse direction.
+
+\end{enumerate}
+
+\includepdf{UntitledDiagram.pdf}
+
+\begin{thebibliography}{9}
+\bibitem{warford} 
+\textit{Computer Systems, 5th edition} by J. Stanley Warford and Judith Gersting;
+ 
+\bibitem{englander}
+\textit{The Architecture of Computer Hardware, Systems Software, and Networking. An Information Technology Approach} by Irv Englander, 2014;
+ 
+\bibitem{internetwebsite} 
+https://slideplayer.com/slide/4423456/
+
+\bibitem{internetwebsite2}
+https://turbofuture.com/computers/The-Four-Main-Categories-Of-Computer-Hardware-Parts
+
+\bibitem{internetwebsite3}
+https://blog.markshead.com/869/state-machines-computer-science/
+
+\end{thebibliography}
+\end{Large}
+
+\end{document}

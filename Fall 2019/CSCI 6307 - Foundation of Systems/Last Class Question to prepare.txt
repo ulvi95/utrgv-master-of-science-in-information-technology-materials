@@ -1,0 +1,11 @@
+CSCI 6307   Exercise for last lecture, Pipeline forwarding (Architecture) and Main memory (OS)
+
+Which memory CPU can access directly?  What type of address does CPU issue?  How is this address mapped to Physical Address?  How is base (relocation) and limit registers used? Explain why physical memory can’t be used directly when dealing with multiprogramming.
+
+Explain Contiguous allocation, Partitioned allocation, paged memory, and segmented memory. Explain TLB.
+
+Explain memory allocation coding, compile time, load time and execution time.
+
+Explain first-fit, best-fit, and worst-fit, and how external and internal fragmentations occur.
+
+Using some code portions, explain how stalls occur and how forwarding could cut down or eliminate stalls.

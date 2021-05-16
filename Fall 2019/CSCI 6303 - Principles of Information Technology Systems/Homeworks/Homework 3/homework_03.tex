@@ -1,0 +1,70 @@
+\documentclass{scrartcl}
+\usepackage{geometry}
+\usepackage{pdfpages}[total={8.5in,11in}]
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\begin{document}
+
+
+\begin{Large}
+\begin{center}
+Ulvi Bajarani
+Student ID 20539914
+\end{center}
+
+\newpage
+Homework task 3: Find the representation of the following number listed below in a binary as well as in a hexadecimal 8-bit representation;
+
+
+\begin{enumerate}
+
+\item (-72)10=(x)2
+
+\item (-72)10=(y)16
+
+\end{enumerate}
+
+Concepts in practice: Two-complement representation.
+
+
+
+---------------o----------o---------------
+
+Due date: 10/08/2019 (mm/dd/yyyy)
+
+Files to be used:
+
+Files to be delivered: homework\_03.pdf
+
+\newpage
+
+Firstly, we should find the representation of +72; in the binary system it is calculated as:
+
+$\\
+72 / 2 = 36 \ (remainder = 0) \\
+36 / 2 = 18 \ (remainder = 0) \\
+18 / 2 = 9 \ (remainder = 0) \\
+9 / 2 = 4 \ (remainder = 1) \\
+4 / 2 = 2 \ (remainder = 0) \\
+2 / 2 = 1 \ (remainder = 0) \\
+1 / 2 = 0 \ (remainder = 1; \ the \ quotient \ is \ 0, so \ we \ must \ stop.)$
+
+\
+
+The binary representation of 72 is 0100 1000 (remainders of integers should be read in reverse order, from smallest quotient to largest. In addition, the sign bit should be written before the digit first, because we are going to find signed integer).\\
+
+Then, we switch bits: 0100 1000 transforms to 1011 0111. Finally, we must add 1 bit to find -72:\\
+
+$1011 \ 0111 + 1 = 1011 \ 1000$
+
+\begin{enumerate}
+
+\item It means that $(-72)_{10}=(1011 \ 1000)_{2}$
+
+\item For the second question, it is enough to count all bits 4 by 4 to represent hexadecimal digits, because one hexadecimal digit needs 4 bits. In this case, $1011 = B$ and $1000 = 8$. So, $(-72)_{10}=(1011 \ 1000)_{2} = (B8)_{16}$, knowing that we have only 8 bits for the representation.
+
+\end{enumerate}
+\end{Large}
+
+\end{document}

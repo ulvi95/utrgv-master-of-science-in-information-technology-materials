@@ -1,0 +1,44 @@
+Given the relational database shop defined in the script below;
+
+create database shop;
+use shop;
+
+create table users(
+   id int null auto_increment,
+   firstname varchar(255),
+   lastname varchar(255) not null,
+   primary key (id)
+);
+
+create table products(
+  id int null auto_increment,
+  name varchar(255),
+  price float,
+  primary key (id)
+);
+
+create table orders(
+   id_users int not null,
+   id_items int not null,
+   primary key (id_users,id_items),
+   foreign key (id_users) references users(id),
+   foreign key (id_items) references items(id)
+);
+
+write three SQL queries to answer the following questions
+
+1.- Products in the shop catalog; product name.
+
+2.- List of products in stock (not sold); product name, code, price.
+
+3.- Products sold in the shop; product name, code, price and full name of buyer.
+
+
+Concepts in practice: Relational Databases, SQL.
+
+---------------o----------o---------------
+
+
+Files to be used: NA
+Files to deliver: shopdb.sql (plain text file)
+Due date: 12/09/2019 (mm/dd/yyyy)

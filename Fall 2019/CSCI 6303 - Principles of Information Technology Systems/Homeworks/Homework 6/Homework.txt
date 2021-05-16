@@ -1,0 +1,16 @@
+Improve the performance of the application TConverter developed in Lab 05 (TConverter_dynamic.zip), in such a way that the user can insert the temperature in Celsius scale or in Fahrenheit scale and get the corresponding temperature in the other scale by clicking on the button “Convert”. After showing the result for the temperature conversion, if the button “Convert” is clicked-on again, all input-output text-fields in the GUI will be cleared. Additionally add a button “Reset” for the same purpose.
+
+Note 1: The Java code for the Graphic Interface of the application must be generated automatically by the tool Matisse integrated in the IDE NetBeans.
+
+
+Note 2: The application must be robust to wrong inputs. If the input inserted is wrong, the app must show a warning in a message dialog and additionally all the input-output text-fields in the GUI will be cleared.
+
+Concepts in practice: Event-driven Programming, Software Engineering.
+
+
+---------------o----------o---------------
+
+
+Labs associated: Lab 05, 06 and 07.
+Files to deliver: TConverter.jar, TConverter.zip (NetBeans Project)
+Due date: 11/20/2019 (mm/dd/yyyy)

@@ -1,0 +1,3 @@
+Dgt05.jpg		https://www.chessprogramming.org/DGT_Board
+dgt_smart.jpg		https://www.aartbik.com/android_dgt.php
+CHESSKa.jpg		https://www.techcult.ru/robots/4246-robot-chesska

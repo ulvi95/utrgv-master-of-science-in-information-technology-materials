@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CSCI 6314 Lab 1 by Ulvi Bajarani</title>
+<script>
+function RollCalculator()
+{
+let money = prompt("Enter amount of dollars to change (whole number only)"); // The Prompt Window for the inputs.
+
+MoneyAmount = parseInt(money); // Parsing the money from the prompt
+let quarters = parseInt(MoneyAmount/5); // Computing the number of quarter rolls. Reminder that we use parseInt to avoid floating, which is by default in the JavaScript
+dimesAmount = MoneyAmount % 10; // Remaining money after quarter rolls prepared
+let dimes = parseInt(dimesAmount/5); // Computing the number of dime rolls.
+nickelsAmount = dimesAmount % 5;  // Remaining money after dimes rolls prepared
+let nickels = parseInt(nickelsAmount/2); // Computing the number of nickel rolls.
+penniesAmount = nickelsAmount % 2;  // Remaining money after nickels rolls prepared
+let pennies = parseInt(penniesAmount/0.5); // Computing the number of penny rolls.
+alert("The Amount Entered: $" + MoneyAmount + "\nQuarter Rolls: " + quarters + "\nDime Rolls: " + dimes + "\nNickel Rolls: " + nickels + "\nPenny Rolls: " + pennies); // The pop-up window
+}
+
+</script>
+</head>
+<body onload="RollCalculator()">
+</body>
+</html>

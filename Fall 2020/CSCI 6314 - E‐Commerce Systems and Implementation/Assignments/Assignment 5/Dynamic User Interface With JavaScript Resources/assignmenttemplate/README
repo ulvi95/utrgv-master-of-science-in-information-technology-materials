@@ -1,0 +1,49 @@
+This file will provide the detailed instructions necessary to complete the assignment.
+
+The "index.css", "index.js", "index.php", "secretnumberguess.php" files and the directory "lib" are provided for reference. The only file that needs to be worked on is the JavaScript file, "index.js".
+
+After completing the assignment, send an email to charlie.ticer01@utrgv.edu with either all the files as a .zip file or just the "index.js" file only as an attachment.
+
+---
+
+TO-DO 1 is located on line 6.
+
+1. Use the .on("click") event and attach it to the jQuery wrapper $("#secretnumbervisibilitytoggle").
+2. Inside the click function:
+    a. Use the .toggleClass("fa-eye") method. The jQuery wrapper to use it on can be either $("#secretnumbervisibilitytoggle") or $(this).
+    b. Repeat the same procedure from 2.a. for the class toggle of "fa-eye-slash".
+    c. Use the .attr("type") method, with either "password" or "text" as the value to set, on the jQuery wrapper $("input[name=\"secretnumber\"]"). If the current attribute type is text, then password should be set otherwise text should be set.
+
+
+
+TO-DO 2 is located on line 13.
+
+1. Use the .on("click") event and attach it to the jQuery wrapper $("button[name=\"submitbutton\"]").
+2. Inside the click function:
+    a. Use the .prop("disabled") method, with "true" as the value to set. The jQuery wrapper to use it on can be either $("button[name=\"submitbutton\"]") or $(this).
+    b. Use the .addClass("disabled") method. The jQuery wrapper to use it on can be either $("button[name=\"submitbutton\"]") or $(this).
+    c. Use the .show() method on the jQuery wrapper $(".loading").
+    d. Use $.ajax with the following keys in the object declaration: type, url, data, success, complete.
+        1. For type, use POST.
+        2. For url, use the secretnumberguess.php file.
+        3. For data, use the .serialize() method on the jQuery wrapper $("form").
+        4. For success, create an anonymous function, with a response parameter, to use the .prepend() method on the jQuery wrapper $("#attemptlogs").
+        5. For complete, create an anonymous function that does the opposite of 2.a., 2.b., and 2.c. The jQuery wrapper $(this) cannot be used and, as such, $("button[name=\"submitbutton\"]") must be used. The opposite of 2.a. is setting false instead of true, the opposite of 2.b. is using .removeClass instead of .addClass, and the opposite of 2.c. is using .hide() instead of .show().
+
+
+
+TO-DO 3 is located on line 23.
+
+1. Use the .on("click") event and attach it to the jQuery wrapper $("#clearlastattemptbutton").
+2. Inside the click function, use the .remove() method on the jQuery wrapper $("#attemptlogs > div:first-of-type").
+
+
+
+TO-DO 4 is located on line 29.
+
+1. Use the .on("click") event and attach it to the jQuery wrapper $("#clearallattemptsbutton").
+2. Inside the click function, use the .empty() method on the jQuery wrapper $("#attemptlogs").
+
+---
+
+This is the end of the README file.

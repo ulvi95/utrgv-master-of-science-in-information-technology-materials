@@ -1,0 +1,63 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{2}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Chen and Wang}{Chen and Wang}{2019}]%
+        {chen2019robust}
+\bibfield{author}{\bibinfo{person}{Andrew Tzer-Yeu Chen} {and}
+  \bibinfo{person}{Kevin I-Kai Wang}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Robust computer vision chess analysis and
+  interaction with a humanoid robot}.
+\newblock \bibinfo{journal}{\emph{Computers}} \bibinfo{volume}{8},
+  \bibinfo{number}{1} (\bibinfo{year}{2019}), \bibinfo{pages}{14}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rath, Mahapatro, Nath, and Dash}{Rath
+  et~al\mbox{.}}{2019}]%
+        {rath2019autonomous}
+\bibfield{author}{\bibinfo{person}{Prabin~Kumar Rath}, \bibinfo{person}{Neelam
+  Mahapatro}, \bibinfo{person}{Prasanmit Nath}, {and} \bibinfo{person}{Ratnakar
+  Dash}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Autonomous Chess Playing Robot}. In
+  \bibinfo{booktitle}{\emph{2019 28th IEEE International Conference on Robot
+  and Human Interactive Communication (RO-MAN)}}. IEEE, \bibinfo{pages}{1--6}.
+\newblock
+
+
+\end{thebibliography}

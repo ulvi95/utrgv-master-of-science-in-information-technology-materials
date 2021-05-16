@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSCI 6314 Lab 3 and 4 by Ulvi Bajarani</title>
+<script>
+function PostfixCalculator() {
+    var emptyStringRegex = /\S+/g; // RegEx to remove all spaces to format the expression.
+    var isNumberRegex = /^-?[\d.]+(?:e-?\d+)?$/; // RegEx to check the format of the expression.
+    var PostfixExpression = prompt("JavaScript Prompt:\n\nEnter the postfix problem."); // Prompt to enter the expression.
+    var PostfixExpressionSeparator = PostfixExpression.match(emptyStringRegex); // to split the input string.
+    var FirstRow = "<td colspan=\"1\"><b>Postfix Problem: " // Printing the first row.
+
+    var top = 0; // defining the top for the arrays.
+    var stack = new Array(); // creating the stack.
+
+    // Check if the stack is empty.
+    function isStackEmpty() {
+        return (top === 0);
+    }
+
+    // Push element into the stack.
+    function push(element) {
+        top = top + 1;
+        stack[top] = element;
+    }
+
+    // Pop element from the stack.
+    function pop() {
+        element = stack[top];
+        top = top - 1;
+        return element;
+    }
+
+    // Printing the next parts of the first row.
+    for (let i = 0; i < PostfixExpressionSeparator.length; i++) {
+
+        // String to number operation.
+        if ((typeof PostfixExpressionSeparator[i] === 'string') && (PostfixExpressionSeparator[i].match(isNumberRegex))) {
+            PostfixExpressionSeparator[i] = Number.parseFloat(PostfixExpressionSeparator[i]);
+        }
+
+        // The print of the table (the middle and the end).
+        if ((i + 1) != PostfixExpressionSeparator.length) {
+            FirstRow += (PostfixExpressionSeparator[i] + " ");
+        } else {
+            FirstRow += (PostfixExpressionSeparator[i] + " </b></td>");
+        }
+    }
+
+    // Insert the first row to the table.
+    document.getElementById("History").insertRow(-1).innerHTML = FirstRow;
+
+    // Starting the calculation and the print.
+    for (let i = 0; i < PostfixExpressionSeparator.length; i++) {
+        // If the type is number.
+        if (typeof PostfixExpressionSeparator[i] === 'number') {
+            // Pushing the value.
+            push(PostfixExpressionSeparator[i]);
+            document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + PostfixExpressionSeparator[i] + " </td>";
+        } else if (typeof PostfixExpressionSeparator[i] === 'string') {
+            // Popping the value and the operations.
+            let operand1 = pop();
+            let operand2 = pop();
+
+            if ((PostfixExpressionSeparator[i] === "+")) {
+                let result = operand2 + operand1;
+                document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Popped " + operand1 + " " + operand2 + " +" + " </td>";
+                push(result);
+                document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + result + " </td>";
+            } else if ((PostfixExpressionSeparator[i] === "-")) {
+                let result = operand2 - operand1;
+                document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Popped " + operand1 + " " + operand2 + " -" + " </td>";
+                push(result);
+                document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + result + " </td>";
+            } else if ((PostfixExpressionSeparator[i] === "*")) {
+                let result = operand2 * operand1;
+                document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Popped " + operand1 + " " + operand2 + " *" + " </td>";
+                push(result);
+                document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + result + " </td>";
+            } else if ((PostfixExpressionSeparator[i] === "/")) {
+                let result = operand2 / operand1;
+                document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Popped " + operand1 + " " + operand2 + " /" + " </td>";
+                push(result);
+                document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + result + " </td>";
+            } else {
+                alert("Error: The operator is not defined");
+                location.reload();
+            }
+
+        }
+
+    }
+    // Insert the result.
+    document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\"><b>The result of the operation is--> " + pop() + " </b></td>";
+    // Check if the stack is empty.
+    if (!(isStackEmpty())) {
+        alert("Error: The stack is not empty. I assume you have entered either more operators or numbers than required. Or some operators are not defined. Anyway, try again.");
+        location.reload();
+    }
+
+}
+</script>
+</head>
+<body onload="PostfixCalculator()">
+<table border="1px" id="History"></table>
+
+</body>
+</html>

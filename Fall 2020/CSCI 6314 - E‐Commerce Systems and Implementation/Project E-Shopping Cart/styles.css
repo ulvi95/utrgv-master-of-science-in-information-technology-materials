@@ -1,0 +1,32 @@
+#headerRow
+{
+
+}
+#headerRowText
+{
+padding-top: 100px;
+border-style: solid;
+border-color: green;
+border-width: 5px;
+text-align: center;
+}
+#footerRowText
+{
+padding-top: 200px;
+background-color: red;
+text-align: center;
+}
+
+.navbar{
+    background: green;
+}
+
+.navbar ul.nav > li > a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+

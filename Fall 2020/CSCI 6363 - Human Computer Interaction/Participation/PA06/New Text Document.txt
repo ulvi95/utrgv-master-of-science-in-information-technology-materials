@@ -1,0 +1,5 @@
+In the class, I have seen the presentation by Dr. Blake Jackson based on his article "Exploring the Role of Gender in Perceptions of Robotic Noncompliance." Even though I have been familiar with the article, the presentation described the charts and the results clearer than in the scholarly article. Another difference between the article and the presentation is that the possible solution to the situation when the robot's ethics might be overridden is also discussed in the presentation. However, in my opinion based on the question I have asked, instead of having the forbidden commands list that might cause problems when such commands are required, it is better to have several mods (default, allowing all commands, etc.) for various situations.
+
+Also, I have participated in the Breakout Room where possible problems with robot acceptance (how the robots might accept other robots) have been discussed. I think that it is a bit early to discuss it since the robots are not involved ubiquitously.
+
+According to the provided rubric, I would evaluate my participation as 5/5.

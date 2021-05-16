@@ -1,0 +1,380 @@
+{
+   "results":[
+      {
+         "popularity":317.099,
+         "vote_count":1260,
+         "video":false,
+         "poster_path":"\/7W0G3YECgDAfnuiHG91r8WqgIOe.jpg",
+         "id":446893,
+         "adult":false,
+         "backdrop_path":"\/qsxhnirlp7y4Ae9bd11oYJSX59j.jpg",
+         "original_language":"en",
+         "original_title":"Trolls World Tour",
+         "genre_ids":[
+            16,
+            10751,
+            35,
+            14,
+            12,
+            10402
+         ],
+         "title":"Trolls World Tour",
+         "vote_average":7.6,
+         "overview":"Queen Poppy and Branch make a surprising discovery — there are other Troll worlds beyond their own, and their distinct differences create big clashes between these various tribes. When a mysterious threat puts all of the Trolls across the land in danger, Poppy, Branch, and their band of friends must embark on an epic quest to create harmony among the feuding Trolls to unite them against certain doom.",
+         "release_date":"2020-10-23"
+      },
+      {
+         "popularity":53.261,
+         "vote_count":8,
+         "video":false,
+         "poster_path":"\/v6NodCMzqilx0Xw541P65WFnDfE.jpg",
+         "id":575446,
+         "adult":false,
+         "backdrop_path":"\/qDrtmc5gDOztiH5vvNT0CwgsLVZ.jpg",
+         "original_language":"es",
+         "original_title":"Nuevo orden",
+         "genre_ids":[
+            18
+         ],
+         "title":"New Order",
+         "vote_average":6.6,
+         "overview":"In the near future, a popular uprising in Mexico City interrupts a wedding held at the home of a wealthy family. After the riots have been quashed, they discover the bride has gone missing and plea with the military to help locate her.",
+         "release_date":"2020-10-22"
+      },
+      {
+         "popularity":20.779,
+         "vote_count":186,
+         "video":false,
+         "poster_path":"\/5MSDwUcqnGodFTvtlLiLKK0XKS.jpg",
+         "id":521034,
+         "adult":false,
+         "backdrop_path":"\/pBbwUKjxOfIsAChBzKsC3a6Zdfm.jpg",
+         "original_language":"en",
+         "original_title":"The Secret Garden",
+         "genre_ids":[
+            18,
+            14,
+            10751
+         ],
+         "title":"The Secret Garden",
+         "vote_average":6.8,
+         "overview":"Mary Lennox is born in India to wealthy British parents who never wanted her. When her parents suddenly die, she is sent back to England to live with her uncle. She meets her sickly cousin, and the two children find a wondrous secret garden lost in the grounds of Misselthwaite Manor.",
+         "release_date":"2020-09-25"
+      },
+      {
+         "popularity":8.901,
+         "vote_count":0,
+         "video":false,
+         "poster_path":null,
+         "id":670935,
+         "adult":false,
+         "backdrop_path":null,
+         "original_language":"es",
+         "original_title":"El Mito de la Oscuridad: Una historia de la Huasteca",
+         "genre_ids":[
+            
+         ],
+         "title":"El Mito de la Oscuridad: Una historia de la Huasteca",
+         "vote_average":0,
+         "overview":"Valentina is an orphan girl, she goes to live at the Huasteca in Mexico with her Aunt and she will discover a new world, an ancestral and mythological culture.",
+         "release_date":"2020-11-02"
+      },
+      {
+         "popularity":6.661,
+         "vote_count":0,
+         "video":false,
+         "poster_path":"\/tbTDTcm6REnzjHseCf2cGR99XIW.jpg",
+         "id":755977,
+         "adult":false,
+         "backdrop_path":null,
+         "original_language":"es",
+         "original_title":"Amalgama",
+         "genre_ids":[
+            35,
+            18
+         ],
+         "title":"Amalgam",
+         "vote_average":0,
+         "overview":"Four dentists, three men and a woman, meet at a yearly dental convention in Mexico’s Mayan Riviera. While two of them are old friends and rivals, the other two have only gotten to know each other at past conventions.",
+         "release_date":"2020-10-31"
+      },
+      {
+         "popularity":6.375,
+         "id":757507,
+         "video":false,
+         "vote_count":0,
+         "vote_average":0,
+         "title":"Ciudad",
+         "release_date":"2020-10-31",
+         "original_language":"es",
+         "original_title":"Ciudad",
+         "genre_ids":[
+            99
+         ],
+         "backdrop_path":null,
+         "adult":false,
+         "overview":"",
+         "poster_path":"\/99hIj2lUgqchUQ5A8vQa7pslHd8.jpg"
+      },
+      {
+         "popularity":6.207,
+         "id":653583,
+         "video":false,
+         "vote_count":0,
+         "vote_average":0,
+         "title":"Summer White",
+         "release_date":"2020-10-30",
+         "original_language":"es",
+         "original_title":"Blanco de Verano",
+         "genre_ids":[
+            18
+         ],
+         "backdrop_path":null,
+         "adult":false,
+         "overview":"Rodrigo is a solitary teenager, a king in the private world he shares with his mother. Things change when she takes her new boyfriend home to live. He must decide if he fights for his throne and crushes the happiness of the person he loves the most.",
+         "poster_path":"\/l3svt3tmjhkpDpqezhcHr9EuMYs.jpg"
+      },
+      {
+         "popularity":6.155,
+         "vote_count":0,
+         "video":false,
+         "poster_path":null,
+         "id":758394,
+         "adult":false,
+         "backdrop_path":null,
+         "original_language":"es",
+         "original_title":"El Amor es Ciego",
+         "genre_ids":[
+            
+         ],
+         "title":"El Amor es Ciego",
+         "vote_average":0,
+         "overview":"",
+         "release_date":"2020-10-31"
+      },
+      {
+         "popularity":6.091,
+         "id":758503,
+         "video":false,
+         "vote_count":0,
+         "vote_average":0,
+         "title":"They Never Leave the Sea",
+         "release_date":"2020-10-31",
+         "original_language":"es",
+         "original_title":"No Abandonan el Mar Nunca",
+         "genre_ids":[
+            99
+         ],
+         "backdrop_path":"\/j61SgDdKppDe26N74Zm0obZKPkW.jpg",
+         "adult":false,
+         "overview":"Listen to the sound of the waves, the turtles, all these lamps; many personal emotions and sensations.",
+         "poster_path":"\/dfukJLDNdi29KmPI1XIx7ERXtU6.jpg"
+      },
+      {
+         "popularity":5.879,
+         "vote_count":0,
+         "video":false,
+         "poster_path":"\/lU52NThtCdjhkepYxOQBWTebUhX.jpg",
+         "id":758521,
+         "adult":false,
+         "backdrop_path":"\/boT3Gmw6AzIUKoDT9KTNWK6qGWn.jpg",
+         "original_language":"es",
+         "original_title":"Viviendo Aquí",
+         "genre_ids":[
+            18
+         ],
+         "title":"Living Here",
+         "vote_average":0,
+         "overview":"Tristán, a young art student, has a crush on Andrea and plans to see her at a party tonight.",
+         "release_date":"2020-10-31"
+      },
+      {
+         "popularity":5.804,
+         "vote_count":0,
+         "video":false,
+         "poster_path":"\/pq4aCjC4WMWRqe2VMesqJ8pOvAC.jpg",
+         "id":758509,
+         "adult":false,
+         "backdrop_path":"\/ndntOae0rA0vaGGP8pAR0AfU1Q9.jpg",
+         "original_language":"es",
+         "original_title":"Toda la fe en mí",
+         "genre_ids":[
+            18
+         ],
+         "title":"All Faith In Me",
+         "vote_average":0,
+         "overview":"A decision is about to be made; a seminarian fights with himself; his faith is the battlefield he faces.",
+         "release_date":"2020-10-31"
+      },
+      {
+         "popularity":5.772,
+         "id":675586,
+         "video":false,
+         "vote_count":0,
+         "vote_average":0,
+         "title":"The Day Began Yesterday",
+         "release_date":"2020-10-28",
+         "original_language":"es",
+         "original_title":"El día comenzó ayer",
+         "genre_ids":[
+            18
+         ],
+         "backdrop_path":"\/o9w5avvtACl7KhggtjXDfdMKjXd.jpg",
+         "adult":false,
+         "overview":"Orlando and Saul meet by accident. The first one is a self-confident young man, university gymnast who avoids that his HIV-positive status defines him; while Saul, on the opposite, is insecure and barely understands what having an active sexual life means. The meeting will result in a new way of seeing life, one without fear where sex is an encounter and not a way of getting away from others.",
+         "poster_path":"\/k8SYlPvdgSUuXs7eVzduwIF3faq.jpg"
+      },
+      {
+         "popularity":5.526,
+         "id":572637,
+         "video":false,
+         "vote_count":0,
+         "vote_average":0,
+         "title":"Asphalt Goddess",
+         "release_date":"2020-10-31",
+         "original_language":"es",
+         "original_title":"La diosa del asfalto",
+         "genre_ids":[
+            18
+         ],
+         "backdrop_path":"\/p4jG57vkjRo7HYT9FpaUNsk4Eos.jpg",
+         "adult":false,
+         "overview":"Max returns to her slum turned into the vocalist of a rock band. There, the memories await, the latest news and the truths that were silent for years: Sonia is a voice that speaks from the death.",
+         "poster_path":"\/6fqr21QHi5idg0PdQp3p6H8Tgwd.jpg"
+      },
+      {
+         "popularity":5.028,
+         "id":758433,
+         "video":false,
+         "vote_count":0,
+         "vote_average":0,
+         "title":"The New Normal",
+         "release_date":"2020-10-29",
+         "original_language":"es",
+         "original_title":"La Nueva Normalidad",
+         "genre_ids":[
+            18
+         ],
+         "backdrop_path":"\/krrKyv8A0cSqLgLdE91WiOC9ywn.jpg",
+         "adult":false,
+         "overview":"In times of coronavirus, Ana, pregnant, has the need to leave home.",
+         "poster_path":"\/ybCu8WJcDKff4Tp43r6SXXENpoc.jpg"
+      },
+      {
+         "popularity":4.996,
+         "vote_count":0,
+         "video":false,
+         "poster_path":"\/selE1CL1DndAPHXmWwjQ0Il8wxx.jpg",
+         "id":757510,
+         "adult":false,
+         "backdrop_path":null,
+         "original_language":"es",
+         "original_title":"Todo lo invisible",
+         "genre_ids":[
+            
+         ],
+         "title":"All That Is Invisible",
+         "vote_average":0,
+         "overview":"When a car accident causes Jonás to completely lose his vision, he finds himself unable to live the life he used to know. Despite his refusal to accept his new condition or to show any vulnerability in the presence of his wife and daughters, the circumstances will lead him to discover new and unsuspected paths that will allow him to carry on.",
+         "release_date":"2020-10-31"
+      },
+      {
+         "popularity":4.846,
+         "vote_count":0,
+         "video":false,
+         "poster_path":"\/8tbNFVIJWCzJvuZQo6aWUOHUL3U.jpg",
+         "id":758367,
+         "adult":false,
+         "backdrop_path":null,
+         "original_language":"es",
+         "original_title":"Extraños en un tren",
+         "genre_ids":[
+            
+         ],
+         "title":"Extraños en un tren",
+         "vote_average":0,
+         "overview":"",
+         "release_date":"2020-10-31"
+      },
+      {
+         "popularity":4.807,
+         "vote_count":0,
+         "video":false,
+         "poster_path":"\/4txFuMWmyfY1rJzae0RNIkKQNwJ.jpg",
+         "id":756650,
+         "adult":false,
+         "backdrop_path":null,
+         "original_language":"es",
+         "original_title":"Almas Rotas",
+         "genre_ids":[
+            
+         ],
+         "title":"Broken Souls",
+         "vote_average":0,
+         "overview":"After leaving a desolate mother and an abandoned home, Julian returns 10 years later in search for his past, only to find his ex-wife Maria partnered with Santiago, a writer in whom she has found a refuge. Julian's arrival will give a new direction to the lives of the three, creating a love triangle full of reconciliations, secrets and death.",
+         "release_date":"2020-10-29"
+      },
+      {
+         "popularity":4.804,
+         "vote_count":0,
+         "video":false,
+         "poster_path":"\/pjGswBLMkCzwDsXD1OM3BY7KKSX.jpg",
+         "id":758502,
+         "adult":false,
+         "backdrop_path":null,
+         "original_language":"es",
+         "original_title":"El Mago Que No Existe",
+         "genre_ids":[
+            
+         ],
+         "title":"El Mago Que No Existe",
+         "vote_average":0,
+         "overview":"",
+         "release_date":"2020-10-31"
+      },
+      {
+         "popularity":4.777,
+         "vote_count":0,
+         "video":false,
+         "poster_path":"\/d6GkwGMCaRalex6pkLizQda4Ah6.jpg",
+         "id":758542,
+         "adult":false,
+         "backdrop_path":"\/rmy7NZtIJqFKBvHkVKQzkpAwQAY.jpg",
+         "original_language":"es",
+         "original_title":"Expiación",
+         "genre_ids":[
+            18
+         ],
+         "title":"Expiation",
+         "vote_average":0,
+         "overview":"A father in search of how to help his sick daughter.",
+         "release_date":"2020-10-30"
+      },
+      {
+         "popularity":4.732,
+         "vote_count":0,
+         "video":false,
+         "poster_path":null,
+         "id":757512,
+         "adult":false,
+         "backdrop_path":null,
+         "original_language":"es",
+         "original_title":"Lucinda Urrusti. Pintora",
+         "genre_ids":[
+            99,
+            36
+         ],
+         "title":"Lucinda Urrusti: Painter",
+         "vote_average":0,
+         "overview":"This is a portrait of painter Lucinda Urrusti (Melilla, Spanish Morocco, 1926), who came to Mexico in 1939 with her parents and brother as refugees of the Spanish Civil War. For Lucinda, what matters most in life is art and her family.",
+         "release_date":"2020-10-31"
+      }
+   ],
+   "page":1,
+   "total_results":73,
+   "dates":{
+      "maximum":"2020-11-10",
+      "minimum":"2020-09-23"
+   },
+   "total_pages":4
+}

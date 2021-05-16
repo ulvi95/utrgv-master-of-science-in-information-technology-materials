@@ -1,0 +1,20 @@
+In the materials I have read, the possible discrimination in the IT companies and AI systems were discussed. According to the materials, it means not only the behavior against the minority groups, but their distributions within the systems (for example, how female workers are distributed in the companies).
+
+In the podcast "Google's Real Biases" specific topics were discussed:
+1) The case by AI in California that gave high risk ratings to the minorities. In my opinion I have shared, AI should have only recommending options, but the last word should have the human. Because all Neural Networks tends to learn from the major occasions, it means that the output from the AI tends to get high probabilities for the major occasions.
+2) The news that Facebook wants to give the moderating of "fake news" to the third-party companies. I think that only companies itself can redact their data, because doing it by third-party companies might allow to manipulate the data for the favor of some people.
+In addition to this, other topics which are similar to the provided below were discussed.
+
+Another podcast was the interview with Ellen Pao about her case and how she reflected to the sexism in the Silicon Valley. Despite that Ellen Pao described some arguments in her favor, I don't think that the gender diversity in the AI "is not required", how the man in the interview said her, but is normal, as in the other fields (for example, most of the teachers in the middle schools in our country are women). The reason why the women don't go the IT should be analyzed properly. In my opinion, even I am not an expert, it is based on the toys children playing in their childhood. And the fact that Ellen Pao could not described the gender discrimination against her in the lawsuit requires the experts to think what the gender discrimination in the work is. I could add that only inequality in the work conditions (salary, working hours, working field, a proper behavior which could be proved, etc.) could fit into the discrimination.
+
+The second topic from the articles were the behavior of the AI products. We could divide it into three categories:
+
+    1. The products with some interface and pictures, such as video games. Here, the final result and all scripts are set by the human, so some racism and discrimination might occur, because the human who designed these products consciously.
+    2. The devices with sensors (taps, watches, etc.). According to the "Does Technology Have Race?", it just should be considered as the unconscious fail of the engineers. The possible solution is either to test the device in the several situations/groups, or to have several possible options handling most possible situations.
+    3. AI Trained by Neural Networks. Here, we can discuss the Microsoft's Tay and Zo robots that were shut down after roughly three years. The huge problem that AI can behave in the manner that unexpectable for humans. For example, while Tay started to express Nazi sentences, Zo totally ignored other confessions and nations. Unfortunately, we cannot know anymore what behavior could express such robots after long trainings, because
+        a) After every such cases, the robots were shut down and changed by the developers.
+        b) The experiments took almost three years only. Knowing that the human civilization exist almost 10000 years, it had been better if the experiments would have been continued up to, for example, 7-10 years.
+
+Here, the possible solution is the design of the AI in the manner that before accepting the data from the users, it should check if the data is acceptable and if the AI itself has the proper training level in the field.
+
+According to the provided rubric, I would evaluate my participation as 5/5.

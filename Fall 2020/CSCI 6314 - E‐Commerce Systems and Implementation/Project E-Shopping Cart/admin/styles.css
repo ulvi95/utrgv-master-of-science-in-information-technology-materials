@@ -1,0 +1,13 @@
+#forAdminsOnly
+{
+	margin-top: 120px;
+	padding-top: 10px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px 5px;
+	background: white;
+}
+
+body
+{
+	background: grey !important;
+}

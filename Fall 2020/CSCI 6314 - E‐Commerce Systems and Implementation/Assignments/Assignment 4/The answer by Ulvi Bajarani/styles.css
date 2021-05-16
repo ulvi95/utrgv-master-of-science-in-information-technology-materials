@@ -1,0 +1,50 @@
+#one {
+	font-size: 16pt;
+}
+
+h1, h2 {
+	background-color: yellow;
+}
+
+h2.two {
+
+background-color: white !important;
+text-align: center;
+
+}
+
+div#three
+{
+	font-family: Arial;
+}
+
+ul#four
+{
+	list-style: square;
+}
+
+div#five
+{
+	word-spacing: 10px;
+}
+
+ol
+{
+	color: red;
+}
+
+div#six
+{
+	letter-spacing: 4px;
+}
+
+table, th, td
+{
+	padding: 4px;
+	border: 1px solid black;
+}
+
+#seven {
+	text-decoration: underline;
+	text-decoration-color: red;
+}

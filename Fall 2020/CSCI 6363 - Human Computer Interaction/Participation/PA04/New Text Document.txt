@@ -1,0 +1,11 @@
+after reading the provided materials for this week, I concluded that behavior and activity on the Internet require some standards and rules in the country and the government level. For example, women in the "Blocking A Million Bad Men" suffer from the unaccepted behavior from unknown men. Despite the fact that all such cases are regulated in the reality, handling such problems on the Internet creates the problem. Is the sender a real person? Haven't the victim designed him/herself to accuse someone? An additional problem is how the servers and companies co-operate with law enforcement: They might also avoid sharing their data, making the solving of the case difficult. Also, "The Spreading Of Misinformation Online" and "Measuring #GamerGate: A Tale Of Hate, Sexism, And Bullying" described that the misinformation is also widespread and the manipulation with the opinion against some group might be done easily.
+
+The second problem discussed in "The Failed Promise Of The Gig Economy" was how the novel technology should be designed and implemented. Here, the main problem that the advantages of some specific products are not known, so easily might be manipulated. Additionally, implementing such products requires specific policies, and without this, the products could give more harm other than the profit for customers.
+
+The third problem discussed was the dark design patterns. Here, there are two issues:
+a) The websites should monetize their activity. It might be done even with pop-ups, not only by the ads.
+b) The customers don't know the services of the website. As a result, they might be tricked by the website.
+
+In my opinion that I provided in the discussion, the customer should be provided with the full list of available services. Additionally, there should be some organizations defending the right of Internet customers and users. These organizations should provide the regulation regarding the services and the design issues, and should evaluate how the sites proper to the provided standards. These rules should be updated occasionally, due to the fact that the designers could invent new dark pattern types.
+
+According to the provided rubric, I would evaluate my participation as 5/5.

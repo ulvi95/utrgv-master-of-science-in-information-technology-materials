@@ -1,0 +1,83 @@
+\documentclass[paper=8.27in:11.69in, DIV=calc]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphics,graphicx}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{minibox}
+\newcounter{numbers}
+\newcommand\printnumbers{\refstepcounter{numbers}\thenumbers}
+\newcounter{answers}
+\newcommand\printanswers{\refstepcounter{answers}\theanswers}
+
+\begin{document}
+
+\textbf{\begin{center}
+\begin{Large}
+CSCI 6339 Theoretical Foundations of Computer Science\\
+Homework 2\\
+Due is 10/14/2020 23:59\\
+Ulvi Bajarani\\
+Student ID 20539914\\
+E-mail: ulvi.bajarani01@utrgv.edu\\
+\end{Large}
+\end{center}}
+
+\newpage
+\noindent \begin{center}
+\textbf{Questions and Answers:}
+\end{center}
+
+
+\textbf{Problem \printnumbers .}
+Let \(N = \{1, 2, 3, \ldots \}\) be the set of all natural numbers. Prove \(N \times N \times N = \{(x, y, z) \ | \ x, y, \ \text{and} \ z \ \text{are all in} \ N\}\) is countable.
+
+\textbf{\\Answer \printanswers .\\}
+
+The easiest way to prove the countability is to find the one-to-one function. Here, the possible solution for \(N \times N \times N \longrightarrow N\):
+
+\[f(x, y, z) = 2^{x}3^{y}5^{z}\]
+
+Since that for each tuple \( \left (x, y, z  \right ) \) the answer is unique prime factorisation, we get the one-to-one representation, \textbf{which proves the countability\\}.
+
+\textbf{Problem \printnumbers .} Prove that the set of irrational numbers in \([0,1]\) is not countable.
+
+\textbf{\\Answer \printanswers .\\}
+
+To understand if the set of irrational numbers in \([0,1]\) is not countable, we should know that the set of real numbers between \([0,1]\) is not countable. Knowing that the real numbers contains both rational and irrational numbers, let's start to prove that the set of rational numbers in \([0,1]\) is countable. It might be done by mapping, for example, \(\frac{a}{b} \longrightarrow 2^{a}3^{b}\) where \(0 \leq \frac{a}{b} \leq 1\) and \(b \neq 0\).
+
+Now, we can prove that if the set of irrational numbers in \([0,1]\) is not countable. If it were countable, the set of real numbers between \([0,1]\) would be countable, because the union of countable sets is the countable set. Since it is not, \textbf{the set of irrational numbers in \([0,1]\) is not countable.\\}
+
+
+\textbf{Problem \printnumbers .}
+Show that there is a correspondence between the two intervals \([0,1)\) and \([0,1]\).
+
+\textbf{\\Answer \printanswers .\\}
+
+Let's create one-to-one function \(R \longrightarrow (0,1) \) with the function \(f(x) =\frac{e^{x}}{1+e^{x}} \) where \(x \in R \). In this case, \(|R| = |(0,1)|\). Let's create the inverse map \((0,1) \longrightarrow R \) with the function \(-\log\left (-\frac{x-1}{x}  \right ) \) where \( x \neq 0 \) and \( x \neq 1 \). According to the Schröder–Bernstein theorem, if there exist two one-to-one function \(f: A \longrightarrow B\) and \(g: B \longrightarrow A\) between the sets \(A\) and \(B\), there is a correspondence function \(h: A \longrightarrow B\). Since that \((0,1) \subset [0,1) \subset [0,1] \subset R\),\textbf{ we can define that there is the correspondence function between \([0,1)\) and \([0,1]\), since all sets have the same cardinality.\\}
+
+
+\textbf{Problem \printnumbers .}
+Show that the language \(\{M : M \ \text{is a Turing machine with} \ L(M) \) to be a finite set \(\} \) is undecidable. You need to establish its connection to \[A_{TM} = \{<M, w> | \ \text{Turing machine} \ M \ \text{accepts input} \ w\}\]
+
+
+\textbf{\\Answer \printanswers .\\}
+
+Let’s define that \(M\) is decidable. In this case, there is the Turing machine \(M_{2}\) such that
+\begin{itemize}
+\item accepts \(\{0^{n}1^{n} , n \geq 0\}\) if \(M\) does not accept some string \(w\);
+\item accepts \(w\) if \(M\) results accept on \(w\);
+\end{itemize}
+
+Then, define the Turing machine \(R\) such checks if \(L(M_{2})\) is regular or not; it is done if \(M\) accepts \(w\). Finally, design the Turing machine \(A_{TM}\) such that accepts \(<M, w>\) and
+\begin{itemize}
+\item gives ``\(M\) accept \(w\)'' if \(R\) accepts \(M_{2}\);
+\item gives ``\(M\) reject \(w\)'' if \(R\) rejects \(M_{2}\);
+\end{itemize}
+
+In this case, \(R\) will say if \(M_{2}\) is a regular language if \(M\) accepts \(w\) and \(A_{TM}\) says ``\(M\) accept \(w\)'' if \(R\) decides \(M_{2}\) is regular, which is contradiction.
+
+
+
+\end{document}

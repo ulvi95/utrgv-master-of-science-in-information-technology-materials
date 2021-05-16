@@ -1,0 +1,100 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{anyt/global//global/global}
+  \entry{chen2019robust}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CATY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Andrew Tzer-Yeu},
+         giveni={A\bibinitperiod\bibinitdelim T\bibinithyphendelim
+  Y\bibinitperiod},
+      }}%
+      {{hash=WKIK}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Kevin I-Kai},
+         giveni={K\bibinitperiod\bibinitdelim I\bibinithyphendelim
+  K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Multidisciplinary Digital Publishing Institute}%
+    }
+    \strng{namehash}{CATYWKIK1}
+    \strng{fullhash}{CATYWKIK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{CW19}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{1}
+    \field{pages}{14}
+    \field{title}{Robust computer vision chess analysis and interaction with a
+  humanoid robot}
+    \field{volume}{8}
+    \field{journaltitle}{Computers}
+    \field{year}{2019}
+  \endentry
+
+  \entry{rath2019autonomous}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=RPK}{%
+         family={Rath},
+         familyi={R\bibinitperiod},
+         given={Prabin\bibnamedelima Kumar},
+         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mahapatro},
+         familyi={M\bibinitperiod},
+         given={Neelam},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nath},
+         familyi={N\bibinitperiod},
+         given={Prasanmit},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dash},
+         familyi={D\bibinitperiod},
+         given={Ratnakar},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{RPK+1}
+    \strng{fullhash}{RPKMNNPDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Rat+19}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{2019 28th IEEE International Conference on Robot and
+  Human Interactive Communication (RO-MAN)}
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Autonomous Chess Playing Robot}
+    \field{year}{2019}
+  \endentry
+\enddatalist
+\endinput

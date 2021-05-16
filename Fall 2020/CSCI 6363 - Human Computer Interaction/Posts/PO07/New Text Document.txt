@@ -1,0 +1,15 @@
+In this post, I share my opinions regarding the topics discussed in articles and podcasts.
+
+Nowadays, most devices and programs collect various types of data for several tasks, such as getting the results of experiments, making the life of people easy, etc. From the one side, the data might be used for different purposes, such as home security as the Doorbot in the podcast "Your Doorbell Is Watching". But on the other side, there are a lot of problems to ensure privacy:
+
+First of all, getting the privacy data allows generating NN trained by this data, which is seen in "Enhancing Lifelogging Privacy by Detecting Screens". It is acceptable if the data is used for civic purposes, but catching the data by some intruder allows to get some information from the data, which might put the owner of this information (for example, the credit card numbers, the car license plates, etc.) into the trouble. Moreover, in this case, the company/person collecting the data might be involved in the crime due to the reason that he or she could not ensure the safety of the data.
+
+Secondly, the regular user cannot be sure that if the data is collected or not; even if it might be written in the user agreement, there is no way to check where the data is sent somewhere else for regular users.
+
+The third problem is the case when the user knows that he or she is under control. As from the article "Just Because You’re Working From Home Doesn’t Mean Your Boss Isn’t Watching You" and the previous week experiment with the robotic agent, we can conclude that knowing that there is some person in the environment (explicitly or implicitly) makes the worker behave differently, which increases the stress of worker and reduces the efficiency rate.
+
+The fourth problem is that there is data that the user usually doesn't intend to share, for example, some stigma (HIV Status, etc.). The reason is that the user with such data might have explicit/implicit discrimination in society. Moreover, the user with such stigma might be put under the control by the government, for example, in the Commonwealth of Independent States countries, the data of such people are controlled and the data related to them becomes anonymous. Also, the people with such diagnoses might have the check-up once per year. In addition to the provided facts, the user also might want to hide its real data to keep anonymity.
+
+In addition to the provided ones, we should know that the data might have its formatting different from others so that the data available for one organization might not be transferred to another organization. In the critic time, it might cause problems in the co-operation, as it is provided "Pandemics, Public Data, and Privacy".
+
+The provided post describes what should both the user and the designer know about possible problems in privacy.

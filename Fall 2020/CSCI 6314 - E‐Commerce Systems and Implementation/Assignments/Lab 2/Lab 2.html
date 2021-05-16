@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSCI 6314 Lab 2 by Ulvi Bajarani</title>
+</head>
+<script>
+function FutureValueCalculation()
+{
+document.getElementById("Results").innerHTML = ""; // To clear the table.
+
+let isNumberRegex = /^-?[\d.]+(?:e-?\d+)?$/; //The regex code to check if the value is legal.
+var InitialInvestment = document.getElementById("InitialInvestment").value;  // To get the initial investment.
+var InterestRate = document.getElementById("InterestRate").value; // To get the interest rate.
+var DepositValue = document.getElementById("DepositValue").value; // To get the deposit.
+var AgeStarted = document.getElementById("AgeStarted").value; // To get the age.
+
+//Checking if the values are legal.
+if (!(InitialInvestment.match(isNumberRegex)))
+{
+return alert("InitialInvestment should be the value (float or integer). Please, enter the right value");
+}
+if(InitialInvestment <= 0)
+{
+return alert("Initial Investment should be higher than 0. Please, enter the right value");
+}
+if (!(InterestRate.match(isNumberRegex)))
+{
+return alert("Interest Rate should be the value (float or integer). Please, enter the right value");
+}
+if(InterestRate <= 0)
+{
+return alert("Interest Rate should be higher than 0 and not equal to 0. Please, enter the right value");
+}
+if (!(DepositValue.match(isNumberRegex)))
+{
+return alert("Deposit Value for 30 days should be the value (float or integer). Please, enter the right value");
+}
+if(DepositValue < 0)
+{
+return alert("Deposit Value for 30 days should be higher than 0 (you can enter 0 if you calculate just annual value). Please, enter the right value");
+}
+if (!(AgeStarted.match(isNumberRegex)))
+{
+return alert("Starting age should be the integer value (even you enter the float, the float part will be removed). Please, enter the right value");
+}
+if((AgeStarted <= 0) || (AgeStarted >= 65))
+{
+return alert("The starting age should be higher than 0, not equal to 0, lower than 65 and not equal to 65. Please, enter the right value");
+}
+
+//Create an initial table definitions.
+document.getElementById("Results").insertRow(-1).innerHTML = "<td style=\"text-align: center\" colspan=\"5\"><b>Future Value Calculation</b></td>";
+document.getElementById("Results").insertRow(-1).innerHTML = "<td style=\"text-align: center\" colspan=\"5\">Initial Investment: $" + InitialInvestment + "</td>";
+document.getElementById("Results").insertRow(-1).innerHTML = "<td style=\"text-align: center\" colspan=\"5\">Interest Rate: " + InterestRate + "%</td>";
+document.getElementById("Results").insertRow(-1).innerHTML = "<td style=\"text-align: center\" colspan=\"5\">Deposit every 30 days: $" + DepositValue + "</td>";
+document.getElementById("Results").insertRow(-1).innerHTML = "<td style=\"text-align: center\" colspan=\"5\">Investment started: " + AgeStarted + "</td>";
+document.getElementById("Results").insertRow(-1).innerHTML = "<td style=\"text-align: center\"><b>Age</td><td><b>Beginning Balance</b></td><td><b>Interest</b></td><td><b>Deposits</b></td><td><b>Ending Balance</b></td>";
+
+
+//Defining Beginning balance, ending balance, interest gained. It is important to define them first to avoid plus-minus one problem.
+var BeginningBalance = InitialInvestment;
+var EndingBalance = InitialInvestment;
+var InterestGained;
+// the For cycle with the formulas to calculate.
+for (var i = 1 ; i <= (65 - Math.floor(AgeStarted)) ; i++)
+{
+var AgeToCalculate = Math.floor(AgeStarted)+(i);
+for (var j = 1 ; j <= 365 ; j++)
+{
+EndingBalance *= (1+(InterestRate/36500));
+if (j % 30 === 0)
+{
+EndingBalance += Math.floor(DepositValue);
+}
+
+if (j == 365)
+{
+InterestGained = EndingBalance - BeginningBalance-12*DepositValue;
+document.getElementById("Results").insertRow(-1).innerHTML = "<td style=\"text-align: center\">" + AgeToCalculate + "</td>" + "<td style=\"text-align: center\">" + Math.floor(BeginningBalance*100)/100 + "</td>" + "<td style=\"text-align: center\">" + Math.floor(InterestGained*100)/100 + "</td>" + "<td style=\"text-align: center\">" + 12*DepositValue + "</td>" + "<td style=\"text-align: center\">" + Math.floor(EndingBalance*100)/100 + "</td>";
+BeginningBalance = EndingBalance;
+}
+
+}
+
+}
+
+}
+</script>
+
+<body>
+<!-- The form and the button -->
+<form autocomplete="off">
+<div><label for="InitialInvestment">Initial Investment</label><input type="text" id="InitialInvestment" name="InitialInvestment">$</div>
+<br>
+<div><label for="InterestRate">Interest Rate</label><input type="text" id="InterestRate" name="InterestRate">%</div>
+<br>
+<div><label for="DepositValue">Deposit every 30 days</label><input type="text" id="DepositValue" name="DepositValue">$</div>
+<br>
+<div><label for="AgeStarted">Investment started</label><input type="text" id="AgeStarted" name="AgeStarted"></div>
+<br>
+<div><button type="button" onclick="FutureValueCalculation()">Calculate!</button></div>
+</form>
+<!-- The Table -->
+<table border="1px" id="Results"></table>
+
+</body>
+</html>

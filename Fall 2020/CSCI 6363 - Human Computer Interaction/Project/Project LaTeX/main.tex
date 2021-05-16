@@ -1,0 +1,95 @@
+\documentclass[manuscript]{style}
+\ProvidesClass{style.cls}
+
+\usepackage[backend=bibtex, style=alphabetic]{biblatex}
+\addbibresource{references.bib}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+\setcopyright{rightsretained}
+\copyrightyear{2020}
+\acmYear{2020}
+
+
+\acmConference[]{CSCI 6363}{Fall 2020}
+%\citestyle{acmauthoryear}
+
+
+
+
+%------------------------------------------------------------
+
+
+
+\begin{document}
+
+
+\title{Project Title}
+
+
+\author{Ulvi Bajarani}
+\affiliation{
+    \institution{The University of Texas Rio Grande Valley:}
+    \institution{Department of Information Technology}
+}
+
+\author{Askar Nurbekov}
+\affiliation{
+    \institution{The University of Texas Rio Grande Valley:}
+    \institution{Department of Interdisciplinary Studies in Science and Technology}
+}
+
+\author{Daniel Ortiz}
+\affiliation{
+    \institution{The University of Texas Rio Grande Valley:}
+    \institution{Department of Computer Science}
+}
+
+\author{Carlos Espinosa}
+\affiliation{
+    \institution{The University of Texas Rio Grande Valley:}
+    \institution{Department of Information Technology}
+}
+
+\author{Mariana Martinez}
+\affiliation{
+    \institution{The University of Texas Rio Grande Valley:}
+    \institution{Department of Computer Science}
+}
+
+
+\renewcommand{\shortauthors}{U. Bajarani, A. Nurbekov, D. Ortiz, C. Espinosa \& M. Martinez}
+
+
+\begin{abstract}
+Games such as chess where there needs to be two players, can become a problem when there isn’t a second person available to play as we have seen in these times of isolation due to COVID-19. Inspired by other robotic chess playing agents, we propose a portable, with less additional equipment robot using an ubiquitous approach to the board as well as offering an expansion for other board games and a coaching component.
+\end{abstract}
+
+
+\keywords{Artificial Intelligence, robotics, image processing, computer vision}
+
+
+\maketitle
+
+
+\section*{Introduction}
+
+Test \cite{chen2019robust} Test2 \cite{rath2019autonomous}
+
+\section*{Proposed Methods}
+
+
+
+\section*{Anticipated Results}
+
+
+
+
+\printbibliography
+
+
+\end{document}
+\endinput
+

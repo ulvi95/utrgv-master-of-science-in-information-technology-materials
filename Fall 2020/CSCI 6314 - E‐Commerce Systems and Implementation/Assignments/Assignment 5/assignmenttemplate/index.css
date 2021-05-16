@@ -1,0 +1,95 @@
+body
+{
+    overflow: hidden;
+}
+
+body > .loading
+{
+    padding: 10px;
+}
+
+body > div:not(.loading)
+{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+body > div > div
+{
+    padding: 15px;
+    height: 100%;
+    border-left: 3px solid #DDD;
+    border-right: 3px solid #DDD;
+    overflow: auto;
+}
+
+body > div > div:first-of-type
+{
+    flex: 1;
+    border-left: none;
+}
+
+body > div > div:last-of-type
+{
+    flex: 3;
+    border-right: none;
+}
+
+form > div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form > div:not(:last-of-type)
+{
+    margin-bottom: 1rem;
+}
+
+form > div > div:not(:last-of-type)
+{
+    margin-right: 25px;
+}
+
+form .field-expand
+{
+    flex: 1;
+}
+
+#secretnumbervisibilitytoggle
+{
+    cursor: pointer;
+}
+
+#attemptlogs > div
+{
+    margin-top: 10px;
+}
+
+#attemptlogs > div > div
+{
+    padding: 10px;
+    color: #FFF;
+}
+
+.guessclose
+{
+    background-color: #FFA500;
+}
+
+.guessfar
+{
+    background-color: #005AFF;
+}
+
+.guessclose.somewhat, .guessfar.somewhat
+{
+    opacity: 0.75;
+}
+
+#attemptlogs > div > div:not(.guessclose):not(.guessfar)
+{
+    background-color: #888;
+}

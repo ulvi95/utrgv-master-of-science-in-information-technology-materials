@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSCI 6314 Lab 3 and 4 by Ulvi Bajarani</title>
+<script>
+function PostfixCalculator()
+{
+var isNumberRegex = /^-?[\d.]+(?:e-?\d+)?$/;
+var PostfixExpression = prompt("JavaScript Prompt:\n\nEnter the postfix problem.");
+var PostfixExpressionSeparator = PostfixExpression.split(" ");
+var PostfixExpressionStack = [];
+var FirstRow = "<td colspan=\"1\"><b>Postfix Problem: "
+
+for (let i = 0; i < PostfixExpressionSeparator.length; i++)
+{
+
+
+if((typeof PostfixExpressionSeparator[i] === 'string') && (PostfixExpressionSeparator[i].match(isNumberRegex)) )
+{
+PostfixExpressionSeparator[i] = Number.parseFloat(PostfixExpressionSeparator[i]);
+}
+
+
+
+
+if( (i+1) != PostfixExpressionSeparator.length)
+{
+	FirstRow += (PostfixExpressionSeparator[i] + " ");
+}
+else
+{
+	FirstRow += (PostfixExpressionSeparator[i] + " </b></td>");
+}
+}
+
+document.getElementById("History").insertRow(-1).innerHTML = FirstRow;
+
+for (let i = 0; i < PostfixExpressionSeparator.length; i++)
+{
+
+  if(typeof PostfixExpressionSeparator[0] === 'string')
+{
+	alert("Error: The first element is an operator. There are no numbers");
+	location.reload();
+}
+else if(typeof PostfixExpressionSeparator[1] === 'string')
+{
+	alert("Error: There is only one number in the first expression");
+	location.reload();
+}
+else if(typeof PostfixExpressionSeparator[i] === 'number')
+{
+  	PostfixExpressionStack.push(PostfixExpressionSeparator[i]);
+  	document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + PostfixExpressionSeparator[i] + " </td>";
+}
+else if(typeof PostfixExpressionSeparator[i] === 'string')
+{
+	let operand1 = PostfixExpressionStack.pop();
+	let operand2 = PostfixExpressionStack.pop();
+	if ((typeof operand1 === "undefined") || (typeof operand2 === "undefined"))
+	{
+	alert("Error: There are more operators than required. Try again");
+	location.reload();
+	}
+  	if ((PostfixExpressionSeparator[i] === "+"))
+{
+	let result = operand2 + operand1;
+	document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Popped " + operand1 + " " + operand2 + " +" + " </td>";
+	PostfixExpressionStack.push(result);
+	document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + result + " </td>";
+}
+  	else if ((PostfixExpressionSeparator[i] === "-"))
+{
+	let result = operand2 - operand1;
+	document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Popped " + operand1 + " " + operand2 + " -" + " </td>";
+	PostfixExpressionStack.push(result);
+	document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + result + " </td>";
+}
+  	else if ((PostfixExpressionSeparator[i] === "*"))
+{
+	let result = operand2 * operand1;
+	document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Popped " + operand1 + " " + operand2 + " *" + " </td>";
+	PostfixExpressionStack.push(result);
+	document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + result + " </td>";
+}
+  	else if ((PostfixExpressionSeparator[i] === "/"))
+{
+	let result = operand2 / operand1;
+	document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Popped " + operand1 + " " + operand2 + " /" + " </td>";
+	PostfixExpressionStack.push(result);
+	document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\">Pushed " + result + " </td>";
+}
+	else
+	{
+	alert("Error: The variable is not defined");
+	location.reload();
+	}
+
+
+}
+
+}
+
+
+
+document.getElementById("History").insertRow(-1).innerHTML = "<td colspan=\"1\"><b>The result of the operation is--> " + PostfixExpressionStack[0] + " </b></td>";
+if(typeof PostfixExpressionStack[1] === "number" )
+{
+	alert("Error: There are less operators than required. Try again");
+	location.reload();
+}
+
+}
+
+
+</script>
+</head>
+<body onload="PostfixCalculator()">
+<table border="1px" id="History"></table>
+
+</body>
+</html>

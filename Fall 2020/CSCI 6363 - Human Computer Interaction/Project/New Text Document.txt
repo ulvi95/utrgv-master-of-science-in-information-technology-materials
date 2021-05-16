@@ -1,0 +1,7 @@
+This course involves a collaborative final project requiring students to apply skills and fundamental knowledge gained throughout the semester. Students will work in teams of 3 to 5 to develop a proposal aligned with one of the three core facets of HCI: design, engineering, or research.
+
+Design teams will be expected to develop a high-fidelity prototype of a user interface and evaluations will be oriented toward aesthetics, organization of information, and usability.
+Engineering teams will be expected to develop a high-fidelity prototype of software or a low-to-mid-fidelity prototype of a physical system. Evaluations will correspondingly be oriented toward functionality, interactivity, and user experience.
+Research teams will be expected to develop a proposed investigation covering extant topical literature and proposed methods (design, measures, execution) and analysis. Evaluations will be oriented toward articulation of the motivation and methodological soundness.
+
+All proposals will be graded in four parts: conceptualization (10 pts), a mid-development report (5 pts), a final design doc (10 pts), and final report (10 pts).

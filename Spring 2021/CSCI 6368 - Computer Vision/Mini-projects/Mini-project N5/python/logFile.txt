@@ -1,0 +1,6 @@
+2021-03-09 13:57:15.163872
+The saving in bytes for 10 vectors is 35340.0 bytes
+The saving in bytes for 20 vectors is 9742.5 bytes
+The saving in bytes for 22 vectors is 4623.0 bytes
+The saving in bytes for 23 vectors is 2063.25 bytes
+The lose in bytes for 24 vectors is -496.5 bytes

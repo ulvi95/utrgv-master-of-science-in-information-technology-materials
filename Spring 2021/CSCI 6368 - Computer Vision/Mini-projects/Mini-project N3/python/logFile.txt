@@ -1,0 +1,9 @@
+2021-02-13 21:39:13.699061
+D:\Ulvi\Ders\MS of IT in UTRGV\Spring 2021\CSCI 6368 - Computer Vision\Mini-projects\Mini-project N3\resultsOfProcessing\ResultWithTemplate_1_airplane.png is written with detected images metric "Normalized Sum of Squared Differences" for 3 levels 
+D:\Ulvi\Ders\MS of IT in UTRGV\Spring 2021\CSCI 6368 - Computer Vision\Mini-projects\Mini-project N3\resultsOfProcessing\ResultWithTemplate_1_fishingboat.png is written with detected images metric "Normalized Sum of Squared Differences" for 3 levels 
+D:\Ulvi\Ders\MS of IT in UTRGV\Spring 2021\CSCI 6368 - Computer Vision\Mini-projects\Mini-project N3\resultsOfProcessing\ResultWithTemplate_1_Lenna.png is written with detected images metric "Normalized Sum of Squared Differences" for 3 levels 
+D:\Ulvi\Ders\MS of IT in UTRGV\Spring 2021\CSCI 6368 - Computer Vision\Mini-projects\Mini-project N3\resultsOfProcessing\ResultWithTemplate_1_peppers.png is written with detected images metric "Normalized Sum of Squared Differences" for 3 levels 
+D:\Ulvi\Ders\MS of IT in UTRGV\Spring 2021\CSCI 6368 - Computer Vision\Mini-projects\Mini-project N3\resultsOfProcessing\ResultWithTemplate_3_airplane.png is written with detected images metric "Normalized Cross Correlation" for 3 levels 
+D:\Ulvi\Ders\MS of IT in UTRGV\Spring 2021\CSCI 6368 - Computer Vision\Mini-projects\Mini-project N3\resultsOfProcessing\ResultWithTemplate_3_fishingboat.png is written with detected images metric "Normalized Cross Correlation" for 3 levels 
+D:\Ulvi\Ders\MS of IT in UTRGV\Spring 2021\CSCI 6368 - Computer Vision\Mini-projects\Mini-project N3\resultsOfProcessing\ResultWithTemplate_3_Lenna.png is written with detected images metric "Normalized Cross Correlation" for 3 levels 
+D:\Ulvi\Ders\MS of IT in UTRGV\Spring 2021\CSCI 6368 - Computer Vision\Mini-projects\Mini-project N3\resultsOfProcessing\ResultWithTemplate_3_peppers.png is written with detected images metric "Normalized Cross Correlation" for 3 levels 

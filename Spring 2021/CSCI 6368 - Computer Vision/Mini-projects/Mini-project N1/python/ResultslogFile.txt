@@ -1,0 +1,32 @@
+2021-01-18 14:45:59.818581
+Grayscale transformation was executed in 4.671875 seconds
+Thresholding by LUT for 50 images was executed in 70.84375 seconds
+Negative image process by LUT for 50 images was executed in 70.671875 seconds
+Log transform process by LUT for 50 images was executed in 69.859375 seconds
+Thresholding by formula for 50 images was executed in 247.578125 seconds
+Negative image process by formula for 50 images was executed in 315.9375 seconds
+Log transform process by formula for 50 images was executed in 403.875 seconds
+Thresholding by LUT for 1 images was executed in 1.15625 seconds
+Negative image process by LUT for 1 images was executed in 1.140625 seconds
+Log transform process by LUT for 1 images was executed in 1.1875 seconds
+Thresholding by formula for 1 images was executed in 4.40625 seconds
+Negative image process by formula for 1 images was executed in 5.640625 seconds
+Log transform process by formula for 1 images was executed in 7.0 seconds
+Thresholding by LUT for 10 images was executed in 10.390625 seconds
+Negative image process by LUT for 10 images was executed in 10.875 seconds
+Log transform process by LUT for 10 images was executed in 11.109375 seconds
+Thresholding by formula for 10 images was executed in 38.421875 seconds
+Negative image process by formula for 10 images was executed in 47.375 seconds
+Log transform process by formula for 10 images was executed in 63.03125 seconds
+Thresholding by LUT for 20 images was executed in 26.65625 seconds
+Negative image process by LUT for 20 images was executed in 26.921875 seconds
+Log transform process by LUT for 20 images was executed in 27.5 seconds
+Thresholding by formula for 20 images was executed in 97.84375 seconds
+Negative image process by formula for 20 images was executed in 120.765625 seconds
+Log transform process by formula for 20 images was executed in 155.765625 seconds
+Thresholding by LUT for 30 images was executed in 42.25 seconds
+Negative image process by LUT for 30 images was executed in 43.46875 seconds
+Log transform process by LUT for 30 images was executed in 43.90625 seconds
+Thresholding by formula for 30 images was executed in 157.734375 seconds
+Negative image process by formula for 30 images was executed in 216.59375 seconds
+Log transform process by formula for 30 images was executed in 266.296875 seconds

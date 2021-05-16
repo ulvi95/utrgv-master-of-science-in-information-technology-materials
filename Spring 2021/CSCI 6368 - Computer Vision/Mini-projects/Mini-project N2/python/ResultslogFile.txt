@@ -1,0 +1,16 @@
+2021-02-02 21:54:11.100872
+Grayscale transformation was executed in 2.234375 seconds for 25 images 
+Adding the Gaussian Noise with mean: 32 and variance: 16 for 25 images was executed in 6.0625 seconds
+Adding the Salt and Pepper noise with probability: 0.1 and Salt:Pepper ratio: 0.5 for 25 images was executed in 2.234375 seconds
+Unweighted averaging for 25 images by OpenCV was executed in 2.03125 seconds
+Unweighted averaging for 25 images by Formula was executed in 2688.765625 seconds
+Weighted averaging for 25 images by OpenCV was executed in 1.796875 seconds
+Weighted averaging for 25 images by Formula was executed in 2525.65625 seconds
+Gaussian_averaging with sigma=16 for 25 images by OpenCV was executed in 1.671875 seconds
+Gaussian_averaging with sigma=16 for 25 images by Formula was executed in 3389.421875 seconds
+Median filtering with 3 to 3 kernel for 25 images by OpenCV was executed in 1.90625 seconds
+Median filtering with 3 to 3 kernel for 25 images by Formula was executed in 543.796875 seconds
+Median filtering with 5 to 5 kernel for 25 images by OpenCV was executed in 2.109375 seconds
+Median filtering with 5 to 5 kernel for 25 images by Formula was executed in 1281.90625 seconds
+3x3 Sobel filtering for 25 images by OpenCV was executed in 86.8125 seconds
+3x3 Sobel filtering for 25 images by Formula was executed in 3653.34375 seconds

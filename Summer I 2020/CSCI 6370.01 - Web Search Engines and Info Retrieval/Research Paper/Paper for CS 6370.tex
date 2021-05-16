@@ -1,0 +1,237 @@
+\documentclass[paper=8.27in:11.69in, 12pt]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\geometry{margin=1in}
+\renewcommand{\familydefault}{\sfdefault}
+\title{Document ranking.}
+
+\author{Ulvi Bajarani, Student ID 20539914\\ \\e-mail: ulvi.bajarani01@utrgv.edu\\Class: CSCI 6370.01 - Web Search Engines and Info Retrieval\\Semester: Summer I 2020}
+
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\textbf{\begin{center}
+\emph{Abstract\\}
+\hfill \break
+The using of document ranking models are the important part of the Information Retrieval process. In the provided paper, the author provides the classical document ranking models and some of their extensions. In the final section, the author provides his own method.
+\end{center}}
+
+\section{Ranking models}
+
+\subsection{The Boolean model and its extensions}
+
+The Boolean model and its extensions based on the set theory and Boolean Algebra. In the Boolean model, the terms either exist (in other words, have the weight $1$), or don’t exist (in other words, have the weight $0$). The query expressions based on the Boolean Algebra and its operators: \textit{and}, \textit{or}, \textit{not}.\\
+\\
+The advantages of the Boolean Model are:
+
+\begin{enumerate}
+
+\item The easy implementation in the systems and clear formalization behind the expressions;
+
+\item The easy calculation of the document similarity to the query. If every conjunctive component of the query is equal to the conjunctive component of the document, the documents are similar to each other, and \(\text{sim}(d_{j}, q) = 1\). As a result, the user gets the desired results.
+
+\item It is fast in small set of documents.
+
+\end{enumerate}
+
+The disadvantages of the Boolean Model are:
+
+\begin{enumerate}
+
+\item The retrieved documents are not ranked. In this case, it is impossible to know which document has the highest relevance.
+
+\item The results might have the only documents that is exactly match with the query expression. In other words, the partial matches are not retrieved by the Boolean model. As a result, the term might appear once or several times, which doesn't change the result of query. In addition to this, the users usually don't write complex queries.
+
+\item Irrelevant in the large set of document. Firstly, it might be very slow. Secondly, it might retrieve either very few documents or a lot of documents.
+
+\end{enumerate}
+
+One of the possible extensions is \textbf{Extended Boolean Model} \cite{salton1983extended}. It uses the Vector Space Model elements, such as weights and vectors, and combines them with the Boolean Model, solving some problems described in the disadvantages. In the Extended Boolean Model, each term \(k_{x}\) of the document \(d_{j}\) has the weight \(w_{x, j}\):
+
+\[w_{x, j} = \frac{f_{x, j}}{max_{x} f_{x, j}} \times \frac{IDF_{x}}{max_{i} IDF_{i}}\]
+
+where \(f_{x, j}\) is the frequency of term \(k_{x}\) in the document \(d_{j}\), \(\text{max}_{x} f_{x, j}\) is the maximum frequency in the document \(d_{j}\), \(IDF_{x}\) is the Inverse Document Frequency of term \(k_{x}\), and \(\text{max}_{i} IDF_{i}\) is the maximum Inverse Document Frequency in the document.\\
+
+In the two-dimensional space with two terms, there are two possible cases:
+
+\begin{enumerate}
+
+\item for distinctive query, \(q_{or} = k_{x} \vee k_{y}\) , The starting point of \(k_{x}-k_{y}\) coordinate plane be taken as \((0;0)\), because it is the least interesting one. The similarity can be calculated as
+
+\[ sim(q_{or}, d_{j}) = \sqrt{\frac{x^{2} + y^{2}}{2}}\]
+
+\item for conjunctive query, \(q_{or} = k_{x} \wedge k_{y}\) , The starting point of \(k_{x}-k_{y}\) coordinate plane be taken as \((1;1)\), because it is the most interesting one. The similarity can be calculated as
+
+\[ sim(q_{and}, d_{j}) = 1 - \sqrt{\frac{(1-x)^{2} + (1-y)^{2}}{2}}\]
+
+\end{enumerate}
+
+The additional advantage of Extended Boolean Model is that p-norm distances of document vectors could be used instead of Euclidean Distance, where \(1 \leq p \leq \infty\). In that case, for the disjunctive queries \(q_{or} = k_{1} \wedge_{p} k_{2} ... \wedge_{p} k_{m}\) and conjunctive queries \(q_{and} = k_{1} \vee_{p} k_{2} ... \vee_{p} k_{m}\), the similarity might be calculated as 
+
+\[ sim(q_{or}, d_{j}) = \left ( \frac{x_{1}^{p} + x_{2}^{p} + ... + x_{m}^{p} }{m} \right )^{\frac{1}{p}} \]
+\[ sim(q_{and}, d_{j}) = 1 - \left (\frac{(1 - x_{1})^{p} + (1 - x_{2})^{p} + ... + (1 - x_{m})^{p}}{m}\right )^{\frac{1}{p}} \]
+
+When \(p = 1\), the similarity can be verified as
+
+\[ sim(q_{or}, d_{j}) = sim(q_{and}, d_{j}) = \frac{x_{1} + x_{2} + ... + x_{m}}{m}\]
+
+When \(p = \infty \), the similarity can be verified as
+
+\[ sim(q_{or}, d_{j}) = max(x_{i}) \]
+\[ sim(q_{and}, d_{j}) = min(x_{i}) \]
+
+Another possible approach is creating the termsets and checking the vocabulary-set for every possible subset of the terms \cite{possas2005set}. In this case, the problem is the possible number of subsets, which is equal to \(2^{t}\), where \(t\) is a number of terms in the termset. To avoid this, n-termsets might be used, where all \(n-1\) termsets are frequent. In other words, the number of documents \(\mathcal{N}_{i}\) where the set occurs is greater or equal to a given threshold. The calculation of the ranking for the termsets are similar to the vector model terms:
+
+\[ \mathcal{W}_{i, j} = \left\{ \begin{array}{ll}
+(1 + \log_{2} \mathcal{F}_{i, j})  * \log_{2} \left ( 1 + \frac{N}{\mathcal{N}_{i}} \right ) & \mbox{if $\mathcal{F}_{i, j} > 0$};\\
+$0$ & \mbox{if $\mathcal{F}_{i, j} = 0$}.\end{array} \right. \]
+
+where \(\mathcal{F}_{i, j}\) is the raw frequency of termset \(S_{i}\), \(\mathcal{N}_{i}\) the number of documents where the termset \(S_{i}\) occurs, \(N\) is the total number of documents.\\
+\\
+As a result, the cosine similarity is calculated by 
+
+\[sim(d_{j},q) = \frac{\vec{d_{j}} \bullet \vec{q_{j}}}{|\vec{d_{j}}| \times |\vec{q_{j}|}} = \frac{\sum_{S_{i}} \mathcal{W}_{i,j} \times \mathcal{W}_{i,q}}{|\vec{d_{j}}| \times |\vec{q_{j}|}}\]
+
+where \( \vec{d_{j}} = \left \{ \mathcal{W}_{1,j}, \mathcal{W}_{2,j}, ... ,\mathcal{W}_{i,j} \right \} \) and \( \vec{q} = \left \{ \mathcal{W}_{1,q}, \mathcal{W}_{2,q}, ... ,\mathcal{W}_{i,q} \right \} \)
+\\
+\\
+Another possible approach is using the Fuzzy set theory \cite{ogawa1991fuzzy}, where the term relationships are defined with the correlation matrix, where an element \(c_{i,l}\) is defined by
+
+\[c_{i, l} = \frac{n_{i, l}}{n_{i}+n_{l}-n_{i, l}} \]
+
+where \(n_{i}\) is the number of documents containing the term \(k_{i}\), \(n_{l}\) is the number of documents containing the term \(k_{l}\), \(n_{i, l}\) is the number of documents containing both the terms \(k_{i}\) and \(k_{l}\).
+
+Hence, the degree of membership \( \mu_{i, j} \) of the document \( d_{i, j} \) that receives the value in the interval \( \left [  0; 1 \right ] \), is calculated by
+
+\[ \mu_{i, j} = 1 - \prod_{k_{l} \in d_{j}} \left ( 1 - c_{i , l}  \right ) \]
+
+\subsection{The Vector Space model and its extensions}
+
+In the Vector Space Model, every query and every document is represented as the vector \( \vec{d_{j}} = \{ w_{1, j}, w_{2, j}, ... , w_{i, j} \} \) and \( \vec{q} = \{ w_{1, q}, w_{2, q}, ... , w_{i, q} \} \), where for each \(i\) and \(j\), \( w_{i, j} \) are the non-binary and non-negative weights of each term, and \( w_{i, j} \) > 0.
+
+In this case, the cosine similarity between a query and a document might be calculated as 
+
+\[sim(d_{j},q) = \frac{\vec{d_{j}} \bullet \vec{q_{j}}}{|\vec{d_{j}}| \times |\vec{q_{j}|}} = \frac{\sum_{i=1}^{t} w_{i,j} \times w_{i,q}}{\sqrt{\sum_{i=1}^{t} w^{2}_{i,j}} \times \sqrt{\sum_{i=1}^{t} w^{2}_{i,q}}}\]
+
+There are several advantages of the Vector Model:
+
+\begin{enumerate}
+
+\item Term-weighting scheme improves retrieval quality of queries;
+
+\item As a result, it provides the partial matching strategy that retrieve the documents approximately matching query conditions.
+
+\item The sorting of documents by the value of cosine similarity to the query
+
+\item It provides the length weight normalization, which helps to build-in the reliable ranking.
+
+\end{enumerate}
+
+However, the Vector Model has own disadvantages:
+
+\begin{enumerate}
+
+\item In the huge collections, the calculation of rankings are slow.
+
+\item The partial matching could provide the results with low weights.
+
+\end{enumerate}
+
+One of the extension of the Vector Model is the Generalized Vector Model \cite{wong1985generalized}. Unlike the classical Vector Model, which is usually restricted to the fact that for each pair of index vectors \( \vec{k_{i}} \) and \( \vec{k_{j}} \), \( \vec{k_{i}} \bullet \vec{k_{j}} = 0 \), the Generalized Vector Model assumes that the index term vectors are composed of smaller components derived from the collection by hand. The main idea is to creating the unique vector for the document which doesn't exist in other documents. In this case, from the vocabulary \(V = \{k_{1}, k_{2}, ..., k_{t}\}\), the \(2^{t} \) miniterms are created:
+
+
+\[\hspace{2em} \left ( k_{1}, k_{2}, k_{3}, \hdots, k_{t} \right )\]
+\[\hspace{-1.2em} m_{1} \ = \ \left ( \ 0, \ 0, \ 0, \ \hdots, \ 0 \right )\]
+\[\hspace{-1.2em} m_{2} \ = \ \left ( \ 0, \ 1, \ 0, \ \hdots, \ 0 \right )\]
+\[\hspace{-1.2em} m_{3} \ = \ \left ( \ 0, \ 0, \ 1, \ \hdots, \ 0 \right )\]
+\centering\vdots
+\[\hspace{-1.2em} m_{2^{t}} = \left ( \ 1, \ 1, \ 1, \ \hdots, \ 1 \right )\]
+
+\raggedright
+In this case, \(on \left ( i, m_{r} \right ) \) defines if the term \(k_{i}\) is in \(m_{r}\), and 
+
+\[ on \left ( i, m_{r} \right ) = \left\{ \begin{array}{ll}
+1 & \mbox{if $k_{i} \ \text{is in} \ m_{r}$};\\
+$0$ & \mbox{if $k_{i} \ \text{is \textbf{not} in} \ m_{r}$}.\end{array} \right. \]
+
+The index term vector \( \vec{k_{i}} \) is calculated as
+
+\[ \vec{k_{i}} = \frac{\sum_{\forall_{r}} on \left ( i, m_{r} \right ) c_{i, r}, \vec{m_{r}} }{\sqrt{\sum_{\forall_{r}} on \left ( i, m_{r} \right ) c^{2}_{i, r}}} \]
+
+where \(\vec{m_{r}}\) is the unit vector, and
+
+\[ c_{i, r} = \sum_{d_{j} \ | \ c(d_{j}) = m_{r} } w_{i, j} \]
+
+\subsection{The Probabilistic model and its extensions}
+
+The idea of The probabilistic model is to create the probabilistic description of the ideal answer set that matches to the query \cite{robertson1976relevance}. For this reason, the results of cooperation between users that decide the relevancy of a document and the system might be used. For the query $q$, the ratio \( \frac{P(d_{j} \text{relevant-to q} ) }{P(d_{j} \text{non-relevant-to q} ) } \) is calculated. In this case , \( w_{i, j} \) in \( \vec{d_{j}} = w_{1, j}, w_{2, j}, ... , w_{i, j} \) is equal either to 0 if the word doesn't exist in the document \( d_{j} \) or to 1 if the word exists in the document \( d_{j} \). Thus, the similarity might be calculated as 
+
+\[ sim (d_{j}, q) = \frac{P(R \mid \vec{d_{j}}, q)}{P(\overline R \mid \vec{d_{j}}, q)} \]
+
+The advantage of the Probabilistic model is that the documents are ranked with the decreasing order of the probability. However, the Probabilistic model has several disadvantages:
+
+\begin{enumerate}
+
+\item It requires the user intervention to define what documents are relevant;
+
+\item The weights document vector based on the fact if the keyword exists or not. As a result, like Boolean Model, it doesn't count how many times the word is used in the document.
+
+\item The length of a document is not normalized.
+
+\end{enumerate}
+
+One of the possible extension is to use the Bayesian Network Models \cite{turtle1991evaluation}. It is based on the relationships between the nodes of acyclic graph, where arcs describes the strength between nodes with random values. For the \( G \) Bayesian network containing \(x_{i}\) with the set of  parents \(\Gamma_{x_{i}}\), any function \(F_{i} \left (x_{i}, \Gamma_{x_{i}}  \right ) \) that satisfies
+
+\[ \sum_{\forall x_{i}} F_{i} \left (x_{i}, \Gamma_{x_{i}}  \right ) \]
+and
+\[ 0 \leq F_{i} \left (x_{i}, \Gamma_{x_{i}}  \right ) \leq 1 \]
+could be the influence function.
+
+\section{The method of the author}
+
+Analysing the models, the author provides the Elo Model. The idea is to compare the documents against each other to define the weight of documents. The first parameter is the number of terms in documents, which should be compared. The second parameter is the length of the document. By comparing all documents in all terms, the Elo of document \(d_{j}\) term should be calculated by the formula
+
+\[ Elo_{k_{i, j}} = f_{i, j} + \log_{2} L_{j} \]
+
+where \(Elo_{k_{i, j}}\) is the Elo of the document \(d_{j}\) in the term \(k_{i}\), \(f_{i, j}\) is the frequency of the term in the  document \(d_{j}\) and if \(f_{i, j}\) = 0, the  \(Elo_{k_{i, j}}\) is equal to 0, \(L_{j}\) is the total number of terms (length) of the document \(d_{j}\). In this case, the total Elo of the document is equal to
+
+\[ EloTotal_{d_{j}} = \sum_{i=1}^{k} Elo_{k_{i, j}} \]
+
+In the Boolean \textit{or}, \textit{not} expressions, the highest values of term ELOs of the document satisfying the term should be retrieved. If ELOs in the terms are equal, the highest EloTotal should be retrieved. In the \textit{and} queries, if there are several documents satisfying the query, the average ELO is calculated by:\\
+
+\[ EloAverage = frac(\sum_{j=1}^{k} \frac{EloTotal_{d_{j}}}{j}) \],and \(k\) is equal to the number of consecutive \(EloTotal_{d_{j}}\) involved in the \textit{and} operation. As it might be seen, it is always k > 2.\\
+\hfill \break
+\hfill \break
+\hfill \break
+The possible advantages are:
+
+\begin{enumerate}
+
+\item The document with the highest count of a term will be retrieved.
+
+\item In the equal conditions, the documents with either higher diversity, or higher length will be retrieved.
+
+\end{enumerate}
+
+The possible disadvantages are:
+
+\begin{enumerate}
+
+\item The bitmap of each document comparing to the total vocabulary should be calculated.
+
+\item The ELO Calculation in the huge systems might be time-consuming.
+
+\end{enumerate}
+
+\bibliographystyle{unsrt}
+\bibliography{references6370}
+
+\end{document}

@@ -1,0 +1,33 @@
+#forlng, #forAddress, #forlat, #forgo{
+margin-top: 10px;
+float: center;
+margin-left: 400px;
+margin-right: 400px;
+}
+
+label {
+margin-right: 30px;
+}
+
+#address{
+	margin-left: 14px;
+	width: 200px;
+}
+
+#lat{
+	margin-left: 13px;
+	width: 100px;
+}
+
+#lng{
+	width: 100px;
+}
+
+#viewMapDiv
+{
+	border: solid 2px black;
+	background-color: grey;
+	width: 400px;
+	height: 400px;
+	margin-left: 400px;
+}

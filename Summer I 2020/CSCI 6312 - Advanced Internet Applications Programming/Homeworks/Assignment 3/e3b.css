@@ -1,0 +1,63 @@
+/* This is the CSS file for Assignment/Tutorial #3 */
+
+#canvas {
+	background-color: grey;
+	width: 800px;
+	height: 640px;
+}
+
+#guide {
+	background-color: blue;
+	color: yellow;
+	width: 160px;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	padding: 10px;
+}
+
+#header {
+	background-color: yellow;
+	color: blue;
+	width: 590px;
+	margin-left: 200px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#body {
+	background-color: cyan;
+	color: black;
+	width: 590px;
+	height: 560px;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0px;
+}
+
+#viewMapDiv {
+	border: solid 2px black;
+	background-color: white;
+	width: 280px;
+	height: 280px;
+	margin-left: 300px;
+}
+

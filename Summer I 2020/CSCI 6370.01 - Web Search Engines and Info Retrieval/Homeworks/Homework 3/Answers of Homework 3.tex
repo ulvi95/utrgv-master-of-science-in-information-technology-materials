@@ -1,0 +1,120 @@
+\documentclass[paper=8.27in:11.69in, 14pt, DIV=calc]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphics,graphicx}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{minibox}
+\newcounter{numbers}
+\newcommand\printnumbers{\refstepcounter{numbers}\thenumbers}
+\newcounter{answers}
+\newcommand\printanswers{\refstepcounter{answers}\theanswers}
+\renewcommand{\labelitemi}{$\circ$}
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\circ$}
+\renewcommand{\labelitemiv}{$\circ$}
+
+\begin{document}
+
+\textbf{\begin{center}
+\begin{Large}
+CSCI 6370 IR and Web Search\\
+ASSIGNMENT 3\\
+Due is 06/22/2020 23:59\\
+Ulvi Bajarani\\
+Student ID 20539914\\
+E-mail: ulvi.bajarani01@utrgv.edu\\
+\end{Large}
+\end{center}}
+
+\newpage
+\noindent \begin{center}
+\textbf{Questions and Answers:}
+\end{center}
+
+\textbf{~\ Problem \printnumbers . Assume that a document corpus follows Zipf’s Law. Show that in this corpus, the number of words with frequency $1$ is $N/2$ statistically, where $N$ is the total number of words in the corpus.}
+\\
+\textbf{\\Answer \printanswers .\\} By Zipf, the number of words appearing $n$ times has the rank $r_{n}$ equal to
+\[r_{n} = \frac{AN}{n}\]\\
+, where $A$ --- the constant, $N$ --- total number of the words.
+\\
+Knowing that the word $r_{n}$ appearing $n$ times less than $r_{1}$, and $r_{n+1}$ appearing $n+1$ times less than $r_{1}$, we can calculate the number of words appearing exactly $n$ times by
+\[I_{n} = r_{n}-r_{n+1} = \frac{AN}{n}-\frac{AN}{n+1} = \frac{AN}{n(n+1)}\]\\
+By the formula, we can see that if $n = 1$, the number of words that is appeared exactly once is directly dependent to the half of the total number of words, $N/2$. In other words, if we don't count the $A$, $I_{n} \sim N/2$.
+\\
+\\
+~\
+\textbf{Problem \printnumbers . Suppose that you own a web search service. You would like to allow advertisers to bid for ``keywords''. That is, ads for highest bidders will be displayed when user query contains a purchased keyword. Since you the popularity of search keywords meets Zipf’s Law, can you explain a meaningful way to set the base prices for keywords to help you make lots of profits?\\}
+\\
+\textbf{Answer \printanswers .\\}
+\\
+Assume a keyword price is $P_{n}$. Since that the search keywords meets Zipf’s Law, it is better to have the logic in Amazon.com: set high prices for frequent words, and low prices for rare words. In other words, the dependence should be $P_{n} \sim \frac{1}{r_{n}}$.
+\\
+\\
+\textbf{Problem \printnumbers . Suppose that you need to implement a web search service – Fishing Guide for the Gulf of Mexico. As a part of this project, you need to collect and index web pages pertaining to fishing in the Gulf of Mexico. Explain how you may use the topic directed crawling to help your implementation.\\}
+\\
+\textbf{\\Answer \printanswers .} The fish-search algorithm, despite its some limitations, might be used for topic directed crawling:\\
+
+\begin{itemize}
+\item Get as Input parameters, the initial node, the width (width), depth (D) and size (S) of the desired graph to be explored, the time limit, and a search query;
+\item Set the depth of the initial node as depth = D, and Insert it into an empty list;
+\item While the list is not empty, and the number of processed nodes is less than S, and the time limit is not reached:
+\begin{enumerate}[label=\arabic*.]
+\item Pop the first node from the list and make it the current node;
+\item Compute the relevance of the current node;
+\item If depth > 0:
+\begin{enumerate}[label=\arabic*.]
+\item If current\_node is irrelevant to the query,\\
+\textbf{Then:}
+\begin{itemize}
+\item For each child, child\_node, of the first width children of current\_node:
+\begin{itemize}
+\item Set potential\_score(child\_node) = 0.5;
+\end{itemize}
+\item For each child, child\_node, of the rest of the children of current\_node:
+\begin{itemize}
+\item Set potential\_score(child\_node) = 0;
+\end{itemize}
+\textbf{Else:}
+\item For each child, child\_node, of the first (a * width) children of current\_node (where a is a pre-defined constant typically set to 1.5):
+\begin{itemize}
+\item Set potential\_score(child\_node) = 1;
+\end{itemize}
+\item For each child, child\_node, of the rest of the children of current\_node:
+\begin{itemize}
+\item Set potential\_score(child\_node) = 0;
+\end{itemize}
+\end{itemize}
+\item For each child, child\_node, of current\_node:
+\begin{itemize}
+\item If child\_node already exists in the priority list,\\
+\textbf{Then:}
+\begin{enumerate}[label=\arabic*.]
+\item Compute the maximum between the existing score in the list to the newly computed potential score;
+\item Replace the existing score in the list by that maximum;
+\item Move child\_node to its correct location in the sorted list if necessary;\\
+\textbf{Else:}
+\end{enumerate}
+\item Insert child\_node at its right location in the sorted list according to its potential\_score value;
+\end{itemize}
+\item For each child, child\_node, of current\_node:
+\begin{itemize}
+\item Compute its depth, depth(child\_node), as follows:
+\end{itemize}
+\begin{enumerate}[label=\arabic*.]
+\item If current\_node is relevant to the query,\\
+\textbf{Then:} Set depth(child\_node) = D;\\
+\textbf{Else:} depth(child\_node) = depth(current\_node) - 1;
+\item If child\_node already exists in the priority list,\\
+\textbf{Then}:
+\begin{enumerate}[label=\arabic*.]
+\item Compute the maximum between the existing depth in the list to the newly computed depth;
+\item Replace the existing depth in the list by that maximum.
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\item EndWhile;
+\end{itemize}
+\end{document}

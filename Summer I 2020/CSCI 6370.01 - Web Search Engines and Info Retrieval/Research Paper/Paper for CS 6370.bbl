@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{salton1983extended}
+Gerard Salton, Edward~A Fox, and Harry Wu.
+\newblock Extended {Boolean} information retrieval.
+\newblock {\em Communications of the {ACM}}, 26(11):1022--1036, 1983.
+
+\bibitem{possas2005set}
+Bruno P{\^o}ssas, Nivio Ziviani, Wagner Meira~Jr, and Berthier Ribeiro-Neto.
+\newblock Set-based vector model: An efficient approach for correlation-based
+  ranking.
+\newblock {\em ACM Transactions on Information Systems (TOIS)}, 23(4):397--429,
+  2005.
+
+\bibitem{ogawa1991fuzzy}
+Yasushi Ogawa, Tetsuya Morita, and Kiyohiko Kobayashi.
+\newblock A fuzzy document retrieval system using the keyword connection matrix
+  and a learning method.
+\newblock {\em Fuzzy sets and systems}, 39(2):163--179, 1991.
+
+\bibitem{wong1985generalized}
+SK~Michael Wong, Wojciech Ziarko, and Patrick~CN Wong.
+\newblock Generalized vector spaces model in information retrieval.
+\newblock In {\em Proceedings of the 8th annual international ACM SIGIR
+  conference on Research and development in information retrieval}, pages
+  18--25, 1985.
+
+\bibitem{robertson1976relevance}
+Stephen~E Robertson and K~Sparck Jones.
+\newblock Relevance weighting of search terms.
+\newblock {\em Journal of the American Society for Information science},
+  27(3):129--146, 1976.
+
+\bibitem{turtle1991evaluation}
+Howard Turtle and W~Bruce Croft.
+\newblock Evaluation of an inference network-based retrieval model.
+\newblock {\em ACM Transactions on Information Systems (TOIS)}, 9(3):187--222,
+  1991.
+
+\end{thebibliography}

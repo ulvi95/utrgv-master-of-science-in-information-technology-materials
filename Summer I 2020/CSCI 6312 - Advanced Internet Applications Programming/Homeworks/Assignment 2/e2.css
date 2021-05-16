@@ -1,0 +1,75 @@
+/* This is the CSS file
+for Assignment/Tutorial #2
+*/
+#canvas {
+background-color: grey;
+color: white;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#guide {
+background-color: blue;
+color: yellow;
+width:160px;
+margin-left: 20px;
+float: left;
+padding:10px;
+}
+#header {
+background-color: yellow;
+color: blue;
+width 560px;
+margin-left: 220px;
+margin-right: 20px;
+text-align: center;
+}
+#body {
+background-color: cyan;
+color: black;
+width 560px;
+margin-left: 220px;
+margin-right: 20px;
+margin-top: 20px;
+}
+#footer {
+background-color: black;
+color: white;
+margin-left: 20px;
+margin-right: 20px;
+text-align: center;
+}
+#guide .thispage {
+font-weight: bold;
+}
+a {
+text-decoration: none;
+color: yellow;
+}
+#guide ul {
+list-style-type: none;
+padding: 0px;
+margin: 0,0;
+}
+h1, h2, h3, h4, h5, h6 {
+margin: 0px;
+}
+#form1 {
+display: table;
+color: yellow;
+background-color: grey;
+padding: 10px;
+border: solid 3px blue;
+}
+.row {
+display: table-row;
+}
+.row label {
+display: table-cell;
+}
+.row input {
+display: table-cell;
+}
+

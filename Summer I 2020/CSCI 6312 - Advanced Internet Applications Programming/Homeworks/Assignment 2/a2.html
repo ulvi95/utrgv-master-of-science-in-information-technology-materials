@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CSCI 3342 Assignment #2 </title>
+<link rel="stylesheet" type="text/css" href="e2.css" />
+<script>
+function print(v) {
+for (i in v) {
+document.write(i + ":" + v[i] + " ");
+}
+document.write("<br/>");
+}
+</script>
+</head>
+<body>
+<div id="canvas">
+<div id="guide">
+<h3>Guide</h3>
+<hr>
+<ul>
+<li><a class="thispage" href=" ">Intro</a></li>
+<li><a href=" ">Exams</a></li>
+<li><a href=" ">Quizzes</a></li>
+<li><a href=" ">Assignments</a></li>
+</ul>
+<img src="mascot.png" width=30px height=30px alt="Our Mascot" />
+</div>
+<div id="header">
+<h1>CSCI 3342 Assignment #2</h1>
+</div>
+<div id="body">
+<h2 id="head1">Learning JavaScript</h2>
+<form id="form1" action="a2b.html" method="post" onsubmit="return f2();">
+<p>
+<div class="row">
+<label for="user">user:</label>
+<input type="text" id="user" name=""> </br>
+</div>
+<div class="row">
+<label for="age">age:</label>
+<input type="text" id="age" name=""> </br>
+</div>
+</p>
+<input type="submit" value="submit">
+</form>
+<p>Topics</p>
+</div>
+<div id="footer">
+<h6>Edinburg-Harlingen-Brownsville</h6>
+</div>
+</div>
+</body>
+</html>

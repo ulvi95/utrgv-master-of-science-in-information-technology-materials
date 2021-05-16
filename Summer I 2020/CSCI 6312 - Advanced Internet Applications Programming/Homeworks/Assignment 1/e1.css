@@ -1,0 +1,69 @@
+#canvas {
+background-color: grey;
+color: white;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#guide {
+background-color: blue;
+color: yellow;
+width: 160px;
+margin-left: 20px;
+float: left;
+padding: 10px;
+}
+#header {
+background-color: yellow;
+color: blue;
+width 560px;
+margin-left: 220px;
+margin-right: 20px;
+text-align: center;
+}
+#body {
+background-color: cyan;
+color: black;
+width 560px;
+margin-left: 220px;
+margin-right: 20px;
+margin-top: 20px;
+}
+#footer {
+background-color: black;
+color: white;
+margin-left: 20px;
+margin-right: 20px;
+text-align: center;
+}
+a {
+text-decoration: none;
+color: yellow;
+}
+#guide ul {
+list-style-type: none;
+padding: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+margin: 0px;
+}
+#guide .thispage {
+font-weight: bold;
+}
+#body .style1 {
+color: purple;
+font-weight: bold;
+animation-name: an1;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: linear;
+animation-fill-mode: backwards;
+}
+@keyframes an1 {
+from {background-color: grey; font-weight:1;}
+to {background-color: cyan; font-weight:bold;}
+}

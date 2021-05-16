@@ -1,0 +1,6 @@
+<?php
+define('DB_HOST', 'localhost');
+define('DB_USER', 'id14019461_user');
+define('DB_PASSWORD', 'mypass');
+define('DB_DATABASE', 'id14019461_insurance');
+?>

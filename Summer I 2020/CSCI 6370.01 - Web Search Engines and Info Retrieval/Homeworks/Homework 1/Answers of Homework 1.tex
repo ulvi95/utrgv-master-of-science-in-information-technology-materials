@@ -1,0 +1,184 @@
+\documentclass[paper=8.27in:11.69in, 14pt, DIV=calc]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphics,graphicx}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{minibox}
+
+\newcounter{numbers}
+\newcommand\printnumbers{\refstepcounter{numbers}\thenumbers}
+\newcounter{answers}
+\newcommand\printanswers{\refstepcounter{answers}\theanswers}
+
+\begin{document}
+
+\textbf{\begin{center}
+\begin{Large}
+CSCI 6370 IR and Web Search\\
+ASSIGNMENT 1\\
+Due is 06/08/2020 23:59\\
+Ulvi Bajarani\\
+Student ID 20539914\\
+E-mail: ulvi.bajarani01@utrgv.edu\\
+\end{Large}
+\end{center}}
+
+\newpage
+\noindent \begin{center}
+\textbf{Questions and Answers:}
+\end{center}
+
+\textbf{Problem \printnumbers . Table 1 lists the index terms and their appearances in a set of documents.:}
+\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Doc/Term} & retrieval & database & computer & text & information \\ \hline
+D1                & 4         & 10       & 2        & 0    & 1           \\ \hline
+D2                & 3         & 0        & 7        & 4    & 5           \\ \hline
+D3                & 7         & 2        & 4        & 6    & 8           \\ \hline
+\end{tabular}
+
+\begin{center}
+Table 1: Term Frequencies\\
+\end{center}
+
+\textbf{We also know that  the total  number of documents in the set is \textbf{1000}. Table 2 shows the document frequencies of these terms.}
+\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Term} & retrieval & database & computer & text & information \\ \hline
+Frequency     & 100       & 70       & 220      & 80   & 110         \\ \hline
+\end{tabular}
+
+\begin{center}
+Table 2: Document Frequencies\\
+\end{center}
+
+\textbf{Compute tf-idf  for each of the (doc, term) pairs listed in Table 1. List your results in sorted order from the largest value of tf-idf  to the smallest value.}
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Term} &  &  &  &  &  \\ \hline
+tf/idf        &  &  &  &  &  \\ \hline
+\end{tabular}
+
+\begin{center}
+Table 3: Term Frequency-Inverted Document Frequencies\\
+\end{center}
+
+\textbf{Answer \printanswers .}
+
+Using the formula $IDF_{i} \ = \ \log_{2}\frac{N}{n_{i}}$ for each term $k_{i}$, we receive such approximate values of $IDF_{i}$:\\
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Term & retrieval & database & computer & text & information \\ \hline
+IDF  & 3.32192809488736 & 3.83650126771712 & 2.18442457113743 & 3.64385618977473 & 3.18442457113743  \\ \hline
+\end{tabular}
+\\
+\\
+After that, the formula of $TF$-$IDF$ , which is
+\\
+\[ \text{TF-IDF = } \left\{ \begin{array}{ll}
+(1 + \log_{2} f_{i,j})  * \log_{2} \frac{N}{ n_{i} } & \mbox{if $f_{i,j} > 0$};\\
+$0$ & \mbox{if $f_{i,j} \leq 0$}.\end{array} \right. \]\\
+we can find all values of $TF$-$IDF$. The sorted list is as below (to fit it into the page, the table is divided to the several tables):
+\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Doc,Term & D1,database      & D3,text          & D3,information   & D3,retrieval     & D2,text          \\ \hline
+TF-IDF   & 16.5810826150176 & 13.0630877983631 & 12.7376982845497 & 12.6477592827908 & 10.9315685693242 \\ \hline
+Doc,Term & D2,information   & D1,retrieval     & D2,retrieval     & D2,computer      & D3,database      \\ \hline
+TF-IDF   & 10.5784294489111 & 9.96578428466209 & 8.5870595553759  & 8.31687964278366 & 7.67300253543424 \\ \hline
+Doc,Term & D3,computer      & D1,computer      & D1,information   & D2,database      & D1,text          \\ \hline
+TF-IDF   & 6.55327371341228 & 4.36884914227486 & 3.18442457113743 & 0                & 0                \\ \hline
+\end{tabular}
+\\
+\\
+\\
+\\
+\textbf{Problem \printnumbers . Assume we use the tf-idf as the weight in the vector space model, write down the document-term matrix  using the results generated from the above problem.  Remember a document-term matrix has terms as its columns and documents  as its rows.:}
+\\
+
+\textbf{Answer \printanswers .}
+
+Instead of sorting the values, the results of calculation might be written here directly as the term-document matrix:\\
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Document} & retrieval    & database     & computer     & text       & information   \\ \hline
+\textbf{D1}    & 9.96578428466209 & 16.5810826150176 & 4.36884914227486 & 0        & 3.18442457113743 \\ \hline
+\textbf{D2}    & 8.5870595553759 & 0        & 8.31687964278366 & 10.9315685693242 & 10.5784294489111 \\ \hline
+\textbf{D3}    & 12.6477592827908 & 7.67300253543424 & 6.55327371341228 & 13.0630877983631 & 12.7376982845497 \\ \hline
+\end{tabular}
+
+\textbf{\\
+\\Problem \printnumbers . Now assume we have a query Q = ``computer information", compute the similarity based on the inner product similarity and the cosine similarity for each of the documents listed in Table 1. Which document is the most relevant in each of the similarity measures? Which one is the least relevant?:\\}
+\\
+\textbf{\\Answer \printanswers .}
+
+Let's assume that Q = ``computer information" is the document and try to calculate its term frequency:\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Document}             & retrieval & database & computer & text & information \\ \hline
+\textbf{Computer Information} & 0         & 0        & 1        & 0    & 1           \\ \hline
+\end{tabular}
+\\
+\\
+\\
+Then, let's calculate the IDF of the document:\\
+\\
+\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Term} & retrieval & database & computer         & text & information      \\ \hline
+\textbf{IDF}  & 0         & 0        & 2.18442457113743 & 0    & 3.18442457113743 \\ \hline
+\end{tabular}
+\\
+\\
+After that, the time to calculate TF-IDF step:\\
+\\
+\\
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{}                         & \multicolumn{5}{c|}{\textbf{Term}}                                \\ \hline
+\textbf{q=”Computer Information”} & retrieval & database & computer         & text & information      \\ \hline
+\textbf{TF-IDF}                   & 0         & 0        & 2.18442457113743 & 0    & 3.18442457113743 \\ \hline
+\end{tabular}
+\\
+\\
+In the final step, we can calculate the cosine similarity based on the formula below: \\
+
+\[sim(d_{j},q) = \frac{\vec{d_{j}} \bullet \vec{q_{j}}}{|\vec{d_{j}}| \times |\vec{q_{j}|}} = \frac{\sum_{i=1}^{t} w_{i,j} \times w_{i,q}}{\sqrt{\sum_{i=1}^{t} w^{2}_{i,j}} \times \sqrt{\sum_{i=1}^{t} w^{2}_{i,q}}}\]\\
+\\
+For the easy calculation, Inner product similarity are also provided:
+\\
+\\
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Document}                 & \textbf{Cosine similarity to q=”Computer Information”}\\ \hline
+\textbf{D1}                       & 0.253765104212892\\ \hline
+\textbf{D2}                       & 0.694053244578525\\ \hline
+\textbf{D3}                       & 0.582746893701989\\ \hline
+\end{tabular}
+\\
+\\
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Document}                 & \textbf{Inner product similarity to q=”Computer Information”} \\ \hline
+\textbf{D1}                       & 19.6839812632417      \\ \hline
+\textbf{D2}                       & 51.8538069080455       \\ \hline
+\textbf{D3}                       & 54.877371518022        \\ \hline
+\end{tabular}
+\\
+\\
+As a result, we can define that D2 is the highest ranked (most relevant), while D1 is the lowest ranked (least relevant) document to the query ”Computer Information”. In the case of Inner product similarity, D3 is the highest one, then D2, and finally D1.
+
+\end{document}

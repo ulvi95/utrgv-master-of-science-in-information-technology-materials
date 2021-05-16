@@ -1,0 +1,60 @@
+\documentclass[paper=8.27in:11.69in, 14pt, DIV=calc]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphics,graphicx}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{minibox}
+\newcounter{numbers}
+\newcommand\printnumbers{\refstepcounter{numbers}\thenumbers}
+\newcounter{answers}
+\newcommand\printanswers{\refstepcounter{answers}\theanswers}
+\renewcommand{\labelitemi}{$\circ$}
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\circ$}
+\renewcommand{\labelitemiv}{$\circ$}
+
+\begin{document}
+
+\textbf{\begin{center}
+\begin{Large}
+CSCI 6370 IR and Web Search\\
+ASSIGNMENT 5\\
+Due is 07/06/2020 23:59\\
+Ulvi Bajarani\\
+Student ID 20539914\\
+E-mail: ulvi.bajarani01@utrgv.edu\\
+\end{Large}
+\end{center}}
+
+\newpage
+\noindent \begin{center}
+\textbf{Questions and Answers:}
+\end{center}
+
+\textbf{~\ Problem \printnumbers .} [35 points] Assume that we use cosine similarity as the similarity measure. In the hierarchical agglomerative clustering (HAC), we need to define a good way to measure the similarity of two clusters. One usual way is to use the group average similarity between documents in two clusters. Formally, for two cluster \(C_{i}\) and \(C_{j}\), let \(C = C_{i} \cup C_{j}\), \(n= \lvert C \rvert \) we define 
+
+\[sim(C_{i}, C_{j}) = \frac{1}{n \cdot (n-1)} \sum_{x, y \ \in \ C, \ x \neq y } s \left ( x,y \right ) \]
+
+Where \( s \left ( x,y \right ) \) is the cosine similarity between \(x\) and \(y\).\\
+
+Given a list of clusters \(C_{1}, C_{2}, C_{3},...,C_{m}\), assume that their pairwise similarities are saved in a two dimensional array of size \(m^{2}\). Given three clusters \(C_{i}, C_{j}\) and \(C_{k}\), show that there is a way to compute \(sim \left (C_{i} \cup C_{j}, \ C_{k}  \right ) \) in constant time. Note that we ignore the dimensionality in time complexity.
+
+\textbf{~\ Answer \printanswers .} It is possible to do in the constant time by:
+
+\[sim \left (C_{i} \cup C_{j}, \ C_{k}  \right ) = \frac{\left (s\left ( c_{i} \cup c_{j} \right ) + s\left (c_{k}  \right ) \right ) \bullet \left (s\left ( c_{i} \cup c_{j} \right ) + s\left (c_{k}  \right ) \right ) - \left (|\left (c_{i} \cup c_{j}  \right )| + |c_{k}|  \right ) }{\left ( |\left (c_{i} \cup c_{j}  \right )| \ + |c_{k}|  \right )\left ( |\left (c_{i} \cup c_{j}  \right )| + |c_{k}| - 1 \right )} \]
+
+where \(s \left ( c_{j} \right ) \) is the sum vector of the cluster \( c_{j} \) equal to
+
+\[s \left ( c_{j} \right ) = \sum_{x \in c_{j}} x \]
+
+\textbf{~\ Problem \printnumbers . } [30 points] For a list of m documents in d-dimensional vector space, each iteration of the k-means clustering has a time complexity of \(O(kdm)\), which the hierarchical agglomerative clustering (HAC) has a time complexity of \(O(dm^{2})\). We know that the overall performance of the k-means clustering depends on the choices of initial \(k\) centroids. However, there is no such an issue for HAC. Describe a method to use HAC to help the k-means clustering, but the method shall maintain the same time complexity for the k-means clustering.\\
+
+\textbf{~\ Answer \printanswers .} The algorithm above assumes that all \(m\) clusters are the examples. If we take only \(\sqrt{m}\) clusters as a sample, the complexity will be \(O(\sqrt{m^{2}}) = O(m) \). This called as the Buckshot Algorithm. After taking \(\sqrt{m}\) examples, the group-average HAC algorithm should be conducted on the sample. The results are used as initial seeds for K-means.\\
+
+\textbf{~\ Problem \printnumbers . } [35 points] Assume you are working for amazon.com. You need to find some way to recommend products for an online shopper without asking for relevance feedback from any user. Provide one solution.\\
+
+\textbf{~\ Answer \printanswers .} One possible solution is using the content-based recommending system. It might be implemented by a Bayesian text-categorization algorithm, which will evaluate the probability in the categories.
+
+\end{document}

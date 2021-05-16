@@ -1,0 +1,212 @@
+\documentclass[paper=8.27in:11.69in, 14pt, DIV=calc]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphics,graphicx}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{minibox}
+\newcounter{numbers}
+\newcommand\printnumbers{\refstepcounter{numbers}\thenumbers}
+\newcounter{answers}
+\newcommand\printanswers{\refstepcounter{answers}\theanswers}
+\renewcommand{\labelitemi}{$\circ$}
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\circ$}
+\renewcommand{\labelitemiv}{$\circ$}
+
+\begin{document}
+
+\textbf{\begin{center}
+\begin{Large}
+CSCI 6370 IR and Web Search\\
+ASSIGNMENT 4\\
+Due is 06/29/2020 23:59\\
+Ulvi Bajarani\\
+Student ID 20539914\\
+E-mail: ulvi.bajarani01@utrgv.edu\\
+\end{Large}
+\end{center}}
+
+\newpage
+\noindent \begin{center}
+\textbf{Answers of the Assignment 4}
+\end{center}
+
+\textbf{\\Answer \printanswers . The HITS Algorithm answers.}
+
+Note: For an easy calculation, the matrix view is provided.
+
+Initial authority $a_{0}$ for $P_{1}$, $P_{2}$, $P_{3}$, $P_{4}$ is $\begin{bmatrix}
+1\\
+1\\
+1\\
+1\\
+\end{bmatrix}$\\
+
+Initial hubs $h_{0}$ for $P_{1}$, $P_{2}$, $P_{3}$, $P_{4}$ is $\begin{bmatrix}
+1\\
+1\\
+1\\
+1\\
+\end{bmatrix}$\\
+
+Using the scheme provided in the assignment, we can create an Adjacent Matrix ($A$):\\
+
+\begin{tabular}{ccccc}
+\multicolumn{5}{c}{\textbf{Adjacency Matrix ($A$)}} \\
+         & $P_{1}$       & $P_{2}$      & $P_{3}$      & $P_{4}$      \\
+$P_{1}$       & 0        & 0       & 1       & 1       \\
+$P_{2}$       & 1        & 0       & 1       & 0       \\
+$P_{3}$       & 0        & 0       & 0       & 1       \\
+$P_{4}$       & 0        & 1       & 0       & 0      
+\end{tabular}
+
+Using the Adjacent Matrix ($A$) provided above, we can create an Transpose Matrix ($A^T$):\\
+\\
+\\
+\textbf{\\Matrix Transposition ($A^T$)}\\
+\[\begin{bmatrix}
+0                & 1                & 0                & 0               \\
+0                & 0                & 0                & 1               \\
+1                & 1                & 0                & 0               \\
+1                & 0                & 1                & 0              
+\end{bmatrix}\]
+
+For the $a_{k}$, we should calculate $a_{k} = (A^{T} \times A) \times a_{k-1}$. For the $h_{k}$, we should calculate $h_{k} = (A \times A^{T}) \times h_{k-1}$. This is done at the each $k$ step. The matrix of $A^{T} \times A$ and $A \times A^{T}$ are provided below:\\
+
+
+\textbf{Matrix Multiplication ($A^{T} \times A$)} \\
+\[\begin{bmatrix}
+1                 & 0                 & 1                 & 0                 \\
+0                 & 1                 & 0                 & 0                 \\
+1                 & 0                 & 2                 & 1                 \\
+0                 & 0                 & 1                 & 2                
+\end{bmatrix}\]
+\\
+\\
+
+\textbf{Matrix Multiplication ($A \times A^{T}$)} \\
+\[\begin{bmatrix}
+2                 & 1                 & 1                 & 0  \\
+1                 & 2                 & 0                 & 0  \\
+1                 & 0                 & 1                 & 0  \\
+0                 & 0                 & 0                 & 1  
+\end{bmatrix}\]
+
+The steps of the calculation:\\
+\\
+\begin{tabular}{ccccc}
+   & Authorities (k=1) & Hubs (k=1) & Authorities (k=1, normalized) & Hubs (k=1, normalized) \\
+$P_{1}$ & 2                 & 4          & 0.365148371670111             & 0.730296743340221      \\
+$P_{2}$ & 1                 & 3          & 0.182574185835055             & 0.547722557505166      \\
+$P_{3}$ & 4                 & 2          & 0.730296743340221             & 0.365148371670111      \\
+$P_{4}$ & 3                 & 1          & 0.547722557505166             & 0.182574185835055     
+\end{tabular}
+\\
+\\
+\\
+\begin{tabular}{ccccc}
+   & Authorities (k=2) & Hubs (k=2)        & Authorities (k=2, normalized) & Hubs (k=2, normalized) \\
+$P_{1}$ & 1.09544511501033  & 2.37346441585572  & 0.342997170285017             & 0.743160535617539      \\
+$P_{2}$ & 0.182574185835055 & 1.82574185835055  & 0.057166195047503             & 0.571661950475029      \\
+$P_{3}$ & 2.37346441585572  & 1.09544511501033  & 0.743160535617539             & 0.342997170285017      \\
+$P_{4}$ & 1.82574185835055  & 0.182574185835055 & 0.571661950475029             & 0.057166195047503     
+\end{tabular}
+\\
+\\
+\\
+\begin{tabular}{ccccc}
+   & Authorities (k=3) & Hubs (k=3)        & Authorities (k=3, normalized) & Hubs (k=3, normalized) \\
+$P_{1}$ & 1.08615770590256  & 2.40098019199512  & 0.335091269106517             & 0.740728068551244      \\
+$P_{2}$ & 0.057166195047503 & 1.8864844365676   & 0.017636382584554             & 0.582000625290265      \\
+$P_{3}$ & 2.40098019199512  & 1.08615770590256  & 0.740728068551244             & 0.335091269106517      \\
+$P_{4}$ & 1.8864844365676   & 0.057166195047503 & 0.582000625290265             & 0.017636382584554     
+\end{tabular}
+\\
+\\
+\\
+\begin{tabular}{ccccc}
+   & Authorities (k=4) & Hubs (k=4)        & Authorities (k=4, normalized) & Hubs (k=4, normalized) \\
+$P_{1}$ & 1.07581933765776  & 2.39854803149927  & 0.331394514948728             & 0.738846787426673      \\
+$P_{2}$ & 0.017636382584554 & 1.90472931913177  & 0.005432696966373             & 0.58673127236824       \\
+$P_{3}$ & 2.39854803149927  & 1.07581933765776  & 0.738846787426673             & 0.331394514948728      \\
+$P_{4}$ & 1.90472931913177  & 0.017636382584554 & 0.58673127236824              & 0.005432696966373     
+\end{tabular}
+\\
+\\
+\\
+\begin{tabular}{ccccc}
+   & Authorities (k=5) & Hubs (k=5)        & Authorities (k=5, normalized) & Hubs (k=5, normalized) \\
+$P_{1}$ & 1.0702413023754   & 2.39581936217031  & 0.329619989073432             & 0.737880280108545      \\
+$P_{2}$ & 0.005432696966373 & 1.91230933216315  & 0.001673197914078             & 0.588965665755573      \\
+$P_{3}$ & 2.39581936217031  & 1.0702413023754   & 0.737880280108545             & 0.329619989073432      \\
+$P_{4}$ & 1.91230933216315  & 0.005432696966373 & 0.588965665755573             & 0.001673197914078     
+\end{tabular}
+
+\textbf{\\Answer \printanswers . The PageRank Algorithm answers.} The initial values are:
+\\
+\\
+\\
+\begin{tabular}{cccc}
+   & E (Initial) & R (Initial) & Out links \\
+$P_{1}$ & 0.0375      & 0.25        & 2         \\
+$P_{2}$ & 0.0375      & 0.25        & 2         \\
+$P_{3}$ & 0.0375      & 0.25        & 1         \\
+$P_{4}$ & 0.0375      & 0.25        & 1        
+\end{tabular}
+\\
+\\
+\\
+The calculation steps:
+\\
+\\
+\\
+\begin{tabular}{cccc}
+   & $R^{'}$ ($i=1$) & $c$($i=1$)           & $R^{'} = R^{'}c$ ($i=1$)      \\
+$P_{1}$ & 0.5375   & 0.714285714285714 & 0.383928571428571 \\
+$P_{2}$ & 0.4125   & 0.714285714285714 & 0.294642857142857 \\
+$P_{3}$ & 0.2875   & 0.714285714285714 & 0.205357142857143 \\
+$P_{4}$ & 0.1625   & 0.714285714285714 & 0.116071428571429
+\end{tabular}
+\\
+\\
+\\
+\begin{tabular}{cccc}
+   & $R^{'}$ ($i=2$)          & $c$($i=2$)           & $R^{'} = R^{'}c$ ($i=2$)      \\
+$P_{1}$ & 0.358928571428572 & 0.883280757097791 & 0.317034700315457 \\
+$P_{2}$ & 0.434821428571429 & 0.883280757097791 & 0.384069400630915 \\
+$P_{3}$ & 0.153571428571429 & 0.883280757097791 & 0.135646687697161 \\
+$P_{4}$ & 0.184821428571429 & 0.883280757097791 & 0.163249211356467
+\end{tabular}
+\\
+\\
+\\
+\begin{tabular}{cccc}
+   & $R^{'}$ ($i=3$)          & $c$($i=3$)           & $R^{'} = R^{'}c$ ($i=3$)      \\
+$P_{1}$ & 0.336395899053628 & 0.910461693114095 & 0.306275579809004 \\
+$P_{2}$ & 0.331664037854889 & 0.910461693114095 & 0.30196740145042  \\
+$P_{3}$ & 0.200749211356467 & 0.910461693114095 & 0.182774466862928 \\
+$P_{4}$ & 0.229534700315458 & 0.910461693114095 & 0.208982551877648
+\end{tabular}
+\\
+\\
+\\
+\begin{tabular}{cccc}
+   & $R^{'}$ ($i=4$)          & $c$($i=4$)           & $R^{'} = R^{'}c$ ($i=4$)      \\
+$P_{1}$ & 0.429257018740576 & 0.807992318648453 & 0.34683637386832  \\
+$P_{2}$ & 0.37341225676743  & 0.807992318648453 & 0.301714235157268 \\
+$P_{3}$ & 0.246482551877648 & 0.807992318648453 & 0.199156008598008 \\
+$P_{4}$ & 0.18848370072521  & 0.807992318648453 & 0.152293382376404
+\end{tabular}
+\\
+\\
+\\
+\begin{tabular}{cccc}
+   & $R^{'}$ ($i=5$)          & $c$($i=5$)           & $R^{'} = R^{'}c$ ($i=5$)      \\
+$P_{1}$ & 0.388949390974412 & 0.849492026286296 & 0.330409406261674 \\
+$P_{2}$ & 0.410074195532168 & 0.849492026286296 & 0.348354759290345 \\
+$P_{3}$ & 0.189793382376404 & 0.849492026286296 & 0.161227964970661 \\
+$P_{4}$ & 0.188357117578634 & 0.849492026286296 & 0.16000786947732 
+\end{tabular}
+\end{document}

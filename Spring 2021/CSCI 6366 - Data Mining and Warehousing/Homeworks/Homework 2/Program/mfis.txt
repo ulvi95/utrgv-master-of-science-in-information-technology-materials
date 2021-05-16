@@ -1,0 +1,974 @@
+2021-02-16 13:35:36.710589
+{'religious-groups-in-schools=y'} | Support Value=0.6252873563218391
+{'export-administration-act-south-africa=y'} | Support Value=0.6183908045977011
+{'Class Name=democrat'} | Support Value=0.6137931034482759
+{'synfuels-corporation-cutback=n'} | Support Value=0.6068965517241379
+{'adoption-of-the-budget-resolution=y'} | Support Value=0.5816091954022988
+{'crime=y'} | Support Value=0.5701149425287356
+{'physician-fee-freeze=n'} | Support Value=0.5678160919540229
+{'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.5632183908045977
+{'aid-to-nicaraguan-contras=y'} | Support Value=0.5563218390804597
+{'anti-satellite-test-ban=y'} | Support Value=0.5494252873563218
+{'handicapped-infants=n'} | Support Value=0.542528735632184
+{'duty-free-exports=n'} | Support Value=0.535632183908046
+{'education-spending=n'} | Support Value=0.535632183908046
+{'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.5310344827586206
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.503448275862069
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.503448275862069
+{'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.5011494252873563
+{'immigration=y'} | Support Value=0.496551724137931
+{'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.4942528735632184
+{'religious-groups-in-schools=y', 'crime=y'} | Support Value=0.49195402298850577
+{'education-spending=n', 'Class Name=democrat'} | Support Value=0.4896551724137931
+{'immigration=n'} | Support Value=0.48735632183908045
+{'el-salvador-aid=y'} | Support Value=0.48735632183908045
+{'physician-fee-freeze=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.4850574712643678
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.4827586206896552
+{'physician-fee-freeze=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.4827586206896552
+{'superfund-right-to-sue=y'} | Support Value=0.4804597701149425
+{'el-salvador-aid=n'} | Support Value=0.4781609195402299
+{'mx-missile=y'} | Support Value=0.47586206896551725
+{'mx-missile=n'} | Support Value=0.4735632183908046
+{'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n'} | Support Value=0.4689655172413793
+{'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.4666666666666667
+{'physician-fee-freeze=n', 'education-spending=n'} | Support Value=0.46436781609195404
+{'education-spending=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.46206896551724136
+{'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y'} | Support Value=0.46206896551724136
+{'superfund-right-to-sue=n'} | Support Value=0.46206896551724136
+{'physician-fee-freeze=n', 'education-spending=n', 'Class Name=democrat'} | Support Value=0.46206896551724136
+{'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.45977011494252873
+{'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.45977011494252873
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.45517241379310347
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.45517241379310347
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y'} | Support Value=0.4528735632183908
+{'religious-groups-in-schools=y', 'el-salvador-aid=y'} | Support Value=0.4528735632183908
+{'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.4528735632183908
+{'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.4482758620689655
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.4482758620689655
+{'water-project-cost-sharing=y'} | Support Value=0.4482758620689655
+{'education-spending=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.4459770114942529
+{'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.4459770114942529
+{'el-salvador-aid=y', 'crime=y'} | Support Value=0.4459770114942529
+{'religious-groups-in-schools=y', 'duty-free-exports=n'} | Support Value=0.4436781609195402
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.4413793103448276
+{'aid-to-nicaraguan-contras=y', 'mx-missile=y'} | Support Value=0.4413793103448276
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.4413793103448276
+{'water-project-cost-sharing=n'} | Support Value=0.4413793103448276
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.43908045977011495
+{'religious-groups-in-schools=y', 'handicapped-infants=n'} | Support Value=0.4367816091954023
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.43448275862068964
+{'religious-groups-in-schools=y', 'mx-missile=n'} | Support Value=0.432183908045977
+{'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.432183908045977
+{'duty-free-exports=n', 'crime=y'} | Support Value=0.432183908045977
+{'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.432183908045977
+{'mx-missile=y', 'Class Name=democrat'} | Support Value=0.432183908045977
+{'handicapped-infants=y'} | Support Value=0.4298850574712644
+{'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.4298850574712644
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.42758620689655175
+{'physician-fee-freeze=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.42758620689655175
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.42758620689655175
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y'} | Support Value=0.42758620689655175
+{'physician-fee-freeze=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.42758620689655175
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.42528735632183906
+{'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.42298850574712643
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.42298850574712643
+{'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.42298850574712643
+{'aid-to-nicaraguan-contras=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.42298850574712643
+{'education-spending=n', 'anti-satellite-test-ban=y'} | Support Value=0.42298850574712643
+{'el-salvador-aid=y', 'mx-missile=n'} | Support Value=0.42298850574712643
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.41839080459770117
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.41839080459770117
+{'anti-satellite-test-ban=n'} | Support Value=0.41839080459770117
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y'} | Support Value=0.41839080459770117
+{'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.41839080459770117
+{'anti-satellite-test-ban=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.41839080459770117
+{'physician-fee-freeze=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.4160919540229885
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.4160919540229885
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.4160919540229885
+{'religious-groups-in-schools=y', 'crime=y', 'el-salvador-aid=y'} | Support Value=0.41379310344827586
+{'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.41379310344827586
+{'physician-fee-freeze=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.41379310344827586
+{'physician-fee-freeze=n', 'mx-missile=y'} | Support Value=0.41379310344827586
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.4114942528735632
+{'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.4114942528735632
+{'physician-fee-freeze=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.4114942528735632
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.4114942528735632
+{'aid-to-nicaraguan-contras=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.4114942528735632
+{'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.4114942528735632
+{'aid-to-nicaraguan-contras=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.4114942528735632
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.4114942528735632
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.4091954022988506
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n'} | Support Value=0.4091954022988506
+{'aid-to-nicaraguan-contras=n'} | Support Value=0.4091954022988506
+{'physician-fee-freeze=y'} | Support Value=0.4068965517241379
+{'education-spending=n', 'el-salvador-aid=n'} | Support Value=0.4068965517241379
+{'superfund-right-to-sue=y', 'crime=y'} | Support Value=0.4068965517241379
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.4068965517241379
+{'crime=y', 'mx-missile=n'} | Support Value=0.4045977011494253
+{'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.4045977011494253
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.4045977011494253
+{'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.4045977011494253
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.40229885057471265
+{'aid-to-nicaraguan-contras=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.40229885057471265
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.4
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'mx-missile=y'} | Support Value=0.4
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.4
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'el-salvador-aid=n'} | Support Value=0.4
+{'religious-groups-in-schools=y', 'el-salvador-aid=y', 'mx-missile=n'} | Support Value=0.4
+{'duty-free-exports=y'} | Support Value=0.4
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.4
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.39770114942528734
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.39770114942528734
+{'adoption-of-the-budget-resolution=y', 'export-administration-act-south-africa=y'} | Support Value=0.39770114942528734
+{'aid-to-nicaraguan-contras=y', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.39770114942528734
+{'export-administration-act-south-africa=y', 'Class Name=democrat'} | Support Value=0.39770114942528734
+{'crime=y', 'handicapped-infants=n'} | Support Value=0.39770114942528734
+{'education-spending=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3954022988505747
+{'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3954022988505747
+{'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n'} | Support Value=0.3954022988505747
+{'education-spending=n', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.3954022988505747
+{'export-administration-act-south-africa=y', 'anti-satellite-test-ban=y'} | Support Value=0.3954022988505747
+{'el-salvador-aid=y', 'duty-free-exports=n'} | Support Value=0.3931034482758621
+{'education-spending=y'} | Support Value=0.3931034482758621
+{'adoption-of-the-budget-resolution=n'} | Support Value=0.3931034482758621
+{'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3931034482758621
+{'el-salvador-aid=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3931034482758621
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.3931034482758621
+{'education-spending=n', 'mx-missile=y'} | Support Value=0.3931034482758621
+{'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.3931034482758621
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.39080459770114945
+{'superfund-right-to-sue=n', 'anti-satellite-test-ban=y'} | Support Value=0.39080459770114945
+{'duty-free-exports=n', 'religious-groups-in-schools=y', 'crime=y'} | Support Value=0.39080459770114945
+{'crime=n'} | Support Value=0.39080459770114945
+{'physician-fee-freeze=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.39080459770114945
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.39080459770114945
+{'superfund-right-to-sue=y', 'el-salvador-aid=y'} | Support Value=0.39080459770114945
+{'religious-groups-in-schools=y', 'anti-satellite-test-ban=n'} | Support Value=0.38850574712643676
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.38850574712643676
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.38850574712643676
+{'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.38620689655172413
+{'physician-fee-freeze=n', 'education-spending=n', 'anti-satellite-test-ban=y'} | Support Value=0.38620689655172413
+{'physician-fee-freeze=n', 'education-spending=n', 'el-salvador-aid=n'} | Support Value=0.38620689655172413
+{'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.38620689655172413
+{'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.38620689655172413
+{'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.38620689655172413
+{'crime=y', 'physician-fee-freeze=y'} | Support Value=0.38620689655172413
+{'Class Name=republican'} | Support Value=0.38620689655172413
+{'el-salvador-aid=y', 'crime=y', 'mx-missile=n'} | Support Value=0.38620689655172413
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3839080459770115
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3839080459770115
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.3839080459770115
+{'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.3839080459770115
+{'crime=n', 'Class Name=democrat'} | Support Value=0.3839080459770115
+{'physician-fee-freeze=n', 'education-spending=n', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.3839080459770115
+{'physician-fee-freeze=n', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.3839080459770115
+{'physician-fee-freeze=n', 'education-spending=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3839080459770115
+{'synfuels-corporation-cutback=n', 'export-administration-act-south-africa=y'} | Support Value=0.3816091954022989
+{'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3816091954022989
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3816091954022989
+{'physician-fee-freeze=n', 'el-salvador-aid=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3816091954022989
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.3816091954022989
+{'religious-groups-in-schools=y', 'crime=y', 'mx-missile=n'} | Support Value=0.3816091954022989
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'crime=y'} | Support Value=0.3816091954022989
+{'synfuels-corporation-cutback=n', 'religious-groups-in-schools=y'} | Support Value=0.3816091954022989
+{'physician-fee-freeze=n', 'export-administration-act-south-africa=y'} | Support Value=0.3816091954022989
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3816091954022989
+{'religious-groups-in-schools=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3816091954022989
+{'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3816091954022989
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y'} | Support Value=0.3793103448275862
+{'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3793103448275862
+{'superfund-right-to-sue=y', 'duty-free-exports=n'} | Support Value=0.3793103448275862
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3793103448275862
+{'synfuels-corporation-cutback=n', 'crime=y'} | Support Value=0.3793103448275862
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.3793103448275862
+{'physician-fee-freeze=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n'} | Support Value=0.3793103448275862
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.37701149425287356
+{'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'Class Name=democrat'} | Support Value=0.37701149425287356
+{'el-salvador-aid=y', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.37701149425287356
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.37701149425287356
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.37701149425287356
+{'education-spending=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.37701149425287356
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.37701149425287356
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.37701149425287356
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.37471264367816093
+{'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.37471264367816093
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.37471264367816093
+{'crime=n', 'physician-fee-freeze=n'} | Support Value=0.37471264367816093
+{'education-spending=n', 'superfund-right-to-sue=n'} | Support Value=0.37471264367816093
+{'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.37471264367816093
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.37471264367816093
+{'crime=n', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.37471264367816093
+{'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.37471264367816093
+{'education-spending=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.37471264367816093
+{'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3724137931034483
+{'aid-to-nicaraguan-contras=y', 'anti-satellite-test-ban=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3724137931034483
+{'adoption-of-the-budget-resolution=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.3724137931034483
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3724137931034483
+{'el-salvador-aid=y', 'anti-satellite-test-ban=n'} | Support Value=0.3724137931034483
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.3724137931034483
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3724137931034483
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'crime=y'} | Support Value=0.3724137931034483
+{'duty-free-exports=n', 'mx-missile=n'} | Support Value=0.3724137931034483
+{'adoption-of-the-budget-resolution=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n'} | Support Value=0.3724137931034483
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'mx-missile=y'} | Support Value=0.3724137931034483
+{'duty-free-exports=n', 'el-salvador-aid=y', 'crime=y'} | Support Value=0.3724137931034483
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'el-salvador-aid=y'} | Support Value=0.3701149425287356
+{'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.3701149425287356
+{'religious-groups-in-schools=y', 'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3701149425287356
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3701149425287356
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'el-salvador-aid=y'} | Support Value=0.367816091954023
+{'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.367816091954023
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.367816091954023
+{'aid-to-nicaraguan-contras=y', 'anti-satellite-test-ban=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.367816091954023
+{'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.367816091954023
+{'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.367816091954023
+{'crime=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.367816091954023
+{'el-salvador-aid=y', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.367816091954023
+{'religious-groups-in-schools=y', 'physician-fee-freeze=y'} | Support Value=0.367816091954023
+{'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.367816091954023
+{'education-spending=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.36551724137931035
+{'physician-fee-freeze=n', 'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.36551724137931035
+{'religious-groups-in-schools=y', 'crime=y', 'el-salvador-aid=y', 'mx-missile=n'} | Support Value=0.36551724137931035
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.36551724137931035
+{'physician-fee-freeze=n', 'education-spending=n', 'mx-missile=y'} | Support Value=0.36551724137931035
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.36551724137931035
+{'religious-groups-in-schools=y', 'education-spending=y'} | Support Value=0.36551724137931035
+{'education-spending=n', 'export-administration-act-south-africa=y'} | Support Value=0.36551724137931035
+{'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3632183908045977
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.3632183908045977
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3632183908045977
+{'physician-fee-freeze=n', 'education-spending=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3632183908045977
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.3632183908045977
+{'religious-groups-in-schools=y', 'export-administration-act-south-africa=y'} | Support Value=0.3632183908045977
+{'crime=y', 'education-spending=y'} | Support Value=0.3632183908045977
+{'crime=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3632183908045977
+{'el-salvador-aid=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3632183908045977
+{'el-salvador-aid=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3632183908045977
+{'crime=y', 'Class Name=republican'} | Support Value=0.3632183908045977
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.3632183908045977
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.3632183908045977
+{'adoption-of-the-budget-resolution=n', 'crime=y'} | Support Value=0.3632183908045977
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y'} | Support Value=0.3632183908045977
+{'crime=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3632183908045977
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.36091954022988504
+{'el-salvador-aid=y', 'handicapped-infants=n'} | Support Value=0.36091954022988504
+{'crime=y', 'anti-satellite-test-ban=n'} | Support Value=0.36091954022988504
+{'education-spending=n', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.36091954022988504
+{'el-salvador-aid=y', 'Class Name=republican'} | Support Value=0.36091954022988504
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.36091954022988504
+{'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.36091954022988504
+{'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.36091954022988504
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.36091954022988504
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'crime=n', 'physician-fee-freeze=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3586206896551724
+{'superfund-right-to-sue=y', 'mx-missile=n'} | Support Value=0.3586206896551724
+{'el-salvador-aid=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3586206896551724
+{'crime=n', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3586206896551724
+{'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'el-salvador-aid=y'} | Support Value=0.3586206896551724
+{'crime=n', 'physician-fee-freeze=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'crime=n', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'religious-groups-in-schools=y', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3586206896551724
+{'religious-groups-in-schools=y', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.3586206896551724
+{'synfuels-corporation-cutback=n', 'duty-free-exports=n'} | Support Value=0.3586206896551724
+{'handicapped-infants=y', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'education-spending=n', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'physician-fee-freeze=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3586206896551724
+{'adoption-of-the-budget-resolution=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3586206896551724
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'education-spending=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.3586206896551724
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'el-salvador-aid=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'physician-fee-freeze=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y'} | Support Value=0.3586206896551724
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.3586206896551724
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3586206896551724
+{'religious-groups-in-schools=y', 'crime=y', 'handicapped-infants=n'} | Support Value=0.3563218390804598
+{'synfuels-corporation-cutback=n', 'handicapped-infants=n'} | Support Value=0.3563218390804598
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.3563218390804598
+{'physician-fee-freeze=n', 'education-spending=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.3563218390804598
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.3563218390804598
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3563218390804598
+{'crime=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3563218390804598
+{'physician-fee-freeze=n', 'duty-free-exports=y'} | Support Value=0.3563218390804598
+{'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3563218390804598
+{'religious-groups-in-schools=y', 'crime=y', 'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.35402298850574715
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.35402298850574715
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.35402298850574715
+{'mx-missile=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.35402298850574715
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.35402298850574715
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'duty-free-exports=n'} | Support Value=0.35402298850574715
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.35402298850574715
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.35402298850574715
+{'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.35402298850574715
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.35402298850574715
+{'education-spending=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.35402298850574715
+{'physician-fee-freeze=n', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.35402298850574715
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.35402298850574715
+{'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.35402298850574715
+{'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y'} | Support Value=0.35172413793103446
+{'religious-groups-in-schools=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.35172413793103446
+{'physician-fee-freeze=n', 'education-spending=n', 'superfund-right-to-sue=n'} | Support Value=0.35172413793103446
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.35172413793103446
+{'el-salvador-aid=y', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.35172413793103446
+{'crime=n', 'el-salvador-aid=n'} | Support Value=0.35172413793103446
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.35172413793103446
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'mx-missile=n'} | Support Value=0.35172413793103446
+{'physician-fee-freeze=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'mx-missile=y'} | Support Value=0.35172413793103446
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.35172413793103446
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'crime=y', 'el-salvador-aid=y'} | Support Value=0.35172413793103446
+{'adoption-of-the-budget-resolution=y', 'export-administration-act-south-africa=y', 'Class Name=democrat'} | Support Value=0.35172413793103446
+{'education-spending=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.35172413793103446
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y'} | Support Value=0.35172413793103446
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.34942528735632183
+{'duty-free-exports=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.34942528735632183
+{'crime=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.34942528735632183
+{'religious-groups-in-schools=n'} | Support Value=0.34942528735632183
+{'education-spending=n', 'el-salvador-aid=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.34942528735632183
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.34942528735632183
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.34942528735632183
+{'crime=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.34942528735632183
+{'duty-free-exports=n', 'religious-groups-in-schools=y', 'crime=y', 'el-salvador-aid=y'} | Support Value=0.34942528735632183
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.34942528735632183
+{'crime=n', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.34942528735632183
+{'physician-fee-freeze=n', 'education-spending=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.34942528735632183
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.34942528735632183
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.34942528735632183
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.34942528735632183
+{'superfund-right-to-sue=y', 'crime=y', 'duty-free-exports=n'} | Support Value=0.34942528735632183
+{'crime=n', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.34942528735632183
+{'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.34942528735632183
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y'} | Support Value=0.3471264367816092
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.3471264367816092
+{'handicapped-infants=y', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3471264367816092
+{'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.3471264367816092
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3471264367816092
+{'religious-groups-in-schools=y', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.3471264367816092
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.3471264367816092
+{'mx-missile=n', 'handicapped-infants=n'} | Support Value=0.3471264367816092
+{'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.3471264367816092
+{'adoption-of-the-budget-resolution=y', 'duty-free-exports=y'} | Support Value=0.3471264367816092
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3471264367816092
+{'crime=n', 'education-spending=n'} | Support Value=0.3471264367816092
+{'el-salvador-aid=y', 'duty-free-exports=n', 'mx-missile=n'} | Support Value=0.3471264367816092
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3471264367816092
+{'aid-to-nicaraguan-contras=y', 'duty-free-exports=y'} | Support Value=0.3471264367816092
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n'} | Support Value=0.3448275862068966
+{'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3448275862068966
+{'crime=n', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3448275862068966
+{'synfuels-corporation-cutback=y'} | Support Value=0.3448275862068966
+{'immigration=y', 'export-administration-act-south-africa=y'} | Support Value=0.3448275862068966
+{'duty-free-exports=n', 'physician-fee-freeze=y'} | Support Value=0.3448275862068966
+{'el-salvador-aid=y', 'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.3448275862068966
+{'el-salvador-aid=y', 'crime=y', 'anti-satellite-test-ban=n'} | Support Value=0.3448275862068966
+{'education-spending=n', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3448275862068966
+{'superfund-right-to-sue=y', 'handicapped-infants=n'} | Support Value=0.3448275862068966
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3448275862068966
+{'crime=n', 'education-spending=n', 'Class Name=democrat'} | Support Value=0.3448275862068966
+{'el-salvador-aid=y', 'crime=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3448275862068966
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3448275862068966
+{'physician-fee-freeze=n', 'handicapped-infants=y'} | Support Value=0.3448275862068966
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3448275862068966
+{'religious-groups-in-schools=y', 'el-salvador-aid=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3425287356321839
+{'religious-groups-in-schools=y', 'Class Name=republican'} | Support Value=0.3425287356321839
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3425287356321839
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'mx-missile=n'} | Support Value=0.3425287356321839
+{'adoption-of-the-budget-resolution=y', 'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3425287356321839
+{'superfund-right-to-sue=n', 'mx-missile=y'} | Support Value=0.3425287356321839
+{'superfund-right-to-sue=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3425287356321839
+{'duty-free-exports=n', 'anti-satellite-test-ban=n'} | Support Value=0.3425287356321839
+{'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.3425287356321839
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'mx-missile=n'} | Support Value=0.3425287356321839
+{'duty-free-exports=n', 'crime=y', 'mx-missile=n'} | Support Value=0.3425287356321839
+{'el-salvador-aid=y', 'crime=y', 'Class Name=republican'} | Support Value=0.3425287356321839
+{'physician-fee-freeze=n', 'handicapped-infants=y', 'Class Name=democrat'} | Support Value=0.3425287356321839
+{'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.3425287356321839
+{'crime=n', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3425287356321839
+{'anti-satellite-test-ban=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3425287356321839
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3425287356321839
+{'crime=n', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.3425287356321839
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3425287356321839
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3425287356321839
+{'el-salvador-aid=y', 'education-spending=y'} | Support Value=0.3425287356321839
+{'religious-groups-in-schools=y', 'crime=y', 'anti-satellite-test-ban=n'} | Support Value=0.3425287356321839
+{'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.34022988505747126
+{'crime=n', 'anti-satellite-test-ban=y'} | Support Value=0.34022988505747126
+{'el-salvador-aid=y', 'crime=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.34022988505747126
+{'religious-groups-in-schools=y', 'crime=y', 'education-spending=y'} | Support Value=0.34022988505747126
+{'religious-groups-in-schools=y', 'crime=y', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.34022988505747126
+{'physician-fee-freeze=n', 'education-spending=n', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.34022988505747126
+{'crime=n', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.34022988505747126
+{'education-spending=n', 'mx-missile=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.34022988505747126
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.34022988505747126
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.34022988505747126
+{'crime=y', 'export-administration-act-south-africa=y'} | Support Value=0.34022988505747126
+{'export-administration-act-south-africa=y', 'mx-missile=y'} | Support Value=0.34022988505747126
+{'physician-fee-freeze=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.34022988505747126
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.34022988505747126
+{'el-salvador-aid=y', 'duty-free-exports=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.34022988505747126
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.34022988505747126
+{'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.34022988505747126
+{'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.33793103448275863
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.33793103448275863
+{'superfund-right-to-sue=y', 'anti-satellite-test-ban=n'} | Support Value=0.33793103448275863
+{'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.33793103448275863
+{'export-administration-act-south-africa=y', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.33793103448275863
+{'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.33793103448275863
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.33793103448275863
+{'adoption-of-the-budget-resolution=y', 'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'Class Name=democrat'} | Support Value=0.33793103448275863
+{'religious-groups-in-schools=y', 'el-salvador-aid=y', 'handicapped-infants=n'} | Support Value=0.33793103448275863
+{'adoption-of-the-budget-resolution=y', 'physician-fee-freeze=n', 'export-administration-act-south-africa=y'} | Support Value=0.33793103448275863
+{'crime=n', 'physician-fee-freeze=n', 'education-spending=n'} | Support Value=0.33793103448275863
+{'religious-groups-in-schools=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.33793103448275863
+{'education-spending=n', 'mx-missile=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.33793103448275863
+{'crime=n', 'physician-fee-freeze=n', 'education-spending=n', 'Class Name=democrat'} | Support Value=0.33793103448275863
+{'crime=y', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.335632183908046
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.335632183908046
+{'religious-groups-in-schools=y', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.335632183908046
+{'crime=n', 'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.335632183908046
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.335632183908046
+{'handicapped-infants=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.335632183908046
+{'duty-free-exports=n', 'handicapped-infants=n'} | Support Value=0.335632183908046
+{'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.335632183908046
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'duty-free-exports=n'} | Support Value=0.335632183908046
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.335632183908046
+{'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.335632183908046
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'crime=y'} | Support Value=0.335632183908046
+{'immigration=y', 'religious-groups-in-schools=y'} | Support Value=0.335632183908046
+{'education-spending=n', 'anti-satellite-test-ban=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.335632183908046
+{'export-administration-act-south-africa=y', 'handicapped-infants=n'} | Support Value=0.335632183908046
+{'adoption-of-the-budget-resolution=n', 'mx-missile=n'} | Support Value=0.335632183908046
+{'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.335632183908046
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.335632183908046
+{'Class Name=republican', 'mx-missile=n'} | Support Value=0.335632183908046
+{'el-salvador-aid=y', 'anti-satellite-test-ban=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.335632183908046
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y'} | Support Value=0.335632183908046
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.335632183908046
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n'} | Support Value=0.335632183908046
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.335632183908046
+{'adoption-of-the-budget-resolution=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.335632183908046
+{'crime=n', 'physician-fee-freeze=n', 'anti-satellite-test-ban=y'} | Support Value=0.335632183908046
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.335632183908046
+{'adoption-of-the-budget-resolution=n', 'physician-fee-freeze=y'} | Support Value=0.335632183908046
+{'superfund-right-to-sue=y', 'crime=y', 'mx-missile=n'} | Support Value=0.3333333333333333
+{'el-salvador-aid=y', 'Class Name=republican', 'mx-missile=n'} | Support Value=0.3333333333333333
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3333333333333333
+{'superfund-right-to-sue=y', 'physician-fee-freeze=y'} | Support Value=0.3333333333333333
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'el-salvador-aid=y', 'mx-missile=n'} | Support Value=0.3333333333333333
+{'religious-groups-in-schools=y', 'Class Name=republican', 'el-salvador-aid=y'} | Support Value=0.3333333333333333
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3333333333333333
+{'religious-groups-in-schools=y', 'el-salvador-aid=y', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.3333333333333333
+{'Class Name=republican', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.3333333333333333
+{'synfuels-corporation-cutback=n', 'el-salvador-aid=y'} | Support Value=0.3333333333333333
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.3333333333333333
+{'education-spending=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y'} | Support Value=0.3333333333333333
+{'el-salvador-aid=y', 'crime=y', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.3333333333333333
+{'export-administration-act-south-africa=y', 'el-salvador-aid=n'} | Support Value=0.3333333333333333
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3333333333333333
+{'el-salvador-aid=y', 'crime=y', 'handicapped-infants=n'} | Support Value=0.3333333333333333
+{'anti-satellite-test-ban=y', 'duty-free-exports=y'} | Support Value=0.3333333333333333
+{'aid-to-nicaraguan-contras=y', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.3333333333333333
+{'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'mx-missile=y'} | Support Value=0.3333333333333333
+{'duty-free-exports=n', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.3333333333333333
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3310344827586207
+{'education-spending=n', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.3310344827586207
+{'crime=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3310344827586207
+{'duty-free-exports=n', 'education-spending=y'} | Support Value=0.3310344827586207
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.3310344827586207
+{'physician-fee-freeze=n', 'education-spending=n', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3310344827586207
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3310344827586207
+{'education-spending=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3310344827586207
+{'religious-groups-in-schools=y', 'crime=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3310344827586207
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'mx-missile=n'} | Support Value=0.3310344827586207
+{'education-spending=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3310344827586207
+{'el-salvador-aid=y', 'crime=y', 'education-spending=y'} | Support Value=0.3310344827586207
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3310344827586207
+{'crime=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3310344827586207
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3310344827586207
+{'adoption-of-the-budget-resolution=y', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.3310344827586207
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3310344827586207
+{'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'mx-missile=n', 'el-salvador-aid=y'} | Support Value=0.3310344827586207
+{'el-salvador-aid=y', 'duty-free-exports=n', 'physician-fee-freeze=y'} | Support Value=0.3310344827586207
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.3310344827586207
+{'religious-groups-in-schools=y', 'Class Name=republican', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.3310344827586207
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'anti-satellite-test-ban=n'} | Support Value=0.3310344827586207
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3310344827586207
+{'religious-groups-in-schools=y', 'crime=y', 'anti-satellite-test-ban=n', 'el-salvador-aid=y'} | Support Value=0.3310344827586207
+{'duty-free-exports=n', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3310344827586207
+{'el-salvador-aid=y', 'Class Name=republican', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.3310344827586207
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.3310344827586207
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3310344827586207
+{'physician-fee-freeze=n', 'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.32873563218390806
+{'duty-free-exports=n', 'el-salvador-aid=y', 'crime=y', 'mx-missile=n'} | Support Value=0.32873563218390806
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.32873563218390806
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'mx-missile=y'} | Support Value=0.32873563218390806
+{'superfund-right-to-sue=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.32873563218390806
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.32873563218390806
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.32873563218390806
+{'synfuels-corporation-cutback=n', 'religious-groups-in-schools=y', 'crime=y'} | Support Value=0.32873563218390806
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.32873563218390806
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.32873563218390806
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n'} | Support Value=0.32873563218390806
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'crime=y', 'duty-free-exports=n'} | Support Value=0.32873563218390806
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.32873563218390806
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.32873563218390806
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.32873563218390806
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'anti-satellite-test-ban=n'} | Support Value=0.32873563218390806
+{'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.32873563218390806
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.32873563218390806
+{'aid-to-nicaraguan-contras=n', 'physician-fee-freeze=y'} | Support Value=0.32873563218390806
+{'adoption-of-the-budget-resolution=n', 'Class Name=republican'} | Support Value=0.3264367816091954
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'el-salvador-aid=y', 'mx-missile=n'} | Support Value=0.3264367816091954
+{'crime=n', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3264367816091954
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'crime=y', 'duty-free-exports=n'} | Support Value=0.3264367816091954
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'duty-free-exports=n', 'Class Name=republican'} | Support Value=0.3264367816091954
+{'crime=n', 'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3264367816091954
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.3264367816091954
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'duty-free-exports=n', 'el-salvador-aid=y', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3264367816091954
+{'religious-groups-in-schools=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3264367816091954
+{'crime=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'crime=n', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3264367816091954
+{'duty-free-exports=n', 'religious-groups-in-schools=y', 'crime=y', 'mx-missile=n'} | Support Value=0.3264367816091954
+{'education-spending=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.3264367816091954
+{'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3264367816091954
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3264367816091954
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y', 'crime=y'} | Support Value=0.3264367816091954
+{'crime=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3264367816091954
+{'el-salvador-aid=y', 'mx-missile=n', 'handicapped-infants=n'} | Support Value=0.3264367816091954
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'duty-free-exports=y'} | Support Value=0.3264367816091954
+{'duty-free-exports=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3264367816091954
+{'superfund-right-to-sue=y', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3264367816091954
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'mx-missile=n', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3264367816091954
+{'religious-groups-in-schools=y', 'mx-missile=n', 'handicapped-infants=n'} | Support Value=0.3264367816091954
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3264367816091954
+{'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n', 'physician-fee-freeze=y'} | Support Value=0.3264367816091954
+{'anti-satellite-test-ban=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3264367816091954
+{'synfuels-corporation-cutback=n', 'anti-satellite-test-ban=y'} | Support Value=0.3264367816091954
+{'crime=y', 'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.3264367816091954
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'handicapped-infants=y', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'handicapped-infants=n', 'physician-fee-freeze=y'} | Support Value=0.3264367816091954
+{'education-spending=n', 'handicapped-infants=y'} | Support Value=0.3264367816091954
+{'education-spending=n', 'export-administration-act-south-africa=y', 'Class Name=democrat'} | Support Value=0.3264367816091954
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y', 'el-salvador-aid=y'} | Support Value=0.3264367816091954
+{'crime=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.32413793103448274
+{'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.32413793103448274
+{'crime=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.32413793103448274
+{'aid-to-nicaraguan-contras=y', 'export-administration-act-south-africa=y', 'el-salvador-aid=n'} | Support Value=0.32413793103448274
+{'physician-fee-freeze=y', 'education-spending=y'} | Support Value=0.32413793103448274
+{'duty-free-exports=y', 'el-salvador-aid=n'} | Support Value=0.32413793103448274
+{'mx-missile=n', 'education-spending=y'} | Support Value=0.32413793103448274
+{'el-salvador-aid=y', 'duty-free-exports=n', 'anti-satellite-test-ban=n'} | Support Value=0.32413793103448274
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n'} | Support Value=0.32413793103448274
+{'education-spending=n', 'duty-free-exports=y'} | Support Value=0.32413793103448274
+{'crime=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.32413793103448274
+{'crime=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.32413793103448274
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.32413793103448274
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.32413793103448274
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.32413793103448274
+{'religious-groups-in-schools=y', 'el-salvador-aid=y', 'education-spending=y'} | Support Value=0.32413793103448274
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.32413793103448274
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.32413793103448274
+{'crime=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y'} | Support Value=0.32413793103448274
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'crime=y', 'mx-missile=n'} | Support Value=0.32413793103448274
+{'crime=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.32413793103448274
+{'education-spending=n', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3218390804597701
+{'crime=n', 'education-spending=n', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3218390804597701
+{'crime=n', 'physician-fee-freeze=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3218390804597701
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'mx-missile=y'} | Support Value=0.3218390804597701
+{'adoption-of-the-budget-resolution=n', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3218390804597701
+{'religious-groups-in-schools=y', 'crime=y', 'Class Name=republican'} | Support Value=0.3218390804597701
+{'duty-free-exports=n', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3218390804597701
+{'el-salvador-aid=y', 'crime=y', 'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.3218390804597701
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'duty-free-exports=y'} | Support Value=0.3218390804597701
+{'crime=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3218390804597701
+{'crime=n', 'physician-fee-freeze=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3218390804597701
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3218390804597701
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3218390804597701
+{'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3218390804597701
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3218390804597701
+{'crime=n', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y'} | Support Value=0.3218390804597701
+{'crime=y', 'anti-satellite-test-ban=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3218390804597701
+{'adoption-of-the-budget-resolution=n', 'duty-free-exports=n'} | Support Value=0.3218390804597701
+{'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.3218390804597701
+{'adoption-of-the-budget-resolution=y', 'export-administration-act-south-africa=y', 'anti-satellite-test-ban=y'} | Support Value=0.3218390804597701
+{'physician-fee-freeze=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n'} | Support Value=0.3218390804597701
+{'adoption-of-the-budget-resolution=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3218390804597701
+{'superfund-right-to-sue=n', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.3218390804597701
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3218390804597701
+{'handicapped-infants=y', 'anti-satellite-test-ban=y'} | Support Value=0.3218390804597701
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.3218390804597701
+{'crime=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.3218390804597701
+{'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3218390804597701
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3218390804597701
+{'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.3218390804597701
+{'el-salvador-aid=y', 'crime=y', 'anti-satellite-test-ban=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3195402298850575
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3195402298850575
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n'} | Support Value=0.3195402298850575
+{'superfund-right-to-sue=y', 'education-spending=y'} | Support Value=0.3195402298850575
+{'adoption-of-the-budget-resolution=n', 'crime=y', 'mx-missile=n'} | Support Value=0.3195402298850575
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.3195402298850575
+{'superfund-right-to-sue=y', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.3195402298850575
+{'aid-to-nicaraguan-contras=y', 'education-spending=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.3195402298850575
+{'crime=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3195402298850575
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'handicapped-infants=n'} | Support Value=0.3195402298850575
+{'religious-groups-in-schools=y', 'crime=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3195402298850575
+{'physician-fee-freeze=n', 'handicapped-infants=y', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3195402298850575
+{'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.3195402298850575
+{'immigration=n', 'Class Name=democrat'} | Support Value=0.3195402298850575
+{'duty-free-exports=n', 'el-salvador-aid=y', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.3195402298850575
+{'el-salvador-aid=n', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.3195402298850575
+{'el-salvador-aid=y', 'anti-satellite-test-ban=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3195402298850575
+{'crime=n', 'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.3195402298850575
+{'religious-groups-in-schools=n', 'anti-satellite-test-ban=y'} | Support Value=0.3195402298850575
+{'physician-fee-freeze=n', 'handicapped-infants=y', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3195402298850575
+{'education-spending=n', 'mx-missile=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3195402298850575
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'crime=y', 'mx-missile=n'} | Support Value=0.3195402298850575
+{'el-salvador-aid=y', 'duty-free-exports=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.31724137931034485
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.31724137931034485
+{'superfund-right-to-sue=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.31724137931034485
+{'education-spending=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31724137931034485
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'physician-fee-freeze=y'} | Support Value=0.31724137931034485
+{'handicapped-infants=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.31724137931034485
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'duty-free-exports=y'} | Support Value=0.31724137931034485
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.31724137931034485
+{'superfund-right-to-sue=n', 'export-administration-act-south-africa=y'} | Support Value=0.31724137931034485
+{'superfund-right-to-sue=y', 'synfuels-corporation-cutback=n'} | Support Value=0.31724137931034485
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.31724137931034485
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y', 'mx-missile=n'} | Support Value=0.31724137931034485
+{'adoption-of-the-budget-resolution=n', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.31724137931034485
+{'crime=y', 'aid-to-nicaraguan-contras=n', 'physician-fee-freeze=y'} | Support Value=0.31724137931034485
+{'education-spending=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.31724137931034485
+{'synfuels-corporation-cutback=n', 'physician-fee-freeze=y'} | Support Value=0.31724137931034485
+{'physician-fee-freeze=y', 'el-salvador-aid=y', 'education-spending=y'} | Support Value=0.31724137931034485
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31724137931034485
+{'export-administration-act-south-africa=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31724137931034485
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n'} | Support Value=0.31724137931034485
+{'anti-satellite-test-ban=n', 'handicapped-infants=n'} | Support Value=0.31724137931034485
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'duty-free-exports=n', 'el-salvador-aid=y'} | Support Value=0.31724137931034485
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'Class Name=republican'} | Support Value=0.31724137931034485
+{'synfuels-corporation-cutback=n', 'el-salvador-aid=y', 'crime=y'} | Support Value=0.31724137931034485
+{'crime=y', 'Class Name=republican', 'mx-missile=n'} | Support Value=0.31724137931034485
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'anti-satellite-test-ban=n'} | Support Value=0.31724137931034485
+{'physician-fee-freeze=n', 'education-spending=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.31724137931034485
+{'religious-groups-in-schools=y', 'crime=y', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.31724137931034485
+{'adoption-of-the-budget-resolution=y', 'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.31724137931034485
+{'religious-groups-in-schools=y', 'Class Name=republican', 'mx-missile=n'} | Support Value=0.31724137931034485
+{'synfuels-corporation-cutback=n', 'Class Name=republican'} | Support Value=0.31724137931034485
+{'crime=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.31724137931034485
+{'duty-free-exports=n', 'export-administration-act-south-africa=y'} | Support Value=0.31724137931034485
+{'aid-to-nicaraguan-contras=y', 'duty-free-exports=y', 'el-salvador-aid=n'} | Support Value=0.31724137931034485
+{'religious-groups-in-schools=y', 'water-project-cost-sharing=y'} | Support Value=0.31494252873563217
+{'el-salvador-aid=y', 'crime=y', 'aid-to-nicaraguan-contras=n', 'physician-fee-freeze=y'} | Support Value=0.31494252873563217
+{'physician-fee-freeze=n', 'education-spending=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y'} | Support Value=0.31494252873563217
+{'handicapped-infants=y', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.31494252873563217
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.31494252873563217
+{'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.31494252873563217
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'education-spending=n', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'crime=n', 'mx-missile=y'} | Support Value=0.31494252873563217
+{'el-salvador-aid=y', 'handicapped-infants=n', 'physician-fee-freeze=y'} | Support Value=0.31494252873563217
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'education-spending=n', 'mx-missile=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'education-spending=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.31494252873563217
+{'export-administration-act-south-africa=y', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'el-salvador-aid=y', 'mx-missile=n', 'education-spending=y'} | Support Value=0.31494252873563217
+{'crime=n', 'education-spending=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'duty-free-exports=n', 'mx-missile=n', 'crime=y'} | Support Value=0.31494252873563217
+{'education-spending=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'religious-groups-in-schools=n', 'el-salvador-aid=n'} | Support Value=0.31494252873563217
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'crime=y', 'mx-missile=n'} | Support Value=0.31494252873563217
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.31494252873563217
+{'anti-satellite-test-ban=y', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'aid-to-nicaraguan-contras=y', 'export-administration-act-south-africa=y', 'mx-missile=y'} | Support Value=0.31494252873563217
+{'religious-groups-in-schools=y', 'Class Name=republican', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.31494252873563217
+{'religious-groups-in-schools=y', 'Class Name=republican', 'mx-missile=n', 'el-salvador-aid=y'} | Support Value=0.31494252873563217
+{'immigration=y', 'crime=y'} | Support Value=0.31494252873563217
+{'crime=n', 'education-spending=n', 'el-salvador-aid=n'} | Support Value=0.31494252873563217
+{'crime=y', 'Class Name=republican', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.31494252873563217
+{'religious-groups-in-schools=y', 'crime=y', 'Class Name=republican', 'el-salvador-aid=y'} | Support Value=0.31494252873563217
+{'el-salvador-aid=y', 'crime=y', 'Class Name=republican', 'mx-missile=n'} | Support Value=0.31494252873563217
+{'superfund-right-to-sue=y', 'crime=y', 'anti-satellite-test-ban=n'} | Support Value=0.31494252873563217
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.31494252873563217
+{'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.31494252873563217
+{'education-spending=n', 'mx-missile=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.31494252873563217
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.31494252873563217
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'physician-fee-freeze=y', 'mx-missile=n', 'crime=y'} | Support Value=0.31494252873563217
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'education-spending=y'} | Support Value=0.31494252873563217
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'handicapped-infants=n'} | Support Value=0.31494252873563217
+{'physician-fee-freeze=n', 'education-spending=n', 'export-administration-act-south-africa=y'} | Support Value=0.31494252873563217
+{'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.31494252873563217
+{'handicapped-infants=n', 'education-spending=y'} | Support Value=0.31264367816091954
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'physician-fee-freeze=y'} | Support Value=0.31264367816091954
+{'duty-free-exports=n', 'religious-groups-in-schools=y', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.31264367816091954
+{'religious-groups-in-schools=y', 'crime=y', 'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.31264367816091954
+{'synfuels-corporation-cutback=n', 'immigration=y'} | Support Value=0.31264367816091954
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'anti-satellite-test-ban=n', 'el-salvador-aid=y'} | Support Value=0.31264367816091954
+{'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'anti-satellite-test-ban=y'} | Support Value=0.31264367816091954
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.31264367816091954
+{'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.31264367816091954
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'physician-fee-freeze=y', 'Class Name=republican', 'mx-missile=n'} | Support Value=0.31264367816091954
+{'duty-free-exports=n', 'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.31264367816091954
+{'crime=n', 'superfund-right-to-sue=n'} | Support Value=0.31264367816091954
+{'superfund-right-to-sue=y', 'adoption-of-the-budget-resolution=n'} | Support Value=0.31264367816091954
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.31264367816091954
+{'physician-fee-freeze=n', 'el-salvador-aid=n', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.31264367816091954
+{'education-spending=n', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.31264367816091954
+{'crime=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.31264367816091954
+{'religious-groups-in-schools=y', 'crime=y', 'el-salvador-aid=y', 'handicapped-infants=n'} | Support Value=0.31264367816091954
+{'religious-groups-in-schools=y', 'crime=y', 'el-salvador-aid=y', 'education-spending=y'} | Support Value=0.31264367816091954
+{'physician-fee-freeze=n', 'education-spending=n', 'export-administration-act-south-africa=y', 'Class Name=democrat'} | Support Value=0.31264367816091954
+{'crime=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.31264367816091954
+{'adoption-of-the-budget-resolution=y', 'education-spending=n', 'export-administration-act-south-africa=y'} | Support Value=0.31264367816091954
+{'duty-free-exports=n', 'crime=y', 'anti-satellite-test-ban=n'} | Support Value=0.31264367816091954
+{'religious-groups-in-schools=n', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n'} | Support Value=0.31264367816091954
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.31264367816091954
+{'superfund-right-to-sue=y', 'Class Name=republican'} | Support Value=0.31264367816091954
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.31264367816091954
+{'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.31264367816091954
+{'education-spending=y', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.31264367816091954
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.31264367816091954
+{'education-spending=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.31264367816091954
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'physician-fee-freeze=y', 'Class Name=republican', 'crime=y'} | Support Value=0.31264367816091954
+{'el-salvador-aid=y', 'physician-fee-freeze=y', 'Class Name=republican', 'mx-missile=n', 'crime=y'} | Support Value=0.31264367816091954
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.31264367816091954
+{'physician-fee-freeze=n', 'duty-free-exports=y', 'el-salvador-aid=n'} | Support Value=0.31264367816091954
+{'aid-to-nicaraguan-contras=n', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.31264367816091954
+{'duty-free-exports=n', 'crime=y', 'Class Name=republican'} | Support Value=0.31264367816091954
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y', 'el-salvador-aid=y', 'mx-missile=n'} | Support Value=0.31264367816091954
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.3103448275862069
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'superfund-right-to-sue=y', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3103448275862069
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'mx-missile=n', 'superfund-right-to-sue=y', 'crime=y'} | Support Value=0.3103448275862069
+{'crime=n', 'education-spending=n', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'religious-groups-in-schools=y', 'el-salvador-aid=y', 'mx-missile=n', 'handicapped-infants=n'} | Support Value=0.3103448275862069
+{'education-spending=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3103448275862069
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'crime=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.3103448275862069
+{'Class Name=republican', 'education-spending=y'} | Support Value=0.3103448275862069
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.3103448275862069
+{'religious-groups-in-schools=n', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.3103448275862069
+{'anti-satellite-test-ban=y', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'crime=n', 'education-spending=n', 'adoption-of-the-budget-resolution=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3103448275862069
+{'el-salvador-aid=n', 'superfund-right-to-sue=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'duty-free-exports=n', 'crime=y', 'education-spending=y'} | Support Value=0.3103448275862069
+{'crime=n', 'physician-fee-freeze=n', 'superfund-right-to-sue=n'} | Support Value=0.3103448275862069
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3103448275862069
+{'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.3103448275862069
+{'adoption-of-the-budget-resolution=n', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.3103448275862069
+{'crime=n', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'el-salvador-aid=y', 'handicapped-infants=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3103448275862069
+{'adoption-of-the-budget-resolution=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3103448275862069
+{'duty-free-exports=n', 'crime=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3103448275862069
+{'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.3103448275862069
+{'el-salvador-aid=y', 'duty-free-exports=n', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3103448275862069
+{'aid-to-nicaraguan-contras=y', 'anti-satellite-test-ban=y', 'duty-free-exports=y'} | Support Value=0.3103448275862069
+{'adoption-of-the-budget-resolution=n', 'handicapped-infants=n'} | Support Value=0.3103448275862069
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y', 'crime=y', 'el-salvador-aid=y'} | Support Value=0.3103448275862069
+{'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.3103448275862069
+{'adoption-of-the-budget-resolution=n', 'crime=y', 'duty-free-exports=n'} | Support Value=0.3103448275862069
+{'superfund-right-to-sue=y', 'crime=y', 'handicapped-infants=n'} | Support Value=0.3103448275862069
+{'superfund-right-to-sue=y', 'duty-free-exports=n', 'mx-missile=n'} | Support Value=0.3103448275862069
+{'synfuels-corporation-cutback=n', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3103448275862069
+{'superfund-right-to-sue=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3103448275862069
+{'crime=n', 'physician-fee-freeze=n', 'education-spending=n', 'el-salvador-aid=n'} | Support Value=0.3103448275862069
+{'el-salvador-aid=y', 'duty-free-exports=n', 'Class Name=republican'} | Support Value=0.3103448275862069
+{'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'el-salvador-aid=n'} | Support Value=0.3103448275862069
+{'adoption-of-the-budget-resolution=n', 'crime=y', 'Class Name=republican'} | Support Value=0.3103448275862069
+{'handicapped-infants=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'religious-groups-in-schools=y', 'mx-missile=n', 'education-spending=y'} | Support Value=0.3103448275862069
+{'crime=y', 'mx-missile=n', 'education-spending=y'} | Support Value=0.3103448275862069
+{'aid-to-nicaraguan-contras=y', 'export-administration-act-south-africa=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3103448275862069
+{'synfuels-corporation-cutback=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3080459770114943
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.3080459770114943
+{'superfund-right-to-sue=y', 'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.3080459770114943
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'duty-free-exports=y'} | Support Value=0.3080459770114943
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3080459770114943
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'duty-free-exports=n', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3080459770114943
+{'crime=n', 'physician-fee-freeze=n', 'mx-missile=y'} | Support Value=0.3080459770114943
+{'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'crime=y', 'handicapped-infants=n', 'physician-fee-freeze=y'} | Support Value=0.3080459770114943
+{'crime=n', 'physician-fee-freeze=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'crime=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3080459770114943
+{'crime=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'education-spending=n', 'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3080459770114943
+{'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.3080459770114943
+{'mx-missile=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'crime=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'religious-groups-in-schools=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.3080459770114943
+{'Class Name=republican', 'handicapped-infants=n'} | Support Value=0.3080459770114943
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'el-salvador-aid=y'} | Support Value=0.3080459770114943
+{'synfuels-corporation-cutback=n', 'water-project-cost-sharing=n'} | Support Value=0.3080459770114943
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'physician-fee-freeze=y', 'Class Name=republican', 'education-spending=y'} | Support Value=0.3080459770114943
+{'adoption-of-the-budget-resolution=n', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3080459770114943
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'education-spending=n', 'el-salvador-aid=n'} | Support Value=0.3080459770114943
+{'crime=n', 'anti-satellite-test-ban=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y', 'physician-fee-freeze=y'} | Support Value=0.3080459770114943
+{'religious-groups-in-schools=n', 'physician-fee-freeze=n'} | Support Value=0.3080459770114943
+{'duty-free-exports=n', 'crime=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3080459770114943
+{'religious-groups-in-schools=y', 'crime=y', 'anti-satellite-test-ban=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3080459770114943
+{'anti-satellite-test-ban=n', 'physician-fee-freeze=y'} | Support Value=0.3080459770114943
+{'religious-groups-in-schools=y', 'aid-to-nicaraguan-contras=n', 'physician-fee-freeze=y'} | Support Value=0.3080459770114943
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'duty-free-exports=n', 'superfund-right-to-sue=y', 'crime=y'} | Support Value=0.3080459770114943
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'mx-missile=n', 'crime=y'} | Support Value=0.3080459770114943
+{'superfund-right-to-sue=y', 'duty-free-exports=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3080459770114943
+{'crime=n', 'adoption-of-the-budget-resolution=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.3080459770114943
+{'education-spending=n', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.3080459770114943
+{'religious-groups-in-schools=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3080459770114943
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'mx-missile=y'} | Support Value=0.3080459770114943
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3057471264367816
+{'duty-free-exports=n', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.3057471264367816
+{'religious-groups-in-schools=n', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.3057471264367816
+{'religious-groups-in-schools=y', 'physician-fee-freeze=y', 'education-spending=y'} | Support Value=0.3057471264367816
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3057471264367816
+{'physician-fee-freeze=n', 'handicapped-infants=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3057471264367816
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'synfuels-corporation-cutback=n', 'religious-groups-in-schools=y', 'el-salvador-aid=y'} | Support Value=0.3057471264367816
+{'synfuels-corporation-cutback=n', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.3057471264367816
+{'crime=y', 'mx-missile=n', 'handicapped-infants=n'} | Support Value=0.3057471264367816
+{'religious-groups-in-schools=n', 'physician-fee-freeze=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3057471264367816
+{'crime=n', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.3057471264367816
+{'superfund-right-to-sue=y', 'crime=y', 'education-spending=y'} | Support Value=0.3057471264367816
+{'crime=n', 'education-spending=n', 'anti-satellite-test-ban=y'} | Support Value=0.3057471264367816
+{'duty-free-exports=n', 'crime=y', 'handicapped-infants=n'} | Support Value=0.3057471264367816
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'crime=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'duty-free-exports=n'} | Support Value=0.3057471264367816
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3057471264367816
+{'crime=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.3057471264367816
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3057471264367816
+{'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'duty-free-exports=n', 'religious-groups-in-schools=y', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.3057471264367816
+{'crime=n', 'education-spending=n', 'anti-satellite-test-ban=y', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'adoption-of-the-budget-resolution=n', 'education-spending=y'} | Support Value=0.3057471264367816
+{'crime=y', 'anti-satellite-test-ban=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3057471264367816
+{'synfuels-corporation-cutback=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.3057471264367816
+{'physician-fee-freeze=n', 'anti-satellite-test-ban=y', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'duty-free-exports=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'duty-free-exports=y', 'el-salvador-aid=n'} | Support Value=0.3057471264367816
+{'mx-missile=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'adoption-of-the-budget-resolution=n', 'crime=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.3057471264367816
+{'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y'} | Support Value=0.3057471264367816
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'crime=y', 'anti-satellite-test-ban=n'} | Support Value=0.3057471264367816
+{'religious-groups-in-schools=y', 'aid-to-nicaraguan-contras=n', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.3057471264367816
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.3057471264367816
+{'adoption-of-the-budget-resolution=y', 'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y'} | Support Value=0.3057471264367816
+{'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'crime=y', 'anti-satellite-test-ban=n'} | Support Value=0.3057471264367816
+{'Class Name=republican', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3057471264367816
+{'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.3057471264367816
+{'education-spending=n', 'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.3057471264367816
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.3057471264367816
+{'education-spending=y', 'el-salvador-aid=y', 'crime=y', 'physician-fee-freeze=y'} | Support Value=0.3057471264367816
+{'export-administration-act-south-africa=y', 'water-project-cost-sharing=n'} | Support Value=0.30344827586206896
+{'crime=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.30344827586206896
+{'duty-free-exports=n', 'anti-satellite-test-ban=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30344827586206896
+{'adoption-of-the-budget-resolution=y', 'export-administration-act-south-africa=y', 'el-salvador-aid=n'} | Support Value=0.30344827586206896
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n'} | Support Value=0.30344827586206896
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'religious-groups-in-schools=y', 'handicapped-infants=n', 'physician-fee-freeze=y'} | Support Value=0.30344827586206896
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30344827586206896
+{'crime=n', 'education-spending=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'superfund-right-to-sue=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'el-salvador-aid=n'} | Support Value=0.30344827586206896
+{'religious-groups-in-schools=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'el-salvador-aid=y', 'duty-free-exports=n', 'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.30344827586206896
+{'adoption-of-the-budget-resolution=n', 'Class Name=republican', 'mx-missile=n'} | Support Value=0.30344827586206896
+{'el-salvador-aid=y', 'Class Name=republican', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30344827586206896
+{'aid-to-nicaraguan-contras=n', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.30344827586206896
+{'synfuels-corporation-cutback=n', 'crime=y', 'Class Name=republican'} | Support Value=0.30344827586206896
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30344827586206896
+{'el-salvador-aid=y', 'duty-free-exports=n', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.30344827586206896
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'Class Name=republican'} | Support Value=0.30344827586206896
+{'Class Name=republican', 'handicapped-infants=n', 'physician-fee-freeze=y'} | Support Value=0.30344827586206896
+{'duty-free-exports=n', 'el-salvador-aid=y', 'crime=y', 'anti-satellite-test-ban=n'} | Support Value=0.30344827586206896
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'export-administration-act-south-africa=y', 'el-salvador-aid=n'} | Support Value=0.30344827586206896
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30344827586206896
+{'el-salvador-aid=y', 'anti-satellite-test-ban=n', 'physician-fee-freeze=y'} | Support Value=0.30344827586206896
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n'} | Support Value=0.30344827586206896
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'el-salvador-aid=y', 'anti-satellite-test-ban=n', 'mx-missile=n', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30344827586206896
+{'aid-to-nicaraguan-contras=n', 'education-spending=y'} | Support Value=0.30344827586206896
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.30344827586206896
+{'religious-groups-in-schools=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.30344827586206896
+{'crime=n', 'el-salvador-aid=n', 'mx-missile=y', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'physician-fee-freeze=n', 'education-spending=n', 'duty-free-exports=y'} | Support Value=0.30344827586206896
+{'education-spending=n', 'superfund-right-to-sue=n', 'mx-missile=y'} | Support Value=0.30344827586206896
+{'physician-fee-freeze=n', 'education-spending=n', 'duty-free-exports=y', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.30344827586206896
+{'physician-fee-freeze=n', 'handicapped-infants=y', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'export-administration-act-south-africa=y', 'anti-satellite-test-ban=y', 'mx-missile=y'} | Support Value=0.30344827586206896
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'export-administration-act-south-africa=y', 'anti-satellite-test-ban=y', 'el-salvador-aid=n'} | Support Value=0.30344827586206896
+{'religious-groups-in-schools=n', 'physician-fee-freeze=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.30344827586206896
+{'el-salvador-aid=y', 'duty-free-exports=n', 'mx-missile=n', 'crime=y', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30344827586206896
+{'superfund-right-to-sue=y', 'religious-groups-in-schools=y', 'education-spending=y'} | Support Value=0.30344827586206896
+{'el-salvador-aid=y', 'religious-groups-in-schools=y', 'duty-free-exports=n', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30344827586206896
+{'synfuels-corporation-cutback=n', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.30344827586206896
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'handicapped-infants=n'} | Support Value=0.30344827586206896
+{'el-salvador-aid=y', 'crime=y', 'mx-missile=n', 'education-spending=y'} | Support Value=0.30344827586206896
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n'} | Support Value=0.30114942528735633
+{'export-administration-act-south-africa=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'el-salvador-aid=y', 'duty-free-exports=n', 'education-spending=y'} | Support Value=0.30114942528735633
+{'duty-free-exports=n', 'religious-groups-in-schools=y', 'crime=y', 'anti-satellite-test-ban=n'} | Support Value=0.30114942528735633
+{'religious-groups-in-schools=n', 'aid-to-nicaraguan-contras=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'handicapped-infants=y', 'education-spending=n', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'education-spending=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'el-salvador-aid=y', 'Class Name=republican', 'education-spending=y'} | Support Value=0.30114942528735633
+{'crime=n', 'education-spending=n', 'anti-satellite-test-ban=y', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'crime=n', 'anti-satellite-test-ban=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'religious-groups-in-schools=n', 'physician-fee-freeze=n', 'el-salvador-aid=n'} | Support Value=0.30114942528735633
+{'crime=n', 'physician-fee-freeze=n', 'education-spending=n', 'anti-satellite-test-ban=y'} | Support Value=0.30114942528735633
+{'religious-groups-in-schools=y', 'duty-free-exports=n', 'anti-satellite-test-ban=n', 'mx-missile=n'} | Support Value=0.30114942528735633
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'education-spending=y'} | Support Value=0.30114942528735633
+{'crime=n', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'el-salvador-aid=n', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'religious-groups-in-schools=y', 'anti-satellite-test-ban=n', 'handicapped-infants=n'} | Support Value=0.30114942528735633
+{'religious-groups-in-schools=y', 'el-salvador-aid=y', 'mx-missile=n', 'education-spending=y'} | Support Value=0.30114942528735633
+{'crime=n', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'mx-missile=y'} | Support Value=0.30114942528735633
+{'physician-fee-freeze=y', 'Class Name=republican', 'el-salvador-aid=y', 'education-spending=y'} | Support Value=0.30114942528735633
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y', 'crime=y', 'mx-missile=n'} | Support Value=0.30114942528735633
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n'} | Support Value=0.30114942528735633
+{'religious-groups-in-schools=n', 'education-spending=n'} | Support Value=0.30114942528735633
+{'adoption-of-the-budget-resolution=n', 'religious-groups-in-schools=y', 'el-salvador-aid=y', 'physician-fee-freeze=y'} | Support Value=0.30114942528735633
+{'crime=n', 'superfund-right-to-sue=n', 'aid-to-nicaraguan-contras=y'} | Support Value=0.30114942528735633
+{'el-salvador-aid=y', 'aid-to-nicaraguan-contras=n', 'Class Name=republican', 'physician-fee-freeze=y'} | Support Value=0.30114942528735633
+{'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'duty-free-exports=y'} | Support Value=0.30114942528735633
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'adoption-of-the-budget-resolution=n', 'Class Name=republican', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.30114942528735633
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'Class Name=republican', 'mx-missile=n'} | Support Value=0.30114942528735633
+{'religious-groups-in-schools=y', 'handicapped-infants=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30114942528735633
+{'education-spending=n', 'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'duty-free-exports=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'adoption-of-the-budget-resolution=n', 'el-salvador-aid=y', 'crime=y', 'Class Name=republican'} | Support Value=0.30114942528735633
+{'superfund-right-to-sue=y', 'anti-satellite-test-ban=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30114942528735633
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y'} | Support Value=0.30114942528735633
+{'synfuels-corporation-cutback=n', 'mx-missile=n'} | Support Value=0.30114942528735633
+{'aid-to-nicaraguan-contras=n', 'crime=y', 'mx-missile=n', 'physician-fee-freeze=y'} | Support Value=0.30114942528735633
+{'superfund-right-to-sue=y', 'crime=y', 'mx-missile=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30114942528735633
+{'superfund-right-to-sue=y', 'el-salvador-aid=y', 'duty-free-exports=n', 'aid-to-nicaraguan-contras=n'} | Support Value=0.30114942528735633
+{'crime=n', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'physician-fee-freeze=n', 'superfund-right-to-sue=n', 'adoption-of-the-budget-resolution=y', 'Class Name=democrat'} | Support Value=0.30114942528735633
+{'anti-satellite-test-ban=y', 'mx-missile=y', 'aid-to-nicaraguan-contras=y', 'superfund-right-to-sue=n', 'Class Name=democrat'} | Support Value=0.30114942528735633

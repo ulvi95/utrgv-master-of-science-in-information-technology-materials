@@ -1,0 +1,46 @@
+import pandas as pd
+import os
+import sys
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.linear_model import Perceptron
+from sklearn import metrics
+
+if __name__ == "__main__":
+   
+    data_train = pd.read_csv("poker-hand-testing.data",header=None)
+    data_test = pd.read_csv("poker-hand-training-true.data",header=None)
+    
+
+    for value in range(0, len(data_train)):
+        if data_train[10][value] != 0:
+            data_train[10][value] = 1
+    
+    for value in range(0, len(data_test)):
+        if data_test[10][value] != 0:
+            data_test[10][value] = 1
+
+    col=['#1 Card Suit','#1 Card Rank',
+         '#2 Card Suit','#2 Card Rank',
+         '#3 Card Suit','#3 Card Rank',
+         '#4 Card Suit','#4 Card Rank',
+         '#5 Card Suit','#5 Card Rank',
+         'Poker Hand']
+    
+    data_train.columns=col
+    data_test.columns=col
+    
+    y_train=data_train['Poker Hand']
+    y_test=data_test['Poker Hand']
+    
+    x_train=data_train.drop('Poker Hand',axis=1)
+    x_test=data_test.drop('Poker Hand',axis=1)
+    
+#The problematic part
+    classifier = AdaBoostClassifier(base_estimator=Perceptron(), n_estimators=15, algorithm='SAMME')
+    classifier = classifier.fit(x_train, y_train)
+    y_pred = classifier.predict(x_test)
+    
+    print("Accuracy of AdaBoost:", metrics.accuracy_score(y_test, y_pred))

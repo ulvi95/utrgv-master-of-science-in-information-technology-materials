@@ -1,0 +1,5 @@
+2021-02-16 13:35:36.708597
+Data file exists.
+All itemsets where support>0.3 were generated successfully. The number of itemsets are equal to 973
+All association rules where confidence>0.9 were generated successfully. The number of association rules are equal to 2990
+The program ended successfully.

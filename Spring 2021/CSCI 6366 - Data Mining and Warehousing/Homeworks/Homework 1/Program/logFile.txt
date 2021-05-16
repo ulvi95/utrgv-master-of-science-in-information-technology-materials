@@ -1,0 +1,18 @@
+2021-01-23 15:57:45.367251
+Error: Either training data or testing data is missing.
+2021-01-23 15:59:03.917531
+Both testing and training data exist.
+Accuracy of Decision tree is: 0.508
+Accuracy of AdaBoost with 15 perceptrons: 0.484
+2021-01-23 15:59:25.200908
+Both testing and training data exist.
+Accuracy of Decision tree is: 0.608
+Accuracy of AdaBoost with 15 perceptrons: 0.507
+2021-01-23 16:36:21.151428
+Both testing and training data exist.
+Accuracy of Decision tree is: 0.608
+Let me reclassify AdaBoost again.
+Let me reclassify AdaBoost again.
+Let me reclassify AdaBoost again.
+Let me reclassify AdaBoost again.
+Accuracy of AdaBoost with 15 perceptrons: 0.501

@@ -1,0 +1,77 @@
+\begin{thebibliography}{10}
+
+\bibitem{cortes1995support}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine learning}, 20(3):273--297, 1995.
+
+\bibitem{scholkopf2001estimating}
+Bernhard Sch{\"o}lkopf, John~C Platt, John Shawe-Taylor, Alex~J Smola, and
+  Robert~C Williamson.
+\newblock Estimating the support of a high-dimensional distribution.
+\newblock {\em Neural computation}, 13(7):1443--1471, 2001.
+
+\bibitem{tax1999data}
+David~MJ Tax and Robert~PW Duin.
+\newblock Data domain description using support vectors.
+\newblock In {\em ESANN}, volume~99, pages 251--256. Citeseer, 1999.
+
+\bibitem{tax2004support}
+David~MJ Tax and Robert~PW Duin.
+\newblock Support vector data description.
+\newblock {\em Machine learning}, 54(1):45--66, 2004.
+
+\bibitem{laskov2004intrusion}
+Pavel Laskov, Christin Sch{\"a}fer, Igor Kotenko, and K-R M{\"u}ller.
+\newblock Intrusion detection in unlabeled data with quarter-sphere support
+  vector machines.
+\newblock {\em PIK-praxis der Informationsverarbeitung und Kommunikation},
+  27(4):228--236, 2004.
+
+\bibitem{hao2008fuzzy}
+Pei-Yi Hao.
+\newblock Fuzzy one-class support vector machines.
+\newblock {\em Fuzzy Sets and Systems}, 159(18):2317--2336, 2008.
+
+\bibitem{sotiris2010anomaly}
+Vasilis~A Sotiris, W~Tse Peter, and Michael~G Pecht.
+\newblock Anomaly detection through a bayesian support vector machine.
+\newblock {\em IEEE Transactions on Reliability}, 59(2):277--286, 2010.
+
+\bibitem{perdisci2006using}
+Roberto Perdisci, Guofei Gu, and Wenke Lee.
+\newblock Using an ensemble of one-class svm classifiers to harden
+  payload-based anomaly detection systems.
+\newblock In {\em Sixth International Conference on Data Mining (ICDM'06)},
+  pages 488--498. IEEE, 2006.
+
+\bibitem{song2009unsupervised}
+Jungsuk Song, Hiroki Takakura, Yasuo Okabe, and Yongjin Kwon.
+\newblock Unsupervised anomaly detection based on clustering and multiple
+  one-class svm.
+\newblock {\em IEICE transactions on communications}, 92(6):1981--1990, 2009.
+
+\bibitem{karamizadeh2014advantage}
+Sasan Karamizadeh, Shahidan~M Abdullah, Mehran Halimi, Jafar Shayan, and
+  Mohammad javad Rajabi.
+\newblock Advantage and drawback of support vector machine functionality.
+\newblock In {\em 2014 international conference on computer, communications,
+  and control technology (I4CT)}, pages 63--65. IEEE, 2014.
+
+\bibitem{internetArticle}
+Dhiraj K.
+\newblock {Top 4 advantages and disadvantages of Support Vector Machine or
+  SVM}.
+\newblock
+  \url{https://dhirajkumarblog.medium.com/top-4-advantages-and-disadvantages-of-support-vector-machine-or-svm-a3c06a2b107},
+  2019.
+\newblock [Online; accessed 13-Jun-2019].
+
+\bibitem{zhanchun2006anomaly}
+Li~Zhanchun, Li~Zhitang, and Liu Bin.
+\newblock Anomaly detection system based on principal component analysis and
+  support vector machine.
+\newblock {\em WuHan University Journal of Natural Sciences}, 11(6):1769--1772,
+  2006.
+
+\end{thebibliography}

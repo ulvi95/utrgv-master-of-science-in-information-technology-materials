@@ -1,0 +1,22 @@
+ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than random, ensemble can not be fit.
+
+Traceback (most recent call last):
+
+  File "D:\Ulvi\Ders\MS of IT in UTRGV\Spring 2021\CSCI 6366 - Data Mining and Warehousing\Homeworks\Homework 1\Program\Homework 1 program by Ulvi Bajarani.py", line 67, in <module>
+    classifier_adaBoost_Perceptron = classifier_adaBoost_Perceptron.fit(x_train, y_train)
+
+  File "C:\Users\ulvi95\anaconda3\lib\site-packages\sklearn\ensemble\_weight_boosting.py", line 443, in fit
+    return super().fit(X, y, sample_weight)
+
+  File "C:\Users\ulvi95\anaconda3\lib\site-packages\sklearn\ensemble\_weight_boosting.py", line 130, in fit
+    sample_weight, estimator_weight, estimator_error = self._boost(
+
+  File "C:\Users\ulvi95\anaconda3\lib\site-packages\sklearn\ensemble\_weight_boosting.py", line 506, in _boost
+    return self._boost_discrete(iboost, X, y, sample_weight,
+
+  File "C:\Users\ulvi95\anaconda3\lib\site-packages\sklearn\ensemble\_weight_boosting.py", line 596, in _boost_discrete
+    raise ValueError('BaseClassifier in AdaBoostClassifier '
+
+ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than random, ensemble can not be fit.
+
+Here, I ask you to use a perceptron to build a weak classifier at each iteration of AdaBoost. Run 15 iterations.  Then, you need to apply the final classifier, which is a boosted combination of these 15 perceptron classifiers to the testing data set to evaluate your final classifier.

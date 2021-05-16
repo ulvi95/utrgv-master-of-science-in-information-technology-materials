@@ -1,0 +1,34 @@
+Here, the author provides the method to find the hyper-parameter $\nu$ based on the distance measure between the points, nearest neighbour approach:
+
+\begin{enumerate}
+\item Set $\nu$\_\text{list} = []
+\item For 1 to number\_\text{of}\_\text{iterations} where number\_\text{of}\_\text{iterations}<n:
+\item \quad Set distance\_\text{change}=0
+\item \quad Initialise $\nu$ as provided value;
+\item \quad Select one random point;
+\item \quad Repeat
+\item \quad\quad Calculate the distance between the point and its 1-nearest neighbour and set this in distance\_\text{change}
+\item \quad\quad If distance changes significantly:
+\item \quad\quad\quad Increase $\nu$ by provided value (for example, 0.1) not higher 1 (if exceeds 1)
+\item \quad\quad Else if distance changes slightly:
+\item \quad\quad\quad Decrease $\nu$ by provided value (for example, 0.01) not lower 0 (if gets lower 0)
+\item \quad\quad Set the point visited
+\item \quad Until there is no visited point
+\item \quad Add $\nu$ to $\nu$\_\text{list}
+\item return average of $\nu$\_\text{list}
+
+\end{enumerate}
+
+There are several advantages of such an approach:
+\begin{itemize}
+\item The increment and decrement could also be done by both functions and Neural Networks. The last implementation should provide more accurate results;
+\item It gives an estimation regarding the data;
+\end{itemize}
+
+However, it also has the disadvantages:
+\begin{itemize}
+\item Sensible to the random initiation;
+\item It is computationally costly, since it requires visiting all points and high number of iterations;
+\item The decreasing and increasing of $\nu$ is dependent on the provided values. To avoid this, Neural Networks could be used.
+
+\end{itemize}

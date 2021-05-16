@@ -1,0 +1,148 @@
+\documentclass[paper=8.27in:11.69in, 11pt]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\geometry{margin=1in}
+\def\UrlBreaks{\do\/\do-}
+\title{Support Vector Machine (SVM) in the anomaly and outlier detection}
+
+\author{Student: Ulvi Bajarani\\Student ID: 20539914\\e-mail: ulvi.bajarani01@utrgv.edu\\Class: CSCI 6366 - Data Mining and Warehousing\\Semester: Spring 2021}
+\linespread{1.0}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\textbf{\begin{center}
+\emph{Abstract\\}
+\end{center}
+\hfill \break
+Support Vector Machine (SVM) algorithms is one of the powerful algorithms to classify the items, which also makes it useful in the anomaly and outlier detection. However, as other algorithms, it has its own advantages and disadvantages. In this term paper, the author provides the algorithms, and the available extensions of SVM, and their advantages and disadvantages. In the final section, the author provides his own method.
+}
+
+\section{Introduction to Support Vector Machine (SVM) methods}
+
+\subsection{The basic idea of the methods}
+The idea behind the Support Vector Machine methods is to transform training data $\mathbf{X} = \left \{ x_{1}, x_{2}, ..., x_{n} \right \}$ to the high dimensional space by the function $\phi(\mathbf{X})$ such that the evaluation of the data members could be done by some kernel $\kappa(\mathbf{X}, x_{i}) = \phi(\mathbf{X}) \cdot \phi(x_{i})$ where $i \leq n$. Despite the existence of various kernels, this is usually done by the Gaussian kernel:
+
+\begin{equation}
+\kappa(\mathbf{X},x_{i}) = \mathit{e}^{-\frac{{||\mathbf{X}-x_{i}||}^2}{2\sigma^{2}}}
+\end{equation}
+
+For the hyperplane $\mathbf{w}^{T} \cdot \mathbf{X}+b=0$ and the classes $y_{i} \in \left \{-1,1 \right \}$ finding the optimal plane problem might be described as the Quadratic Program Problem\cite{cortes1995support}:
+\begin{equation}\label{eq:2}
+\underset{\mathbf{w}, \ \xi}{\textbf{min}} \ \frac{{||\mathbf{w}||}^{2}}{2}-C\sum_{i=1}^{n}\xi_{i}
+\end{equation}
+\begin{equation}
+\textbf{subject to} \ y_{i}((\mathbf{w}^{T}\phi(x_{i}+b)) \geq 1-\xi_{i}
+\end{equation}
+
+Here, $\mathbf{w}$ is the normal vector of $\phi(\mathbf{X})$, $b$ is the bias, $n$ is the number of training instances, $C$ is the smoothness constant deciding the training error (compromise between the number of training data within the margin and the margin maximisation) with $C > 0$, $\xi$ is the slackness variable with $\xi \geq 0$
+
+With Lagrange multipliers $\alpha_{i}$, the decision about the data is done by the formula below 
+
+\begin{equation}
+f(x) = \textbf{sign}(\sum_{i=1}^{n}\kappa(\mathbf{X}, x_{i})\alpha_{i}y_{i}+b)
+\end{equation}
+
+
+
+
+
+
+\subsection{Available implementations}
+\begin{itemize}
+\item The first and the widespread implementation of SVM is One-Class SVM. This method separates the normal data from the outliers. According to \cite{scholkopf2001estimating}, the optimization problem is described as
+
+\begin{equation}
+\underset{\mathbf{w}, \ \rho, \ \xi}{\textbf{min}} \ \frac{{||\mathbf{w}||}^{2}}{2}-\rho+\frac{1}{n\nu}\sum_{i=1}^{n}\xi_{i}
+\end{equation}
+\begin{equation}
+\textbf{subject to} \ (\mathbf{w} \cdot \phi(x_{i})) \geq \rho-\xi
+\end{equation}
+Here, $\rho = \mathbf{w} \cdot \phi(\mathbf{X})$, $\nu$ is the hyper-parameter with $\nu \in (0,1]$. With Lagrange multipliers $a_{i}$, $\mathbf{w}$ could be calculated by
+\begin{equation}
+\mathbf{w} = \sum_{i=1}^{n}a_{i}\phi(x_{i})
+\end{equation}
+
+While the original implementation finds the plane, it is also possible to find the sphere \cite{tax1999data}\cite{tax2004support} and quarter-sphere \cite{laskov2004intrusion} where the normal values are inside of the sphere. The idea behind them is to minimize the sphere size with radius $R$ and center $a$:
+\begin{equation}
+\textbf{min} \ R^{2} + C\sum_{i=1}^{n} \xi_{i}
+\end{equation}
+\begin{equation}
+\textbf{subject to} \ x_{i}^{'}-a^{'} \leq R^{2}+\xi_{i}
+\end{equation}
+Here, $x^{'}$ and $a^{'}$ are normalized vectors.
+
+\item In the article \cite{hao2008fuzzy}, Hao successfully managed to implement Fuzzy One-Class SVM with the $\mu_{i}$ fuzzy membership coefficient by changing $C\sum_{i=1}^{n}\xi_{i}$ to $C\sum_{i=1}^{n}\mu_{i}\xi_{i}$ in Equation \ref{eq:2} 
+\item The successful combination of Bayesian Networks with One-Class SVM is also implemented \cite{sotiris2010anomaly}. The idea behind it is the calculation the posterior probability of the data constructed by One-class SVM with class labels.
+\item There are successful usage of ensemble SVM methods using SVM classifiers. While \cite{perdisci2006using} used Simplified Mahalanobis Distance, \cite{song2009unsupervised} used clustering based approach.
+\end{itemize}
+
+\subsection{Advantages and disadvantages}
+The SVM methods has its benefits and drawbacks\cite{karamizadeh2014advantage}\cite{internetArticle}. The advantages of SVM methods:
+\begin{itemize}
+\item Comparing to other methods, SVM methods are effective in the high-dimensional spaces.
+\item SVM can handle non-linear data effectively.
+\item SVM methods are robust against noise data.
+\item SVM methods don't stuck on local optimum. Moreover, with optimal parameters, SVM methods provides the unique solution.
+\end{itemize}
+
+However, SVM methods also have the disadvantages:
+\begin{itemize}
+\item The methods are not suitable for the huge datasets, since the computationally costly.
+\item The results of methods are highly dependent on the hyper-parameters, especially for the one-class SVM that is dependent on $\nu$.
+\item Number of the dimensions for each data point should be lower than the number of training samples, because it leads to underfitting. This could be solved by dimensionality reduction techniques such as PCA. \cite{zhanchun2006anomaly}
+\item One-Class SVM methods are sensitive to both the training data and kernel choice.
+\end{itemize}
+
+\section{The method of the author}
+Here, the author provides the method involving several iteration of the data and defining the best results:
+
+\begin{enumerate}
+\item Set clusters = [ ]
+\item Set initial\_\text{outliers} = [ ];
+\item Set final\_\text{outliers} = [ ];
+\item For 1 to number of iterations:
+\item \quad Cluster the initial data into k clusters (For one-class SVM, k=2 is suitable);
+\item \quad Add each cluster to clusters.
+\item For cluster in clusters:
+\item \quad Execute the One-Class SVM;
+\item \quad For data-point in cluster:
+\item \quad\quad If the data is outlier:
+\item \quad\quad\quad Add data-point to the initial\_\text{outliers};
+\item Count outlier-points in initial\_\text{outliers}:
+\item \quad If count > threshold:
+\item \quad\quad Add outlier-point to the final\_\text{outliers};
+\item return final\_\text{outliers};
+
+\end{enumerate}
+
+Such an approach has several advantages:
+
+\begin{itemize}
+\item Since the K-means is sensitive to the centroids, one iteration might provide the normal points as the outliers. However, if one point is considered as outlier again and again, it is possible to take it as the outlier. In other words, the accuracy increases;
+\item Each clusters are analysed separately, so the influence of outliers with high density reduces;
+\item It doesn't require the training data;
+\item Unlike ensemble methods, each cluster are evaluated with the same classifier.
+
+\end{itemize}
+
+However, it also has the disadvantages:
+
+\begin{itemize}
+\item It is computationally expensive, so it is not suitable for large data sets. The computational time might be reduced using appropriate data structures;
+\item K-means are sensitive for the centroid choice. This might be handled using both several iterations (as in the algorithm) and K-means++;
+\item The threshold should be chosen carefully.
+
+\end{itemize}
+
+
+\bibliographystyle{unsrt}
+\bibliography{references6366}
+
+\end{document}

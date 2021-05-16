@@ -38,3 +38,6 @@ CSCI 6366 - Data Mining and Warehousing
 CSCI 6368 - Computer Vision
 
 In the team projects in CSCI 6370, CSCI 6315, and unfinished CSCI 6368 final project, the contribution was below average. In other projects and works, the contribution was high.
+
+
+CSCI 6315 link: https://github.com/oscar0812/db_project/

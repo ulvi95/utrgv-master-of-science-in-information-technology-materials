@@ -1,0 +1,967 @@
+This is LuaTeX, Version 1.10.0 (MiKTeX 2.9.7000 64-bit)  (format=lualatex 2019.6.6)  18 FEB 2020 20:03
+ restricted system commands enabled.
+**"Answers of Homework 2.tex"
+("./Answers of Homework 2.tex"
+LaTeX2e <2018-12-01>
+Lua module: luaotfload-main 2019-02-14 2.96 luaotfload entry point
+Lua module: luaotfload-init 2019-02-14 2.96 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2019-02-14 2.64 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2019-02-14 2.64 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2019-02-14 2.96 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2019-02-14 2.96 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2019-02-14 2.96 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is C:/Users/ulvi95/AppData/Local/MiKTeX
+/2.9/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2019-02-14.lua” from kpse
+-resolved path “C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/luatex/l
+uaotfload/fontloader-2019-02-14.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.107”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2019-02-14 2.96 luaotfload submodule / callback h
+andling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2019-02-14 2.96 luaotfload submodule / database
+Lua module: luaotfload-colors 2019-02-14 2.96 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 4
+Lua module: luaotfload-resolvers 2019-02-14 2.96 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is C:/Users/ulvi95/AppData/Local/MiKTeX
+/2.9/luatex-cache/generic/names.
+Lua module: luaotfload-features 2019-02-14 2.96 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2019-02-14 2.96 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2019-02-14 2.96 luaotfload submodule / auxiliar
+y functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 1.057 seconds
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/koma-script/scrar
+tcl.cls"
+Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/koma-script/scrkb
+ase.sty"
+Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/koma-script/scrba
+se.sty"
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/koma-script/scrlf
+ile.sty"
+Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+)))
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/koma-script/tocba
+sic.sty"
+Package: tocbasic 2019/02/01 v3.26b KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box27
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 134.
+
+
+Package scrartcl Warning: You've used obsolete option `14pt'.
+(scrartcl)                Usage of this option indicates an old document
+(scrartcl)                and changes compatibility level using
+(scrartcl)                `fontsize=14pt,version=first,
+(scrartcl)                enabledeprecatedfontcommands' that may result
+(scrartcl)                in further warnings.
+(scrartcl)                If you don't want this, you should simply
+(scrartcl)                replace option `14pt' by `fontsize=14pt'.
+
+Class scrartcl Info: Switching compatibility level to `first'.
+
+Class scrartcl Warning: deprecated option `enabledeprecatedfontcommands'.
+(scrartcl)              Note, that this option was already depreacted when
+(scrartcl)              it has been defined. Support for old font commands
+(scrartcl)              has been removed from KOMA-Script more than one
+(scrartcl)              decade ago. It is not recommended to use them any
+(scrartcl)              longer. Therefore usage of this class option also
+(scrartcl)              is not recommended.
+
+Class scrartcl Info: File `size14.clo' used to setup font sizes on input line 21
+62.
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/extsizes/size14.c
+lo"
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/ulvi95/AppData/Local/
+MiKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/koma-script/typea
+rea.sty"
+Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
+\ta@bcor=\skip42
+\ta@div=\count80
+
+
+Package typearea Warning: You may have to exchange height and width!
+(typearea)                Until KOMA-Script version 3.01b the semantic
+(typearea)                of option `paper' was `paper=height:width'
+(typearea)                instead of `paper=width:height'.
+(typearea)                I've switched back to that old interpretation
+(typearea)                because of the given compatiblity settings.
+
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+DIV calculation for typearea with good linewidth.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 7
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 844.83647pt
+(typearea)              \textwidth      = 482.76372pt
+(typearea)              DIV departure   = 0%
+(typearea)              \evensidemargin = 108.76639pt
+(typearea)              \oddsidemargin  = 108.76639pt
+(typearea)             \paperheight     = 597.6732pt
+(typearea)              \textheight     = 354.0pt
+(typearea)              \topmargin      = -33.6381pt
+(typearea)              \headheight     = 21.25pt
+(typearea)              \headsep        = 25.5pt
+(typearea)              \topskip        = 14.0pt
+(typearea)              \footskip       = 59.5pt
+(typearea)              \baselineskip   = 17.0pt
+(typearea)              on input line 1715.
+)
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\scr@dte@section@maxnumwidth=\skip47
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4489.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4489.
+\scr@dte@part@maxnumwidth=\skip48
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4497.
+\scr@dte@subsection@maxnumwidth=\skip49
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4507.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4507.
+\scr@dte@subsubsection@maxnumwidth=\skip50
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4517.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4517.
+\scr@dte@paragraph@maxnumwidth=\skip51
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4527.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4527.
+\scr@dte@subparagraph@maxnumwidth=\skip52
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4537.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4537.
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+\c@pti@nb@sid@b@x=\box28
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 5781.
+\scr@dte@figure@maxnumwidth=\skip55
+\c@figure=\count87
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 5793.
+\scr@dte@table@maxnumwidth=\skip56
+\c@table=\count88
+Class scrartcl Info: Using old \@makefntext due to compatibility level
+(scrartcl)           less than 3.22 on input line 5944.
+Class scrartcl Info: Redefining `\numberline' on input line 5957.
+\bibindent=\dimen102
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry
+.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.
+sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifvtex
+.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex
+.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry
+.cfg"))
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx
+.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics
+.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/luat
+ex.def"
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pdfpages/pdfpages
+.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count94
+\calc@Cskip=\skip59
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/eso-pic/eso-pic.s
+ty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/atbegs
+hi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwar
+err.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmd
+s.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen115
+\AM@pageheight=\dimen116
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pdfpages/ppluatex
+.def"
+File: ppluatex.def 2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
+)
+\AM@pagebox=\box29
+\AM@global@opts=\toks16
+\AM@toc@title=\toks17
+\c@AM@survey=\count95
+\AM@templatesizebox=\box30
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref
+.sty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub
+-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub
+-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/scripts/oberdiek/oberdiek.lua
+tex.lua)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks18
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/auxhook.
+sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoption
+s.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen117
+\Hy@linkcounter=\count96
+\Hy@pagecounter=\count97
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.d
+ef"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count98
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref
+.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count99
+ ("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen118
+\Fld@menulength=\count100
+\Field@Width=\dimen119
+\Fld@charsize=\dimen120
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count101
+\c@Item=\count102
+\c@Hfootnote=\count103
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hluatex.
+def"
+File: hluatex.def 2018/11/30 v6.88e Hyperref driver for luaTeX
+\Fld@listcount=\count104
+\c@bookmark@seq@number=\count105
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfil
+echeck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
+)
+\Hy@SectionHShift=\skip60
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/enumitem/enumitem
+.sty"
+Package: enumitem 2019/02/04 v3.8 Customized lists
+\labelindent=\skip61
+\enit@outerparindent=\dimen121
+\enit@toks=\toks19
+\enit@inbox=\box31
+\enit@count@id=\count106
+\enitdp@description=\count107
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsmath.s
+ty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip62
+
+For additional information on amsmath, use the `?' option.
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsgen.st
+y"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen122
+))
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen123
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count108
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count109
+\leftroot@=\count110
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count111
+\DOTSCASE@=\count112
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen124
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count113
+\c@MaxMatrixCols=\count114
+\dotsspace@=\muskip11
+\c@parentequation=\count115
+\dspbrk@lvl=\count116
+\tag@help=\toks21
+\row@=\count117
+\column@=\count118
+\maxfields@=\count119
+\andhelp@=\toks22
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks23
+\multlinegap=\skip63
+\multlinetaggap=\skip64
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) ("./Answers of Homework 2.aux")
+\openout1 = Answers of Homework 2.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(126.72676pt, 591.38295pt, 126.72676pt)
+* v-part:(T,H,B)=(71.7215pt, 418.36942pt, 107.58229pt)
+* \paperwidth=844.83647pt
+* \paperheight=597.6732pt
+* \textwidth=591.38295pt
+* \textheight=418.36942pt
+* \oddsidemargin=54.45677pt
+* \evensidemargin=54.45677pt
+* \topmargin=-47.2985pt
+* \headheight=21.25pt
+* \headsep=25.5pt
+* \topskip=14.0pt
+* \footskip=59.5pt
+* \marginparwidth=120.69092pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/mkii/supp-
+pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen131
+\scratchbox=\box34
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen132
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks26
+)
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf
+-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.s
+ty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box35
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/pdflscap
+e.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/lscape.s
+ty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring OFF on input line 10.
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.
+sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/gettit
+lestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count126
+)
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
+ ("./Answers of Homework 2.out") ("./Answers of Homework 2.out")
+\@outlinefile=\write3
+
+\openout3 = Answers of Homework 2.out
+Class scrartcl Info: loading recommended package `bookmark'.
+(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
+(scrartcl)           because of handling of possible bookmark level gaps.
+(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
+(scrartcl)           `bookmarkpackage=false' before \begin{document} and
+(scrartcl)           you can avoid this message with `\usepackage{bookmark}'
+(scrartcl)           before \begin{document} on input line 10.
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bookmark
+.sty"
+Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
+
+("C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bkm-pdft
+ex.def"
+File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
+Package auxhook Info: \AddLineBeginMainAux comes a little late,
+(auxhook)             because the main .aux file is already opened on input line
+ 164.
+\BKM@id=\count127
+)) [1
+
+{C:/Users/ulvi95/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Overfull \hbox (58.22168pt too wide) in paragraph at lines 110--112
+[][]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 employee .[]/ manages .[]/ []\OT1/cm
+r/m/n/14.4 (\OML/cmm/m/it/14.4 employee\OT1/cmr/m/n/14.4 )))$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+
+Overfull \hbox (0.2202pt too wide) in paragraph at lines 148--149
+\OMS/cmsy/m/n/14.4 9$ \TU/lmr/bx/n/14.4 z $\OMS/cmsy/m/n/14.4 2$ \TU/lmr/m/it/1
+4.4 com-pany\TU/lmr/m/n/14.4 ( z[\TU/lmr/m/it/14.4 company-name\TU/lmr/m/n/14.4
+ ] $\OMS/cmsy/m/n/14.4 6\OT1/cmr/m/n/14.4 =$ \TU/lmr/m/n/14.4 ‘Small Bank Cor
+-po-ra-tion’ $\OMS/cmsy/m/n/14.4 ^$ \TU/lmr/m/it/14.4 works\TU/lmr/m/n/14.4 (
+ t[\TU/lmr/m/it/14.4 salary\TU/lmr/m/n/14.4 ] $\OMS/cmsy/m/n/14.4 $ \TU/lmr/m/
+n/14.4 u[\TU/lmr/m/it/14.4 salary\TU/lmr/m/n/14.4 ]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+ ("./Answers of Homework 2.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+Package rerunfilecheck Info: File `"Answers of Homework 2".out' has not changed.
+
+(rerunfilecheck)             Checksum: <no file>.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 10298 strings out of 494300
+ 100000,460012 words of node,token memory allocated
+ 485 words of node memory still in use:
+   5 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 6 attribute, 54 glue_spec,
+ 6 attribute_list, 1 write nodes
+   avail lists: 2:239,3:136,4:10,5:150,6:11,7:1142,8:125,9:75,10:6,11:61
+ 14175 multiletter control sequences out of 65536+200000
+ 39 fonts using 2493375 bytes
+ 43i,7n,53p,9122b,490s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/users/ulvi95/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmro
+man12-italic.otf><c:/users/ulvi95/appdata/local/programs/miktex 2.9/fonts/openty
+pe/public/lm/lmroman17-regular.otf><c:/users/ulvi95/appdata/local/programs/mikte
+x 2.9/fonts/opentype/public/lm/lmroman12-regular.otf><c:/users/ulvi95/appdata/lo
+cal/programs/miktex 2.9/fonts/opentype/public/lm/lmroman12-bold.otf><C:/Users/ul
+vi95/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/ulvi95/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ulvi95/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Answers of Homework 2.pdf (10 pages, 97059 bytes).
+
+PDF statistics: 103 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

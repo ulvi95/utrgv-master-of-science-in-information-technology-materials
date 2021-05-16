@@ -1,0 +1,31 @@
+create table person
+(driver_id varchar (20),
+name varchar (20) not null,
+address varchar (20),
+primary key (driver_id));
+
+create table car
+(car_license varchar (20),
+model varchar (20),
+year char (4),
+primary key (car_license));
+
+create table accident
+(report_number varchar (20),
+date varchar (20),
+location varchar (20),
+primary key (report_number, date));
+
+create table owns (
+  driver_id varchar (20),
+  car_license varchar (20),
+  primary key (driver_id, car_license),
+  foreign key (driver_id) references person(driver_id));
+
+create table participated
+(driver_id varchar (20),
+car_license varchar (20),
+report_number varchar (20),
+damage_amount varchar (20),
+primary key (driver_id, car_license, report_number),
+foreign key (driver_id) references person(driver_id));

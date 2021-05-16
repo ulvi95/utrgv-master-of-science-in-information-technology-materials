@@ -1,0 +1,136 @@
+\documentclass[paper=8.27in:11.69in, 14pt, DIV=calc]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+
+
+\begin{document}
+
+\textbf{\begin{center}
+\begin{Large}
+CSCI 6315 Applied Database Systems\\
+ASSIGNMENT 3: Functional Dependencies and Normalization\\
+02/27/2020 00:30\\
+Ulvi Bajarani\\
+Student ID 20539914\\
+E-mail: ulvi.bajarani01@utrgv.edu\\
+\end{Large}
+\end{center}}
+
+\newpage
+
+\begin{center}
+\begin{Large}
+\noindent \textbf{Initial Relationship R:}\\
+
+\hfill
+
+\noindent $R \ = \ (A, B, C, D, E)$\\
+
+\textbf{\\Initial set F of Functional Dependencies holds on R:}\\
+
+\hfill
+
+$A \rightarrow BC$\\
+$CD \rightarrow E$\\
+$B \rightarrow D$\\
+$E \rightarrow A$\\
+
+\end{Large}
+\end{center}
+\newpage
+
+\noindent \begin{center}
+\textbf{Answers:}
+\end{center}
+
+\begin{enumerate}[label=\arabic*)]
+
+\item \textit{Suppose that we decompose the schema $R$ into $R_{1} \ = \ (A, B, C)$ and $R_{2} \ = \ (A, D, E)$. Show that this decomposition is a lossless-join decomposition with respect to $F$.\\}
+
+To understand if the decomposition is a lossless-join, we should understand if $A$ has a functional dependency with either $B$ or $C$. It helps do define if $A$ is a superkey or not.\\
+
+Knowing $A \rightarrow BC$, we might also define $A \rightarrow B$ and $A \rightarrow C$ by the decomposition rule. Then, by transitivity we define that $A \rightarrow D$, and as a result, $AC \rightarrow E$, which might be reduced to $A \rightarrow E$.\\
+
+Knowing $R_{1} \cap R_{2} = (A, B, C) \cap (A, D, E) = (A)$, $A \rightarrow A, B, C, D, E$ it is defined that $A \rightarrow R_{1}$. It proves that the decomposition is a lossless-join decomposition with respect to $F$.
+
+\newpage
+\item \textit{Suppose that we decompose the schema $R$ into $R_{1} \ = \ (A, B, C)$ and $R_{2} \ = \ (C, D, E)$. Show that this decomposition is not a lossless-join decomposition.\\}
+
+We use the same approach and the functional dependencies as in the Problem 1:\\
+
+To understand if the decomposition is a lossless-join, we should understand if $C$ has a functional dependency with either $D$ or $E$. After using calculations in Problem 1, it might be seen that $C$ is not enough to imply $E$ alone: only with a combination in $D$, $AD \rightarrow E$.\\
+
+Knowing $R_{1} \cap R_{2} = (A, B, C) \cap (C, D, E) = (C)$, $C \rightarrow D$ it is defined that $C \not \rightarrow R_{1}$ and $C \not \rightarrow R_{2}$. It proves that the decomposition is \textbf{not} a lossless-join decomposition with respect to $F$.
+
+\newpage
+\item \textit{Compute $(BC)^{+}$.\\}
+
+The steps:
+
+\begin{enumerate}[label=\arabic*)]
+
+\item $(BC)^{+}\Rightarrow \ (BC)$
+\item $(BC)^{+}\Rightarrow \ (BCD)$ due to $B \rightarrow D$
+\item $(BC)^{+}\Rightarrow \ (BCDE)$ due to $B \rightarrow D$ and $CD \rightarrow E$
+\item $(BC)^{+}\Rightarrow \ (ABCDE)$ due to $E \rightarrow A$
+
+\end{enumerate}
+
+\textbf{The answer is: $(BC)^{+}\Rightarrow \ (ABCDE)$}
+
+\newpage
+\item \textit{Compute the canonical cover $F_{c}$ .\\}
+
+$F_{c} = (A \rightarrow B, A \rightarrow C, CD \rightarrow E, B \rightarrow D, E \rightarrow A)$\ which are \\ $F_{c} \rightarrow F$ and $F \rightarrow F_{c}$
+
+\newpage
+\item \textit{Show that the decomposition of $R$ into $R_{1} \ = \ (A, B, C)$ and $R_{2} \ = \ (A, D, E)$ is not a dependency-preserving decomposition.\\}
+
+Because of the fact that $B$ and $D$ are in different tables, the decomposition could not be a dependency-preserving.
+
+\newpage
+\textbf{For Problem 6 and Problem 7, we have to define candidate keys for the relationships. They are $A$, $E$, $CD$, $BC$.}
+
+\item \textit{Give a lossless-join decomposition into BCNF of $R$.\\}
+
+In the functional dependency $B \rightarrow D$, $B$ is not a superkey, so we have to decompose $R \ = \ (A, B, C, D, E)$ into $R_{0} \ = \ (B, D)$ and $R_{1} \ = \ R \ - \ D = \ (A, B, C, E) $. While $R_{1}$ is in BCNF form, $R_{2}$ is not due to $A \rightarrow BC$, where $A$ is not a superkey. So, we have to decompose $R_{1} \ = \ (A, B, C, E)$ into $R_{2} \ = \ (A, B, C)$ and $R_{3} \ = \ R_{1} \ - \ (B, C) = \ (A, E) $. Finally, all tables are in BCNF form.
+
+\textbf{The answer is:}
+
+$R_{0} \ = \ (A, B, C)$ that has $F^{+}_{0} = (A \rightarrow B , A \rightarrow C)$.\\
+$R_{1} \ = \ (B, D)$ that has $F^{+}_{1} = (B \rightarrow D)$.\\
+$R_{2} \ = \ (A, E)$ that has $F^{+}_{2} = (E \rightarrow A)$.\\
+
+\newpage
+\item \textit{Give a lossless-join, dependency preserving decomposition into 3NF of $R$.\\}
+
+Knowing $F_{c} = (A \rightarrow B, A \rightarrow C, CD \rightarrow E, B \rightarrow D, E \rightarrow A)$\\
+\hfill
+We might create tables:
+
+$R_{0} \ = \ (A, B)$ that has $F^{+}_{0} = (A \rightarrow B)$.\\
+$R_{1} \ = \ (A, C)$ that has $F^{+}_{1} = (A \rightarrow C)$.\\
+$R_{2} \ = \ (C, D, E)$ that has $F^{+}_{2} = (CD \rightarrow E)$.\\
+$R_{3} \ = \ (B, D)$ that has $F^{+}_{3} = (B \rightarrow D)$.\\
+$R_{4} \ = \ (E, A)$ that has $F^{+}_{4} = (E \rightarrow A)$.\\
+
+Due to the fact that the key $BC$ doesn't occur in the relations, we have to create 
+
+$R_{5} \ = \ (B, C, D)$ that has $F^{+}_{5} = (BC \rightarrow D)$, because $(A \rightarrow B)$, $(B \rightarrow D)$, and $(A \rightarrow C)$. Also, we might composite it with $R_{2}$
+
+We might simplify $R_{0}$ and $R_{1}$ as $(A, B, C)$
+
+\textbf{The answer is:}
+
+$R_{0} \ = \ (A, B, C)$ that has $F^{+}_{0} = (A \rightarrow B, A \rightarrow C)$.\\
+$R_{1} \ = \ (C, D, E)$ that has $F^{+}_{1} = (CD \rightarrow E)$.\\
+$R_{2} \ = \ (B, C, D)$ that has $F^{+}_{2} = (BC \rightarrow D)$.\\
+$R_{3} \ = \ (E, A)$ that has $F^{+}_{3} = (E \rightarrow A)$.\\
+
+\end{enumerate}
+
+\end{document}

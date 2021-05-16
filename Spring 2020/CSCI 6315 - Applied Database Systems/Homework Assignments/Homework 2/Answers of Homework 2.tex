@@ -1,0 +1,173 @@
+\documentclass[paper=8.27in:11.69in, 14pt, DIV=calc]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+
+
+\begin{document}
+
+\textbf{\begin{center}
+\begin{Large}
+CSCI 6315 Applied Database Systems\\
+ASSIGNMENT 2: Formal Relational Query Languages\\
+02/18/2020 20:03\\
+Ulvi Bajarani\\
+Student ID 20539914\\
+E-mail: ulvi.bajarani01@utrgv.edu\\
+\end{Large}
+\end{center}}
+
+\newpage
+
+\begin{center}
+\begin{Large}
+\noindent \textbf{Initial Database:}\\
+
+\noindent employee(\underline{employee-id}, employee-name, street, city)\\
+works(\underline{employee-id}, company-id, salary)\\
+company(\underline{company-id}, company-name, city)\\
+manages(\underline{employee-id}, manager-id)\\
+
+\end{Large}
+\end{center}
+\newpage
+
+\noindent Answers:
+
+\begin{enumerate}[label=\alph*)]
+
+\item \textit{Find the names of all employees who work for First Bank Corporation.\\}
+
+\textbf{the Relational algebra expression:\\}
+
+$\Pi_{employee-name}(employee \ \bowtie \ (\sigma_{company-name \ = \ ``First \ Bank \ Corporation"} \ (works \ \bowtie \ company)))$\\
+
+\textbf{the Tuple relational calculus expression:\\}
+
+\{ \textbf{t} | $\exists$ \textbf{s} $\in$ \textit{employee}( t[\textit{employee-name}] = s[\textit{employee-name}] ) $\wedge$ \\ $\exists$ \textbf{u} $\in$ \textit{works}( u[\textit{employee-id}] = s[\textit{employee-id}] ) $\wedge$ \\ $\exists$ \textbf{v} $\in$ \textit{company}( v[\textit{company-id}] = u[\textit{company-id}] $\wedge$ v[\textit{company-name}] = `First Bank Corporation' ) \}\\
+
+\textbf{the Domain relational calculus expression:\\}
+
+\{ < \textbf{n} > | $\exists$ e-i, c-i, c-n (< n, e-i, s, c > $\in$ \textit{employee} $\wedge$ \\ < e-i, c-i, sa > $\in$ \textit{works} $\wedge$ \\ < c-i, c-n, c > $\in$ \textit{company} $\wedge$ c-n = `First Bank Corporation' ) \}\\
+
+\newpage
+
+\item \textit{Find the names and cities of residence of all employees who work for First Bank Corporation.\\}
+
+\textbf{the Relational algebra expression:\\}
+
+$\Pi_{employee-name, employee.city}(employee \ \bowtie \ (\sigma_{company-name \ = \ ``First \ Bank \ Corporation"} \ (works \ \bowtie \ company)))$\\
+
+\textbf{the Tuple relational calculus expression:\\}
+
+\{ \textbf{t} | $\exists$ \textbf{s} $\in$ \textit{employee}( t[\textit{employee-name}] = s[\textit{employee-name}] $\wedge$ t[\textit{city}] = s[\textit{city}] ) $\wedge$ \\ $\exists$ \textbf{u} $\in$ \textit{works}( u[\textit{employee-id}] = s[\textit{employee-id}] ) $\wedge$ \\ $\exists$ \textbf{v} $\in$ \textit{company}( v[\textit{company-id}] = u[\textit{company-id}] $\wedge$ v[\textit{company-name}] = `First Bank Corporation' ) \}\\
+
+\textbf{the Domain relational calculus expression:\\}
+
+\{ < \textbf{n, c} > | $\exists$ e-i, c-i, c-n (< n, e-i, s, c > $\in$ \textit{employee} $\wedge$ \\ < e-i, c-i, sa > $\in$ \textit{works} $\wedge$ \\ < c-i, c-n, c > $\in$ \textit{company} $\wedge$ c-n \neq `First Bank Corporation' ) \}\\
+
+\newpage
+
+\item \textit{Find the names, street addresses, and cities of residence of all employees who work for First Bank Corporation and earn more than \$10,000.\\}
+
+\textbf{the Relational algebra expression:\\}
+
+$\Pi_{employee-name,employee.city,street}(employee \ \bowtie \\ (\sigma_{company-name \ = \ ``First \ Bank \ Corporation \ \wedge \ works.salary>10000"} \ (works \ \bowtie \ company)))$\\
+
+\textbf{the Tuple relational calculus expression:\\}
+
+\{ \textbf{t} | $\exists$ \textbf{s} $\in$ \textit{employee}( t[\textit{employee-name}] = s[\textit{employee-name}] $\wedge$ t[\textit{street}] = s[\textit{street}] $\wedge$ t[\textit{city}] = s[\textit{city}] ) $\wedge$ \\ $\exists$ \textbf{u} $\in$ \textit{works}( u[\textit{employee-id}] = s[\textit{employee-id}] $\wedge$ u[\textit{salary}] > 10000) $\wedge$ \\ $\exists$ \textbf{v} $\in$ \textit{company}( v[\textit{company-id}] = u[\textit{company-id}] $\wedge$ v[\textit{company-name}] = `First Bank Corporation' ) \}\\
+
+\textbf{the Domain relational calculus expression:\\}
+
+\{ < \textbf{n, s, c} > | $\exists$ e-i, c-i, sa, c-n (< n, e-i, s, c > $\in$ \textit{employee} $\wedge$ \\ < e-i, c-i, sa > $\in$ \textit{works} $\wedge$ sa > 10000 $\wedge$ \\ < c-i, c-n, c > $\in$ \textit{company} $\wedge$ c-n = `First Bank Corporation' ) \}\\
+
+\newpage
+
+\item \textit{Find all employees in the database who live in the same cities as the companies for which they work.\\}
+
+\textbf{the Relational algebra expression:\\}
+
+$\Pi_{employee-name}(\sigma_{employee.city=company.city}(employee \ \bowtie \ works \ \bowtie \ company))$\\
+
+\textbf{the Tuple relational calculus expression:\\}
+
+\{ \textbf{t} | $\exists$ \textbf{s} $\in$ \textit{employee}( t[\textit{employee-name}] = s[\textit{employee-name}] ) $\wedge$ \\ $\exists$ \textbf{u} $\in$ \textit{works}( u[\textit{employee-id}] = s[\textit{employee-id}] ) $\wedge$ \\ $\exists$ \textbf{v} $\in$ \textit{company}( v[\textit{company-id}] = u[\textit{company-id}] $\wedge$ v[\textit{city}] = s[\textit{city}] ) \}\\
+
+\textbf{the Domain relational calculus expression:\\}
+
+\{ < \textbf{n} > | $\exists$ e-i, c, c-i (< n, e-i, s, c > $\in$ \textit{employee} $\wedge$ \\ < e-i, c-i, sa > $\in$ \textit{works} $\wedge$ \\ < c-i, c-n, c > $\in$ \textit{company} ) \}\\
+
+\newpage
+
+\item \textit{Find all employees in the database who live in the same cities and on the same streets as do their managers.\\}
+
+\textbf{the Relational algebra expression:\\}
+
+$\Pi_{employee-name}(\sigma_{manages.manager-id \ = \ employee2.employee-id \ \wedge}$\\
+$_{employee.street = employee2.street \ \wedge \ employee.street = employee2.street}(employee \bowtie manages \bowtie \rho_{employee2}(employee)))$\\
+
+\textbf{the Tuple relational calculus expression:\\}
+
+\{ \textbf{t} | $\exists$ \textbf{s} $\in$ \textit{employee}( t[\textit{employee-name}] = s[\textit{employee-name}] ) $\wedge$ \\ $\exists$ \textbf{v} $\in$ \textit{manages}( v[\textit{employee-id}] = s[\textit{employee-id}] $\wedge$ v[\textit{manager-id}] = s[\textit{employee-id}] $\wedge$ v[\textit{city}] = s[\textit{city}] $\wedge$ v[\textit{street}] = s[\textit{street}]  ) \}\\
+
+\textbf{the Domain relational calculus expression:\\}
+
+\{ < \textbf{n} > | $\exists$ e-i, c, s, m-i(< n, e-i, s, c > $\in$ \textit{employee} $\wedge$ \\ $\exists$ <m-i, e-i> $\in$ \textit{manages} $\wedge$ \\ < n, m-i, s, c > $\in$ \textit{employee} ) ) \}\\
+
+\newpage
+
+\item \textit{Find all employees in the database who do not work for the First Bank Corporation.\\}
+
+\textbf{the Relational algebra expression:\\}
+
+$\Pi_{employee-name}(employee \ \bowtie \ (\sigma_{company-name \ \neq \ ``First \ Bank \ Corporation"} \ (works \ \bowtie \ company)))$\\
+
+\textbf{the Tuple relational calculus expression:\\}
+
+\{ \textbf{t} | $\exists$ \textbf{s} $\in$ \textit{employee}( t[\textit{employee-name}] = s[\textit{employee-name}] ) $\wedge$ \\ $\exists$ \textbf{u} $\in$ \textit{works}( u[\textit{employee-id}] = s[\textit{employee-id}] ) $\wedge$ \\ $\exists$ \textbf{v} $\in$ \textit{company}( v[\textit{company-id}] = u[\textit{company-id}] $\wedge$ v[\textit{company-name}] $\neq$ `First Bank Corporation' ) \}\\
+
+\textbf{the Domain relational calculus expression:\\}
+
+\{ < \textbf{n} > | $\exists$ e-i, c-i, c-n (< n, e-i, s, c > $\in$ \textit{employee} $\wedge$ \\ < e-i, c-i, sa > $\in$ \textit{works} $\wedge$ \\ < c-i, c-n, c > $\in$ \textit{company} $\wedge$ c-n $\neq$ `First Bank Corporation' ) \}\\
+
+\newpage
+\item \textit{Find all employees in the database who earn more than each employee of Small Bank Corporation.\\}
+
+\textbf{the Relational algebra expression:\\}
+
+$\Pi_{employee-name}(employee) \ - $\\
+$\Pi_{employee-name}(employee \ \bowtie (\sigma_{company-name \ = \ ``Small \ Bank \ Corporation" \ \wedge}$\\
+$_{works.salary \ \leq \ works2.salary}(company \ \bowtie \ works \ \bowtie \ \rho_{works2}(works))))$
+
+\textbf{the Tuple relational calculus expression:\\}
+
+\{ \textbf{t} | ($\forall$ \textbf{s} $\in$ \textit{employee}( t[\textit{employee-name}] = s[\textit{employee-name}] ) $\wedge$ \\ $\forall$ \textbf{u} $\in$ \textit{works}( u[\textit{employee-id}] = s[\textit{employee-id}] ) $\wedge$ \textit{works}( u[\textit{salary}] = s[\textit{salary}] ) $\wedge$ \\ $\forall$ \textbf{v} $\in$ \textit{company}( v[\textit{company-id}] = u[\textit{company-id}] $\wedge$ v[\textit{company-name}] = `Small Bank Corporation' ) $\implies$ \\ $\exists$ \textbf{z} $\in$ \textit{company}( z[\textit{company-name}] $\neq$ `Small Bank Corporation' $\wedge$ \textit{works}( t[\textit{salary}] $\geq$ u[\textit{salary}] ) \}
+
+\textbf{the Domain relational calculus expression:\\}
+
+\{ < \textbf{n} > | $\exists$ e-i, c-i, c-n (< n, e-i, s, c > $\in$ \textit{employee} $\wedge$ \\ < e-i, c-i, sa > $\in$ \textit{works} $\wedge$ \\ $\forall$ e-i2, c-i2, sa2, c \\ ( < e-i2, c-i2, sa2 > $\in$ \textit{works} $\wedge$ < c-i, c-n, c > $\in$ \textit{company} $\wedge$ c-n = `Small Bank Corporation' $\implies$ sa $\geq$ sa2 ) ) \}
+
+\newpage
+
+\item \textit{Assume that the companies may be located in several cities. Find all companies located in every city in which Small Bank Corporation is located.\\}
+
+\textbf{the Relational algebra expression:\\}
+
+$\Pi_{company-name}(company \ \bowtie $\\
+$\Pi_{company.city}(\sigma_{company-name \ = \ ``Small \ Bank \ Corporation"}(company)))$\\
+
+\textbf{the Tuple relational calculus expression:\\}
+
+\{ \textbf{t} | ( $\forall$ \textbf{z} $\in$ \textit{company}( t[\textit{city}] = z[\textit{city}] $\wedge$ z[\textit{company}] = `Small Bank Corporation' ) $\implies$ $\exists$ \textbf{s} $\in$ \textit{company}( t[\textit{company}] = s[\textit{company}] ) $\wedge$ \\ \textit{company}( s[\textit{city}] = z[\textit{city}] ) ) \}\\
+
+\textbf{the Domain relational calculus expression:\\}
+
+\{ < \textbf{c-n2} > | $\exists$ c2 ( < c-i2, c-n2, c2 > $\in$ \textit{company} $\wedge$ \\ ( $\forall$ c-i, c-n, c (< c-i, c-n, c > $\in$ \textit{company} $\wedge$ c-n = `Small Bank Corporation' \\ $\implies$  $\wedge$ c = c2 ) ) ) \}
+
+\end{enumerate}
+
+\end{document}

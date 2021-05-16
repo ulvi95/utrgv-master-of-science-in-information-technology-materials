@@ -1,0 +1,19 @@
+Linked List Exercises - NOT FOR GRADING
+Attached Files:
+File ListTest.java (4.607 KB)
+File List.java (7.574 KB)
+File Card.java (3.227 KB)
+File EmptyListException.java (1.648 KB)
+Attached you can find the Linked List Card program seen in class last Monday.
+
+Here are some possible modifications you can make to this project:
+
++ 1. Add the method reverse( ) in class List, such that it reverses the order of the elements in the list.
+
++ 2. Add the method remove( T item) in class List, such that it removes the element item from the list if it is found. Otherwise, it throws an exception.
+
++ 3. Add the method removeDuplicates( ) in class List, such that it removes all duplicates in the list. Leaving a single copy of each item in the list.
+
++ 4. Add the method insertAt( int index, T item), which insert item at position index in the list. If index is bigger than the size of the list then item is inserted at the end of the list.
+
++ 5. Add the method swap(int index1, int index2), which swaps the items in positions index1 and index2 in the list.

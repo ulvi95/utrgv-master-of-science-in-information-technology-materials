@@ -1,0 +1,233 @@
+\documentclass[paper=8.27in:11.69in, 14pt, DIV=calc]{scrartcl}
+\usepackage{geometry}
+\usepackage{graphics,graphicx}
+\usepackage{pdfpages}
+\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{minibox}
+\newcounter{numbers}
+\newcommand\printnumbers{\refstepcounter{numbers}\thenumbers}
+\newcounter{answers}
+\newcommand\printanswers{\refstepcounter{answers}\theanswers}
+
+\begin{document}
+
+\textbf{\begin{center}
+\begin{Large}
+CSCI 6315 Applied Database Systems\\
+ASSIGNMENT 5: Transaction Management\\
+Due is 05/03/2020 00:00\\
+Ulvi Bajarani\\
+Student ID 20539914\\
+E-mail: ulvi.bajarani01@utrgv.edu\\
+\end{Large}
+\end{center}}
+
+\newpage
+\noindent \begin{center}
+\textbf{Questions and Answers:}
+\end{center}
+
+\textbf{Problem \printnumbers . Explain the distinction between the terms \underline{\textit{serial schedule}} and \underline{\textit{serializable schedule}}.}
+\\
+
+\textbf{Answer \printanswers .} While serial schedule contains the transactions that complete one after another (for example, $T_{1}$, then $T_{2}$, then $T_{3}$, etc.), the serializable schedule is the \emph{non-serial schedule} (that contains transactions loading concurrently: this might lead to some problems.) which, however, might be transformed to the serial schedule. It should be mentioned that not all non-serial schedules are serializable.\\
+
+\textbf{Problem \printnumbers . Consider the following two transactions:}
+
+\begin{center}
+\minibox[frame]{$T_{1}$: \hspace{1.25em} read($A$);\\
+\hspace{3em} read($B$);\\
+\hspace{3em} if $A = 0$ then $B = B + 1$;\\
+\hspace{3em} write $B$;\\
+$T_{2}$: \hspace{1.25em} read($B$);\\
+\hspace{3em} read($A$);\\
+\hspace{3em} if $B = 0$ then $A = A + 1$;\\
+\hspace{3em} write $A$;\\}
+\end{center}
+
+\begin{center}
+Figure 1. Two transactions $T_{1}$ and $T_{2}$\\
+\end{center}
+
+Let the consistency requirement be $A = 0 \vee B = 0$ with $A = B = 0$ the initial values.
+
+\begin{enumerate}[label=\alph*.]
+
+\item Show that every serial execution involving these two transactions preserves the consistency of the database.
+\item Show a concurrent execution of $T_{1}$ and $T_{2}$ that produces a nonserializable schedule.
+\item Is there a concurrent execution of $T_{1}$ and $T_{2}$ that produces a serializable schedule?
+
+\end{enumerate}
+
+\textbf{Answer \printanswers .}
+
+\begin{enumerate}[label=\alph*.]
+
+\item While $T_{1}$ executes first, the if branch in $T_{2}$ returns false, and vice versa. The consistency requirement is $A = 0 \vee B = 0$ with $A = B = 0$ the initial values, so one of either $A$ or $B$ remains $0$, which allows to preserve the consistency.
+
+\item The table below might be the solution. Swapping of the order of read($B$); and write $B$; leads the different results :\\
+
+\begin{tabular}{|l|l|}
+\hline
+$T_{1}$ & $T_{2}$ \\ \hline
+read($A$); &  \\ \hline
+ & read($B$); \\ \hline
+ & read($A$); \\ \hline
+read($B$); &  \\ \hline
+if $A = 0$ then $B = B + 1$; &  \\ \hline
+ & if $B = 0$ then $A = A + 1$; \\ \hline
+write $B$; &  \\ \hline
+ & write $A$; \\ \hline
+\end{tabular}
+\\
+\\
+\item There is no solution, because in the concurrent case, writes will not be performed. As a result, the reads in either $T_{2}$ and $T_{1}$ gets the old values, not changed
+
+\end{enumerate}
+
+\textbf{Problem \printnumbers . Consider the precedence graph in Figure 2. Is the corresponding schedule serializable?}
+
+\begin{center}
+\minibox[frame]{
+$
+\psmatrix[mnode=circle]
+T_{1}&&T_{2}\\
+T_{4}&&T_{3}\\
+&T_{5}
+\ncline{->}{1,1}{2,1}
+\ncline{->}{2,1}{3,2}
+\ncline{->}{1,3}{2,3}
+\ncline{->}{2,3}{3,2}
+\ncline{->}{1,1}{1,3}
+\ncline{->}{1,3}{2,1}
+\ncline{->}{1,1}{2,3}
+\endpsmatrix
+
+$}
+\end{center}
+
+
+\begin{center}
+Figure 2. Precedence graph\\
+\end{center}
+
+\textbf{Answer \printanswers .} The corresponding schedule is serializable, because there is no cycle between the transactions. The serial schedule is the topological sorting, for example, $T_{1}$, $T_{2}$, $T_{3}$, $T_{4}$, $T_{5}$.\\
+
+\textbf{Problem \printnumbers . Show that two-phase locking protocol ensures conflict serializability, and that transaction can be serialized according to their lock points.\\}
+
+\textbf{Answer \printanswers .} If 2PL didn't ensure the conflict serializability, there would be $T_{0}$, $T_{1}$, $T_{2}$, $T_{3}$, $T_{4}$ ... $T_{n}$ transactions that are non-serializable. In that case, there should be the cycle in the precedence graph, which should lead to $T_{0}$, $T_{1}$, $T_{2}$, ... $T_{1}$, $T_{0}$ precedence graph. Let $\alpha_{i}$ be the time of occured lock. If 2PL existed in the cyclic precedence graph, the locking time should be $\alpha_{0}$ $<$ $\alpha_{1}$ ... $<$  $\alpha_{0}$, which is the contradiction. Thus, 2PL cannot create non-serializable schedule. Also, $T_{i} \rightarrow T_{j}$ and $\alpha_{i} < \alpha_{j}$ means that the lock point ordering is a topological sort ordering the precedence graph, which means the serializability.\\
+
+\textbf{Problem \printnumbers . Consider transactions $T_{1}$ and $T_{2}$ in Figure 1. Add lock and unlock instructions to them so that they observe the two-phase locking protocol. Can the execution of these two transactions result in a deadlock?\\}
+
+\textbf{Answer \printanswers .} The 2PL-protocol-observing case:\\
+
+\begin{tabular}{|l|l|}
+\hline
+$T_{1}$ & $T_{2}$ \\ \hline
+Lock-S($A$); &  \\ \hline
+read($A$); &  \\ \hline
+Lock-X($B$); & \\ \hline
+read($B$); &  \\ \hline
+if $A = 0$ then $B = B + 1$; &  \\ \hline
+write $B$; &  \\ \hline
+Unlock-S($A$); & \\ \hline
+Unlock-X($B$); & \\ \hline
+ & Lock-S($B$); \\ \hline
+ & read($B$); \\ \hline
+ & Lock-X($A$); \\ \hline
+ & read($A$); \\ \hline
+ & if $B = 0$ then $A = A + 1$; \\ \hline
+ & write $A$; \\ \hline
+ & Unlock-S($B$);  \\ \hline
+ & Unlock-X($A$);  \\ \hline
+
+\end{tabular}
+\\
+\\
+The deadlock case. Neither $T_{1}$ nor $T_{2}$ might make a progress:
+\\
+\begin{tabular}{|l|l|}
+\hline
+$T_{1}$ & $T_{2}$ \\ \hline
+Lock-S($A$); &  \\ \hline
+read($A$); &  \\ \hline
+ & Lock-S($B$); \\ \hline
+ & read($B$); \\ \hline
+Lock-X($B$); & \\ \hline
+read($B$); &  \\ \hline
+ & Lock-X($A$); \\ \hline
+ & read($A$); \\ \hline
+if $A = 0$ then $B = B + 1$; &  \\ \hline
+write $B$; &  \\ \hline
+Unlock-X($B$); & \\ \hline
+Unlock-S($A$); & \\ \hline
+ & if $B = 0$ then $A = A + 1$; \\ \hline
+ & write $A$; \\ \hline
+ & Unlock-S($B$);  \\ \hline
+ & Unlock-X($A$);  \\ \hline
+
+\end{tabular}
+\\
+\\
+
+\textbf{Problem \printnumbers . Show that there are schedules that are possible under the two-phase locking protocol, but are not possible under the timestamp protocol, and vice versa.\\}
+
+\textbf{Answer \printanswers .} the schedule with 2PL that is not possible in the Timestamp Protocol (due to step 5, where $TS(T_{0}) <$ W-Timestamp$(B)$ ): \\
+
+\begin{tabular}{|l|l|}
+\hline
+$T_{0}$ & $T_{1}$ \\ \hline
+Lock-S($A$); & Lock-X($B$); \\ \hline
+read($A$); & write $B$;  \\ \hline
+ & unlock($B$); \\ \hline
+Lock-S($B$); &  \\ \hline
+read($B$); &  \\ \hline
+unlock($A$); & \\ \hline
+unlock($B$); & \\ \hline
+
+\end{tabular}
+\\
+\\
+
+the schedule with Timestamp Protocol that is not possible in the 2PL Protocol, because it requires $T_{1}$ to unlock $A$ between the steps 2 and 3, and lock $B$ between steps 4 and 5:\\
+\\
+\begin{tabular}{|l|l|l|}
+\hline
+$T_{0}$ & $T_{1}$ & $T_{2}$ \\ \hline
+write $A$; & & write $A$; \\ \hline
+& write $A$; & \\ \hline
+& & \\ \hline
+write $B$; & & \\ \hline
+& write $B$; & \\ \hline
+
+\end{tabular}
+\\
+\\
+\textbf{Problem \printnumbers . Explain the purpose of the checkpoint mechanism. How often should checkpoints be performed? How does the frequency of checkpoints affect}
+
+\begin{itemize}
+
+\item System performance when no failure occurs
+\item The time it takes to recover from a system crash
+\item The time it takes to recover from a disk crash\\
+
+\end{itemize}
+
+\textbf{Answer \printanswers .}
+
+\begin{itemize}
+
+\item Decreases the system performance (negatively);
+\item Decreases the time of system recovery (positively);
+\item Decreases the time of disk recovery (positively);\\
+
+\end{itemize}
+
+\textbf{Problem \printnumbers . When the system recovers from a crash, it constructs an undo-list and a redolist. Explain why log records for transactions on the undo list must be processed in reverse order, while those log records for transactions on the redo-list are processed in a forward direction.\\}
+
+\textbf{Answer \printanswers .} The answer is trivial: if the undo-list was processed in the forward order, it would give wrong values to the data that is updated with several transactions. The same is right for the redo-list processed in the reverse direction.
+
+\end{document}

@@ -1,0 +1,81 @@
+Problem 4
+
+r1 = 20000 tuples
+r2 = 45000 tuples
+25 tuples of r1 fit on one block
+30 tuples of r2 fit on one block
+
+br1 = Number of blocks for r1 is 20000/25=800
+br2 = Number of blocks for r1 is 45000/30=1500
+
+a) In the worst case,
+
+br1+r1 = 800 + 20000 = 20800 seeks
+
+nr1 * br2 + br1 = 20000 * 1500 + 800 = 30000800
+
+Total disc accesses = 30000800 + 20800 = 30021600
+
+or
+
+br2+r2 = 1500 + 45000 = 46500 seeks
+
+nr2 * br1 + br2 = 45000 * 800 + 1500 = 36001500‬ block transfers.
+
+Total disc accesses = 36001500‬ + 46500 = 36048000
+
+In the best case,
+
+br2 + br1 = 800 + 1500 = 2300 transfers + 2 seeks = 2302 disk accesses.
+
+
+
+b) In the worst case,
+
+2*br1 = 2*800 = 1600 seeks
+
+br1 * br2 + br1 = 800 * 1500 + 800 = 1200800‬ transfers.
+
+Total disc accesses = 1200800‬ + 1600 = 1202400‬
+
+or
+
+2*br2 = 2*1500 = 3000 seeks
+
+br2 * br1 + br2 = 1500 * 800 + 1500 = 1201500 transfers
+
+Total disc accesses = 1205300
+
+In the best case,
+
+br2 + br1 = 800 + 1500 = 2300 transfers + 2 seeks.
+
+
+c) The block transfers equal to br2 + br1 = 800 + 1500 = 2300 transfers. In the worst case, 800 + 1500 = 2300 seeks are also required. The case that the data in the blocks might require the sorting. In the worst case, where memory size are 3 blocks (1 for buffer block):
+
+Number of passes for br1 = logM−1(br1/M) = log2(800/3) = log2(266.3) ~~ 8.05 ~~ 9 passes
+Number of transfers for br1 = br1*(2[logM−1(br /M)] + 1) = 800*(2[log2(266.3)]+1) = 13680 transfers
+Number of seeks for br1 = 2[br1 /M] + [br1 /bb](2[logM−1(br /M)] − 1) = 2*266.3 + 800*(2[log2(266.3)]-1) = 547.7‬ ~~ 548 seeks
+Number of passes for br2 = logM−1(br1/M) = log2(1500/3) = log2(500) ~~ 8.96 ~~ 9 passes
+Number of transfers for br2 = br1*(2[logM−1(br /M)] + 1) = 1500*(2[log2(500)]+1) = 28380‬ transfers
+Number of seeks for br2 = 2[br2 /M] + [br2 /bb](2[logM−1(br /M)] − 1) 2*500 + 1500*(2[log2(500)]-1) = 26380 ‬seeks
+
+So, Total disc accesses in the worst case are 2300 + 26380 = 28680‬ disc accesses.
+
+d) If the partitioning is required:
+
+Block transfers are 
+
+2(br1 + br2)[logM−1(br2) − 1] + br1 + br2 = 2(1500+800)[logM−1(800)−1)] + 1500 + 800 or 2(br1 + br2)[logM−1(br1) − 1] + br1 + br2 = 2(1500+800)[logM−1(1500)]−1) block transfers, where M is the pages of memory and M < 800/M (the first case) or M < 1500/M (the second case).
+
+If the partitioning is not required:
+
+Number of seeks are 
+3(br1 + br2) + 4nh
+
+Ignoring 4nh, we receive almost 3(br1 + br2) = 6900 seeks
+
+
+
+The sorting cost inclusive of the output is Bs=1500(2⌈logM−1(1500/M)⌉+
+Exercises32)+800(2⌈logM−1(800/M)⌉ +2) disk accesses. Assuming all tupleswith the same value for the join attributes fit in memory, the totalcost isBs+1500+800 disk accesses.

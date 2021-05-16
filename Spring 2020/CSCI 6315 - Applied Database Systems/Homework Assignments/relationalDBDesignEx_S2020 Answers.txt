@@ -1,0 +1,39 @@
+1. Given a relational R and a set of functional dependencies F, what is the time complexity to test if R is in BCNF? If R is decomposed into R1, R2, ..., Rn, what is the time complexity to test if Ri is in BCNF, 1<= i <= n?
+
+2) Given a relation R and a set of functional dependencies F, what is the time complexity to test if R is in 3NF?
+
+The problem is NP-complete, but might be run in the polynomial time if it is possible to verify the
+primeness of all the abnormal attributes. The set of all abnormal attributes might be accomplished by O(m*(n^2)) time. The checking if an attribute is prime by defining for each subset of attributes X in the R which contains A by checking if X is the minimal key might be accomplished by O((m^2)*n) time. [JOU, FISCHER, 1982]. So, the total time is O(m*(n^2))+O((m^2)*n)
+
+3. What is time complexity of the BCNF decomposition algorithm?
+
+
+
+
+
+
+
+
+4. What is the time complexity of the 3NF decomposition algorithm?
+
+
+5. Let R be a relation. Given any subset A of R, what is the time complexity to find the closure of A?
+
+
+
+
+
+6. Let R be a relation and F be set of functional dependencies. Design an algorithm to find one (just one, whatever it is) candidate key for R. Explain the time complexity of your algorithm.
+In the actual implementation of 3NF decomposition, we want to include a candidate key for R in the decomposition. Why do we need to do this?
+
+
+
+
+
+7. If our design goal is to guarantee lossless-loin decomposition and functional dependency preservation, then which normal form shall we decompose a relation into?
+
+3NF
+
+If our design goal is to guarantee lossless-loin decomposition and no information redundancy, then which normal form shall we decompose a relation into?
+
+Both BCNF and 3NF are OK.
